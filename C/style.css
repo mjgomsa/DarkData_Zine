@@ -1,0 +1,214 @@
+/* Updated CSS to display Recommended Articles side by side */
+/* Updated CSS for all text */
+body {
+    font-family: 'obvia', sans-serif; /* Custom font and fallback */
+    font-weight: 400; /* Normal font weight */
+    font-style: normal; /* Normal font style */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'findreplace', sans-serif; /* Custom font for the title */
+    font-weight: 500; /* Slightly bold font weight */
+    font-style: normal;
+    font-size: 4.5em; /* Adjust the font size as needed */
+}
+
+.abstract {
+    font-weight: 500; /* Normal font weight */
+}
+
+.author, .date {
+    font-size: 0.875em; /* Smaller font size for author and date */
+}
+
+main {
+    margin: 1.25em; /* Margin for the main content */
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 1.25em; /* Padding for article content */
+    margin-bottom: 1.25em; /* Margin between articles */
+}
+
+h2 {
+    font-size: 1.125em; /* Font size for section headings */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+}
+
+li {
+    margin: 0.625em 0; /* Margin for list items */
+}
+
+.recommended-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1.25em;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.article-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1em;
+    flex: 1;
+    box-sizing: border-box;
+    min-width: 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Add top rounded corners for the image */
+    padding: 0; /* Remove padding for the image */
+}
+
+.article-content {
+    padding: 1em; /* Add padding for the text, including left padding */
+}
+
+.article h3 {
+    font-size: 1em;
+}
+
+.article p {
+    font-size: 0.875em;
+}
+
+
+/* CSS for the new header layout */
+.header-content {
+    display: flex;
+    align-items: flex-end; /* Align header content to the bottom */
+}
+
+.header-text {
+    flex: 1; /* Take up available space in the header */
+    text-align: left; /* Align header text to the left */
+}
+
+.header-image img {
+    width: 38.2vw; /* Set the width of the header image */
+    height: auto; /* Maintain the aspect ratio */
+    align-items: flex-start; /* Align the image to the top */
+}
+
+/* CSS for styling the tags */
+.tags {
+    display: flex;
+    margin-top: 10px; /* Add spacing between the title and tags */
+}
+
+.tag-box {
+    display: inline-block;
+    background-color: #337ab7; /* Background color for the tags */
+    color: #fff; /* Text color for the tags */
+    border-radius: 20px; /* Rounded corners for the tags */
+    padding: 5px 10px; /* Padding for the tags */
+    margin-right: 10px; /* Spacing between tags */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.tag-box:hover {
+    background-color: #286090; /* Color change on hover */
+}
+
+/* CSS for the author box and circular image */
+.author-box {
+    display: flex;
+    align-items: center;
+}
+
+.author-info {
+    flex: 1; /* Take up available space for author information */
+    text-align: left; /* Align author information to the left */
+}
+
+.author-image img {
+    width: 2em; /* Set the width of the circular author image */
+    height: 2em; /* Set the height of the circular author image */
+    border-radius: 50%; /* Make the author image circular */
+    margin-right: 10px; /* Spacing between the image and author information */
+}
+/* CSS for images within figure elements */
+.image-container img {
+    max-height: 30vh; /* Set a maximum height for images */
+    width: auto;
+}
+
+/* CSS for formatting the image row */
+.image-row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    margin-bottom: 10px; /* Add a margin at the bottom to separate image rows */
+}
+
+/* CSS for formatting individual images */
+.image-container {
+    width: auto; /* Allow images to adjust their width */
+    margin-right: 20px; /* Add right margin to separate the images */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    flex-shrink: 0; /* Prevent images from shrinking and breaking to the next line */
+}
+
+.image-container:last-child {
+    margin-right: 0; /* Remove the right margin from the last image */
+}
+
+p {
+    line-height: 1.8;
+}
+.footnote {
+    position: relative;
+    cursor: help;
+    font-weight: 500;
+}
+
+.footnote:hover .footnote-content {
+    display: block;
+}
+
+.footnote-content {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+
+    font-weight: 500;
+}
+
