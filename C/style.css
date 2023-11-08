@@ -156,7 +156,7 @@ li {
 
 .article-box img {
     width: 100%;
-    height: auto;
+
     border-radius: 10px 10px 0 0;
     /* Add top rounded corners for the image */
     padding: 0;
@@ -205,9 +205,9 @@ li {
 
 /* CSS for styling the tags */
 .tags {
-    display: flex;
-    margin-top: 10px;
-    /* Add spacing between the title and tags */
+    display: flex;         /* Use flex layout */
+    flex-wrap: wrap;       /* Allow tags to wrap to a new row */
+    margin-top: 10px;      /* Add spacing between the title and tags */
 }
 
 .tag-box {
@@ -221,10 +221,12 @@ li {
     padding: 5px 10px;
     /* Padding for the tags */
     margin-right: 10px;
+    margin-bottom: 10px;
     /* Spacing between tags */
     text-decoration: none;
     transition: background-color 0.3s ease;
     /* Smooth color transition on hover */
+    font-weight: 600;
 }
 
 .tag-box:hover {
@@ -275,7 +277,12 @@ li {
     /* Include padding and border in the width calculation */
     flex-shrink: 0;
     /* Prevent images from shrinking and breaking to the next line */
-}
+    
+        font-weight: 300;
+        font-size: .75em;
+    
+    }
+
 
 .image-container:last-child {
     margin-right: 0;
@@ -285,6 +292,7 @@ li {
 p {
     line-height: 1.8;
 }
+
 
 .footnote {
     position: relative;
@@ -306,14 +314,14 @@ p {
     position: fixed;
     bottom: 0;
     left: 0;
-    max-width: 100%; /* Adjust this value as needed to control the width */
+    width: 100%; /* Adjust this value as needed to control the width */
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 1em 5em 1em 5em;
     z-index: 1;
     font-weight: 500;
-    overflow-wrap: break-word;
+    overflow-wrap:break-word;
 }
 
 #Bibliography {
@@ -341,12 +349,20 @@ p {
     .header-text {
         grid-column: 1 /span 1;
         grid-row: 2;
-        font-size: .8em;
     }
     
     .header-image img {
         width: 80vw;
         grid-column: 1 /span 2;
         grid-row: 1;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    .abstract, .tag-box, .author , .p{
+
+        font-size: 1.2em;
     }
 }
