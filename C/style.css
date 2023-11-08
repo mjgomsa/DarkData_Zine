@@ -1,9 +1,14 @@
 /* Updated CSS to display Recommended Articles side by side */
 /* Updated CSS for all text */
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     font-family: 'obvia', sans-serif; /* Custom font and fallback */
     font-weight: 400; /* Normal font weight */
     font-style: normal; /* Normal font style */
+    
 }
 
 /* Header styles */
@@ -211,4 +216,6 @@ p {
 
     font-weight: 500;
 }
-
+#Bibliography {
+    scroll-behavior: smooth;
+  }
