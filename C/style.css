@@ -314,14 +314,15 @@ p {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%; /* Adjust this value as needed to control the width */
+    width: 100vw; /* Full width of the viewport */
+    max-width: 100%; /* Adjust to set the maximum width to the full viewport width */
     background: #333;
     color: #fff;
-    text-align: center;
     padding: 1em 5em 1em 5em;
+    box-sizing: border-box; /* Include padding in the width calculation */
     z-index: 1;
-    font-weight: 500;
-    overflow-wrap:break-word;
+    overflow-wrap: break-word; /* Wrap long words to next line */
+    text-align: center;
 }
 
 #Bibliography {
