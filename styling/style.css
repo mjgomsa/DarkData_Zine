@@ -1,16 +1,34 @@
 /*TAG COLOURS*/
-.AIHardware {background-color: rgb(96, 128, 0);}
-.DesignEthics{background-color: rgb(0, 117, 128);}
-.TechnologyGovernance{background-color: rgb(128, 0, 66);}
-.PrivacyConcerns{background-color: rgb(19, 0, 128);}
-.EthicalAI{background-color: rgb(128, 0, 0);}
-.author{background-color: rgb(188, 228, 69);}
+.AIHardware {
+    background-color: rgb(96, 128, 0);
+}
+
+.DesignEthics {
+    background-color: rgb(0, 117, 128);
+}
+
+.TechnologyGovernance {
+    background-color: rgb(128, 0, 66);
+}
+
+.PrivacyConcerns {
+    background-color: rgb(19, 0, 128);
+}
+
+.EthicalAI {
+    background-color: rgb(128, 0, 0);
+}
+
+.author {
+    background-color: rgb(188, 228, 69);
+}
+
 /* Updated CSS to display Recommended Articles side by side */
 /* Updated CSS for all text */
 
 @font-face {
-    font-family: 'DarkerGrotesque';
-    src: url('/assets/fonts/DarkerGrotesque-VariableFont_wght.ttf') format('truetype');
+    font-family: 'BasementGrotesque';
+    src: url('/assets/fonts/BasementGrotesque-Black_v1.202.woff') format('woff');
     /* Replace with the actual path to your font file */
 }
 
@@ -31,6 +49,7 @@ html {
     /* Add this line to prevent horizontal overflow */
     word-wrap: break-word;
     background-color: rgba(255, 249, 235, 1);
+    cursor:crosshair;
 }
 
 p {
@@ -44,7 +63,7 @@ p {
 
 
 ::-webkit-scrollbar {
-    width: 0.1em;
+    width: 0em;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -63,19 +82,30 @@ header {
     color: black;
     text-align: center;
     margin: 0;
+    border-bottom: .05em solid #000000;
+    /* Add a 2px solid border at the bottom of the header */
+
 }
 
 h1 {
-    font-family: 'DarkerGrotesque';
+    font-family: 'BasementGrotesque';
     /* Custom font for the title */
     font-weight: 800;
     /* Slightly bold font weight */
     font-style: normal;
-    font-size: 4.5em;
+    font-size: 4em;
     /* Adjust the font size as needed */
-    line-height: 1;
+    line-height: 1.25;
     margin: 0;
     padding: 0;
+}
+
+
+h2 {
+    font-family: 'BasementGrotesque';
+    font-size: 1.125em;
+    grid-column: 1 /span 12;
+    /* Font size for section headings */
 }
 
 h4 {
@@ -93,6 +123,10 @@ a {
     color: black;
 }
 
+a:hover{
+    cursor: cell;
+}
+
 
 
 
@@ -101,13 +135,22 @@ main article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-left: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 
 
-article p, .image-container, .quote  {
+article .image-container {
     padding-top: 1.5em;
 }
+
+article p {
+    padding-top: 1.5em;
+}
+article .quote {
+    padding-top: 1.5em;
+}
+
 
 article p {
     grid-column: 1 / span 7;
@@ -122,7 +165,7 @@ article h2 {
     grid-column: 1 /span 11;
     color: rgba(80, 255, 65, 1);
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 .row1 {
@@ -156,27 +199,34 @@ article h2 {
 
 
 
-h2 {
-    font-size: 1.125em;
-    /* Font size for section headings */
-}
-
 footer {
-    background-color: #333;
+    background-color: rgba(80, 255, 65, 1);
     color: #fff;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
 }
 
-ul {
-    list-style: none;
-    /* Remove list bullets */
-    padding: 0;
+#Bibliography {
+    scroll-behavior: smooth;
+}
+.bibliography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: rgba(255, 249, 235, 1);;
+    
 }
 
-li {
-    margin: 0.625em 0;
-    /* Margin for list items */
+.bibliography p{
+line-height: 1.2;
+padding-top: 1em;
+grid-column: 2/ span 11;
+}
+
+.bibliography h1{
+    text-align: right;
+    padding-right: .3em;
+    padding-top: .1em;
 }
 
 .recommended-articles {
@@ -193,7 +243,7 @@ li {
 .article-box {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding-left: 2vw;
+    padding-left: 1.5em;
     flex: 1;
     box-sizing: border-box;
     width: 30%;
@@ -221,6 +271,8 @@ li {
     /* Align header content to the bottom */
     margin: 0;
     padding: 0;
+    align-items: flex-start;
+    /* Align header content to the top */
 }
 
 .header-text {
@@ -230,18 +282,28 @@ li {
 
     align-items: flex-start;
     /* Align header text to the left */
-    padding: 2vw;
+    padding: 1.5em;
+    height: 100%;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / span 1;
+    align-items: flex-start;
+    /* Align the image to the top */
+    justify-content: flex-start;
+    background-image: url('/assets/max_article/1_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .header-image img {
-    grid-column: 2 /span 1;
-    /* Set the width of the header image */
-    width: 100%;
-    height: auto;
-    /* Maintain the aspect ratio */
-    align-items: flex-start;
-    /* Align the image to the top */
+
+    display: none;
 }
+
 
 /* CSS for styling the tags */
 .tags {
@@ -269,11 +331,15 @@ li {
 }
 
 .circle {
-    width: 1em; /* Set the width of the colored circle */
-    height: 1em; /* Set the height of the colored circle */
+    width: 1em;
+    /* Set the width of the colored circle */
+    height: 1em;
+    /* Set the height of the colored circle */
     margin-top: .125em;
-    border-radius: 50%; /* Make the circle shape */
-    margin-right: 10px; /* Spacing between the circle and author information */
+    border-radius: 50%;
+    /* Make the circle shape */
+    margin-right: 10px;
+    /* Spacing between the circle and author information */
 }
 
 /* CSS for images within figure elements */
@@ -322,15 +388,18 @@ p {
     position: relative;
     cursor: help;
     font-weight: 500;
+    
 }
 
 .footnote a {
     text-decoration: none;
     color: black;
+    cursor: help;
 }
 
 .footnote:hover .footnote-content {
     display: inline-block;
+   
 }
 
 .footnote-content {
@@ -353,9 +422,7 @@ p {
     text-align: center;
 }
 
-#Bibliography {
-    scroll-behavior: smooth;
-}
+
 
 .mobile {
     display: none;
@@ -363,16 +430,9 @@ p {
 
 @media (max-aspect-ratio: 2.5/2) {
 
-    main article {
-        display: grid;
-        grid-template-columns: 5vw 1fr 1fr 1fr 1fr 5vw;
-        margin: 0;
-        padding: 0;
-    }
 
     .recommended-articles {
         display: contents;
-
 
         flex-wrap: wrap;
     }
@@ -388,16 +448,23 @@ p {
         grid-row: 2;
     }
 
-    .header-image img {
-        width: 100vw;
+    .header-image {
         grid-column: 1 /span 2;
         grid-row: 1;
+        background-image: none;
+    }
+
+    .header-image img {
+        display: inline-block;
+        grid-column: 1 /span 2;
+        grid-row: 1;
+        width: 100vw;
         margin: 0;
         padding: 0;
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
 
     .p {
@@ -406,10 +473,51 @@ p {
     }
 
     .mobile {
-        display: inline-block;
+        display: block;
     }
 
     .desktop {
         display: none;
+    }
+
+    article p {
+        grid-column: 1 / span 10;
+    }
+
+    article h2 {
+        grid-column: 1 / span 4;
+    }
+
+    .quote {
+        grid-column: 1 /span 11;
+    }
+
+    .row1 {
+        grid-column: 4/ span 9;
+    }
+
+    .row21 {
+        grid-column: 3/ span 5;
+    }
+
+    .row22 {
+        grid-column: 8/ span 5;
+    }
+
+
+    .row41 {
+        grid-column: 1/ span 3;
+    }
+
+    .row42 {
+        grid-column: 4/ span 3;
+    }
+
+    .row43 {
+        grid-column: 7/ span 3;
+    }
+
+    .row44 {
+        grid-column: 10/ span 3;
     }
 }
