@@ -1,11 +1,48 @@
+/*TAG COLOURS*/
+.AIHardware {background-color: rgb(96, 128, 0);}
+.DesignEthics{background-color: rgb(0, 117, 128);}
+.TechnologyGovernance{background-color: rgb(128, 0, 66);}
+.PrivacyConcerns{background-color: rgb(19, 0, 128);}
+.EthicalAI{background-color: rgb(128, 0, 0);}
+.author{background-color: rgb(188, 228, 69);}
 /* Updated CSS to display Recommended Articles side by side */
 /* Updated CSS for all text */
+
+@font-face {
+    font-family: 'DarkerGrotesque';
+    src: url('/assets/fonts/DarkerGrotesque-VariableFont_wght.ttf') format('truetype');
+    /* Replace with the actual path to your font file */
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+    /* Replace with the actual path to your font file */
+}
+
+@font-face {
+    font-family: 'Unibody8_Reg';
+    src: url('/assets/fonts/Unibody8_Reg.ttf') format('truetype');
+}
+
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden; /* Add this line to prevent horizontal overflow */
+    overflow-x: hidden;
+    /* Add this line to prevent horizontal overflow */
     word-wrap: break-word;
+    background-color: rgba(255, 249, 235, 1);
 }
-    
+
+p {
+    font-family: 'SpaceGrotesk';
+    /* Custom font and fallback */
+    font-weight: 400;
+    /* Normal font weight */
+    font-style: normal;
+    /* Normal font style */
+}
+
+
 ::-webkit-scrollbar {
     width: 0.1em;
 }
@@ -16,94 +53,105 @@ html {
 
 
 body {
-    font-family: 'obvia', sans-serif;
-    /* Custom font and fallback */
-    font-weight: 400;
-    /* Normal font weight */
-    font-style: normal;
-    /* Normal font style */
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
-    
-
+    margin: 0;
 }
 
 /* Header styles */
 header {
-    background-color: rgb(227, 236, 172);
-    color: rgb(32, 32, 32);
+    color: black;
     text-align: center;
-    padding: 0.25em 3em 1.5em 3em;
     margin: 0;
 }
 
 h1 {
-    font-family: 'findreplace', sans-serif;
+    font-family: 'DarkerGrotesque';
     /* Custom font for the title */
-    font-weight: 500;
+    font-weight: 800;
     /* Slightly bold font weight */
     font-style: normal;
     font-size: 4.5em;
     /* Adjust the font size as needed */
+    line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 
-.abstract {
-    font-weight: 500;
-    /* Normal font weight */
+h4 {
+    font-family: 'Unibody8_Reg', sans-serif;
+    /* Custom font for the title */
+    font-size: .75em;
+    /* Adjust the font size as needed */
+    line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 
-.author,
-.date {
-    font-size: 0.875em;
-    /* Smaller font size for author and date */
+a {
+    text-decoration: none;
+    color: black;
 }
 
-main {
-    margin: 1.25em;
-    /* Margin for the main content */
-}
+
+
+
 
 main article {
     display: grid;
-    grid-template-columns:  15vw 1fr 1fr 1fr 1fr 15vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 1.5em;
 }
 
-article {
-    border: 1px solid #ddd;
-    padding: 1.25em;
-    /* Padding for article content */
-    margin-bottom: 1.25em;
-    /* Margin between articles */
+
+
+article p, .image-container, .quote  {
+    padding-top: 1.5em;
 }
 
 article p {
-    grid-column: 2 / span 4;
+    grid-column: 1 / span 7;
+    line-height: 2;
 }
+
 article h2 {
-    grid-column: 2 / span 4;
+    grid-column: 1 / span 4;
 }
+
+.quote {
+    grid-column: 1 /span 11;
+    color: rgba(80, 255, 65, 1);
+    margin: 0;
+    padding: 0;    
+}
+
 .row1 {
-    grid-column: 2/ span 4;
+    grid-column: 6/ span 7;
 }
+
 .row21 {
-    grid-column: 2/ span 2;
+    grid-column: 5/ span 4;
 }
+
 .row22 {
-    grid-column: 4/ span 2;
+    grid-column: 9/ span 4;
 }
 
 
 .row41 {
-    grid-column: 2/ span 1;
+    grid-column: 5/ span 2;
 }
+
 .row42 {
-    grid-column: 3/ span 1;
+    grid-column: 7/ span 2;
 }
+
 .row43 {
-    grid-column: 4/ span 1;
+    grid-column: 9/ span 2;
 }
+
 .row44 {
-    grid-column: 5/ span 1;
+    grid-column: 11/ span 2;
 }
 
 
@@ -145,7 +193,7 @@ li {
 .article-box {
     border: 1px solid #ddd;
     border-radius: 10px;
-    margin: 1em;
+    padding-left: 2vw;
     flex: 1;
     box-sizing: border-box;
     width: 30%;
@@ -163,25 +211,16 @@ li {
     /* Remove padding for the image */
 }
 
-.article-content {
-    padding: 1em;
-    /* Add padding for the text, including left padding */
-}
 
-.article h3 {
-    font-size: 1em;
-}
-
-.article p {
-    font-size: 0.875em;
-}
 
 
 /* CSS for the new header layout */
 .header-content {
     display: grid;
-    grid-template-columns:  1fr 38.2vw;
+    grid-template-columns: 50vw 50vw;
     /* Align header content to the bottom */
+    margin: 0;
+    padding: 0;
 }
 
 .header-text {
@@ -189,8 +228,9 @@ li {
     /* Take up available space in the header */
     text-align: left;
 
-    align-items: flex-end;
+    align-items: flex-start;
     /* Align header text to the left */
+    padding: 2vw;
 }
 
 .header-image img {
@@ -205,57 +245,35 @@ li {
 
 /* CSS for styling the tags */
 .tags {
-    display: flex;         /* Use flex layout */
-    flex-wrap: wrap;       /* Allow tags to wrap to a new row */
-    margin-top: 10px;      /* Add spacing between the title and tags */
-}
-
-.tag-box {
-    display: inline-block;
-    background-color: #337ab7;
-    /* Background color for the tags */
-    color: #fff;
-    /* Text color for the tags */
-    border-radius: 20px;
-    /* Rounded corners for the tags */
-    padding: 5px 10px;
-    /* Padding for the tags */
-    margin-right: 10px;
-    margin-bottom: 10px;
-    /* Spacing between tags */
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    /* Smooth color transition on hover */
-    font-weight: 600;
-}
-
-.tag-box:hover {
-    background-color: #286090;
-    /* Color change on hover */
+    display: flex;
+    /* Use flex layout */
+    flex-wrap: wrap;
+    /* Allow tags to wrap to a new row */
+    margin-top: 10px;
+    /* Add spacing between the title and tags */
 }
 
 /* CSS for the author box and circular image */
-.author-box {
+.box {
     display: flex;
     align-items: center;
+    margin-top: 1em;
+    padding-right: 1em;
 }
 
-.author-info {
+.info {
     flex: 1;
     /* Take up available space for author information */
     text-align: left;
     /* Align author information to the left */
 }
 
-.author-image img {
-    width: 2em;
-    /* Set the width of the circular author image */
-    height: 2em;
-    /* Set the height of the circular author image */
-    border-radius: 50%;
-    /* Make the author image circular */
-    margin-right: 10px;
-    /* Spacing between the image and author information */
+.circle {
+    width: 1em; /* Set the width of the colored circle */
+    height: 1em; /* Set the height of the colored circle */
+    margin-top: .125em;
+    border-radius: 50%; /* Make the circle shape */
+    margin-right: 10px; /* Spacing between the circle and author information */
 }
 
 /* CSS for images within figure elements */
@@ -277,11 +295,11 @@ li {
     /* Include padding and border in the width calculation */
     flex-shrink: 0;
     /* Prevent images from shrinking and breaking to the next line */
-    
-        font-weight: 300;
-        font-size: .75em;
-    
-    }
+    font-family: 'SpaceGrotesk';
+    font-weight: 400;
+    font-size: .75em;
+
+}
 
 
 .image-container:last-child {
@@ -290,7 +308,13 @@ li {
 }
 
 p {
-    line-height: 1.8;
+    line-height: 2em;
+    font-size: 1em;
+    margin: 0;
+}
+
+.abstract {
+    padding-top: 2em;
 }
 
 
@@ -314,14 +338,18 @@ p {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100vw; /* Full width of the viewport */
-    max-width: 100%; /* Adjust to set the maximum width to the full viewport width */
+    width: 100vw;
+    /* Full width of the viewport */
+    max-width: 100%;
+    /* Adjust to set the maximum width to the full viewport width */
     background: #333;
     color: #fff;
     padding: 1em 5em 1em 5em;
-    box-sizing: border-box; /* Include padding in the width calculation */
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
     z-index: 1;
-    overflow-wrap: break-word; /* Wrap long words to next line */
+    overflow-wrap: break-word;
+    /* Wrap long words to next line */
     text-align: center;
 }
 
@@ -329,18 +357,26 @@ p {
     scroll-behavior: smooth;
 }
 
-@media (max-aspect-ratio: 2.5/3) {
+.mobile {
+    display: none;
+}
+
+@media (max-aspect-ratio: 2.5/2) {
 
     main article {
         display: grid;
-        grid-template-columns:  5vw 1fr 1fr 1fr 1fr 5vw;
+        grid-template-columns: 5vw 1fr 1fr 1fr 1fr 5vw;
+        margin: 0;
+        padding: 0;
     }
+
     .recommended-articles {
-        display:contents;
-        
-        
-    flex-wrap:wrap;
+        display: contents;
+
+
+        flex-wrap: wrap;
     }
+
     .article-box {
         width: 80%;
         margin-left: 10%;
@@ -348,22 +384,32 @@ p {
     }
 
     .header-text {
-        grid-column: 1 /span 1;
+        grid-column: 1 /span 2;
         grid-row: 2;
     }
-    
+
     .header-image img {
-        width: 80vw;
+        width: 100vw;
         grid-column: 1 /span 2;
         grid-row: 1;
+        margin: 0;
+        padding: 0;
     }
 
-    h1{
-        font-size: 5em;
+    h1 {
+        font-size: 3em;
     }
 
-    .abstract, .tag-box, .author , .p{
+    .p {
 
-        font-size: 1.2em;
+        font-size: .75em;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+
+    .desktop {
+        display: none;
     }
 }
