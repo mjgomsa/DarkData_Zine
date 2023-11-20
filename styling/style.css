@@ -158,6 +158,32 @@ article .image-container {
     padding-top: 1.5em;
 }
 
+.img-hover {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+
+.wide {
+  height: auto;
+  max-width: 90vw;
+}
+
+.height {
+    width: unset;
+    max-height: 90vh;
+  }
+
+.image-container:hover .img-hover {
+    display: inline-block;
+    width: unset;
+
+}
+
 article p {
     padding-top: 1.5em;
 }
