@@ -513,7 +513,7 @@ p {
     display: none;
 }
 
-@media (max-aspect-ratio: 2.5/2) {
+@media (min-aspect-ratio: 9/16) and (max-aspect-ratio: 2.5/2){
 
     #remove{
         display: none;
@@ -557,7 +557,7 @@ p {
      }
 
     .header-text {
-        grid-column: 2 /span 9;
+        grid-column: 2 /span 10;
         grid-row: 2;
     }
 
@@ -590,7 +590,7 @@ p {
     }
 
     article p {
-        grid-column: 2 / span 9;
+        grid-column: 2 / span 10;
     }
 
     article h2 {
@@ -603,6 +603,150 @@ p {
 
     .row1 {
         grid-column: 2/ span 9;
+    }
+
+    .row21 {
+        grid-column: 2/ span 4;
+    }
+
+    .row22 {
+        grid-column: 7/ span 4;
+    }
+
+
+    .row41 {
+        grid-column: 1/ span 3;
+    }
+
+    .row42 {
+        grid-column: 4/ span 3;
+    }
+
+    .row43 {
+        grid-column: 7/ span 3;
+    }
+
+    .row44 {
+        grid-column: 10/ span 3;
+    }
+}
+
+@media (max-aspect-ratio: .7) {
+
+   .recommended-articles{
+    margin-left: 2em;
+    margin-right: 1em;
+   }
+
+    main article{
+        padding-top: 1em;
+        padding-left: 2em;
+        padding-right: 1em;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 2em;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+    .info {
+        font-size: 1em;
+    }
+    h4{
+        font-size: .65em;
+    }
+
+    p{
+        font-size: .85em;
+    }
+
+    .abstract {
+        font-size: .85em;
+    }
+
+    .header-text .info {
+        font-size: 1em;
+    }
+
+    .Num{
+
+    padding-top: 1.2em;
+    }
+
+    .article-box {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 1em;
+        margin-top: 1.5em;
+        margin-bottom: 3.5em;
+        border: .05em solid #000000;
+    }
+
+    .Bibliography{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .header-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
+
+    .header-text {
+        grid-column: 1 /span 12;
+        grid-row: 2;
+    }
+
+    .header-image {
+        grid-column: 1 /span 12;
+        grid-row: 1;
+        background-image: none;
+    }
+
+    .header-image img {
+        display: inline-block;
+        grid-column: 1 /span 12;
+        grid-row: 1;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+   
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .Bibliography p {
+        grid-column: span 11;
+    }
+
+    article p {
+        grid-column: 1 / span 12;
+        padding-right: 1em;
+    }
+
+    article h2 {
+        grid-column: 2 / span 9;
+    }
+
+    .quote {
+        grid-column: 2 /span 10;
+    }
+
+    .row1 {
+        grid-column: 1/ span 12;
     }
 
     .row21 {
