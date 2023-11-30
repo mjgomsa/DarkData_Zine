@@ -128,7 +128,7 @@ h4 {
     font-family: 'Unibody8_Reg', sans-serif;
     font-weight: 300;
     /* Custom font for the title */
-    font-size: .75em;
+    font-size: .65em;
     /* Adjust the font size as needed */
     line-height: 1;
     margin: 0;
@@ -197,7 +197,7 @@ article .quote {
 
 article p {
     grid-column: 3 / span 8;
-    line-height: 2;
+    line-height: 1.75;
 }
 
 article h2 {
@@ -319,10 +319,14 @@ footer {
     padding: 0;
     margin-bottom: 1em;
 
-    margin-top: 1em;
+    margin-top: .8em;
     margin-left: 1em;
     /* Font size for section headings */
 }
+  .article-content{
+        padding-left: .5em;
+        padding-right: 1em;
+    }
 
 
 
@@ -330,10 +334,6 @@ footer {
     text-decoration: underline;
 }
 
-.article-box .box {
-    margin-top: .25em;
-    /* Font size for section headings */
-}
 
 .article-box img {
     width: 100%;
@@ -371,6 +371,10 @@ footer {
     height: 100%;
 }
 
+.header-text h1{
+    margin-bottom: .5em;
+}
+
 .header-image {
     width: 100%;
     height: 100%;
@@ -395,17 +399,18 @@ footer {
     display: flex;
     /* Use flex layout */
     flex-wrap: wrap;
+    margin-top: .4em;
     /* Allow tags to wrap to a new row */
-    margin-top: 10px;
     /* Add spacing between the title and tags */
+    padding-bottom: .5em;
 }
 
 /* CSS for the author box and circular image */
 .box {
     display: flex;
     align-items: center;
-    margin-top: 1em;
-    padding-right: 1em;
+    margin-top: .75em;
+    padding-right: 1.5em;
 }
 
 .info {
@@ -423,7 +428,7 @@ footer {
     margin-top: .125em;
     border-radius: 50%;
     /* Make the circle shape */
-    margin-right: 10px;
+    margin-right: 7px;
     /* Spacing between the circle and author information */
 }
 
@@ -449,6 +454,9 @@ footer {
     font-family: 'SpaceGrotesk';
     font-weight: 400;
     font-size: .75em;
+    color: rgb(78, 78, 78);
+    margin-top: 1em;
+    margin-bottom: 1em;
 
 }
 
@@ -459,13 +467,13 @@ footer {
 }
 
 p {
-    line-height: 2em;
+    line-height: 1.75;
     font-size: 1em;
     margin: 0;
 }
 
 .abstract {
-    padding-top: 1em;
+    padding-top: 2.5em;
 }
 
 
@@ -548,6 +556,7 @@ p {
         margin-right: 2em;
         margin-top: 1.5em;
         margin-bottom: 3.5em;
+        padding-bottom: 1em;
         border: .05em solid #000000;
     }
 
@@ -688,6 +697,8 @@ p {
         margin-bottom: 3.5em;
         border: .05em solid #000000;
     }
+
+  
 
     .Bibliography{
         padding-left: 2em;
