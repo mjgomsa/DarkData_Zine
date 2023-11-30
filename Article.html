@@ -8,6 +8,29 @@
 </head>
 
 <body>
+    <script>
+ function toggleImgHover(clickedElement) {
+    var imgHoverClicked = clickedElement.querySelector('.img-hover');
+
+    // Check if the clicked container already has the 'active' class
+    if (imgHoverClicked.classList.contains('active')) {
+      // Toggle off if already active
+      imgHoverClicked.classList.remove('active');
+    } else {
+      // Get all image containers
+      var imageContainers = document.querySelectorAll('.image-container');
+
+      // Loop through all containers to reset img-hover display
+      imageContainers.forEach(function(container) {
+        var imgHover = container.querySelector('.img-hover');
+        imgHover.classList.remove('active');
+      });
+
+      // Toggle on for the clicked container
+      imgHoverClicked.classList.add('active');
+    }
+  }
+      </script>
     <header>
         <div class="header-content">
             <div class="header-text">
@@ -75,7 +98,7 @@
             <p>AI has been progressing faster than we all suspected. And while AI for now has been restricted to
                 software, we will very soon see the first hardware devices centred around AI.</p>
 
-            <div class="image-container row1">
+            <div class="image-container row1" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/6.png" alt="Image 1 Description">
                 <img class="img-hover wide" src="assets/max_article/6.png" alt="Image 1 Description">
                 <figcaption>Imran Chaudhri: The disappearing computer - and a world where you can take AI everywhere
@@ -141,22 +164,22 @@
                             Engineering Ethics 22, no. 3 (2015): 667–86.
                         </span>
                     </span></sup> </p>
-            <div class="image-container row41">
+            <div class="image-container row41" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/7.jpg" alt="Image 1 Description">
                 <img class="img-hover height" src="assets/max_article/7.jpg" alt="Image 1 Description">
                 <figcaption>Google</figcaption>
             </div>
-            <div class="image-container row42">
+            <div class="image-container row42" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/8.jpg" alt="Image 2 Description">
                 <img class="img-hover height" src="assets/max_article/8.jpg" alt="Image 2 Description">
                 <figcaption>Google </figcaption>
             </div>
-            <div class="image-container row43">
+            <div class="image-container row43" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/9.jpg" alt="Image 3 Description">
                 <img class="img-hover height" src="assets/max_article/9.jpg" alt="Image 3 Description">
                 <figcaption>Humane, Inc.</figcaption>
             </div>
-            <div class="image-container row44">
+            <div class="image-container row44" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/10.jpg" alt="Image 4 Description">
                 <img class="img-hover height" src="assets/max_article/10.jpg" alt="Image 4 Description">
                 <figcaption>Humane, Inc. </figcaption>
@@ -184,12 +207,12 @@
                 and Humane’s ten principles for good AI. In fact, posters that display Ram's ten principles are so
                 similar to Humane’s version that I am sure one of them was in the room when the humane team wrote their
                 own.</p>
-            <div class="image-container row21">
+            <div class="image-container row21" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/11.png" alt="Image 5 Description">
                 <img class="img-hover height" src="assets/max_article/11.png" alt="Image 5 Description">
                 <figcaption>Dieter Rams</figcaption>
             </div>
-            <div class="image-container row22">
+            <div class="image-container row22" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/12.png" alt="Image 6 Description">
                 <img class="img-hover height" src="assets/max_article/12.png" alt="Image 6 Description">
                 <figcaption>Humane, Inc. </figcaption>

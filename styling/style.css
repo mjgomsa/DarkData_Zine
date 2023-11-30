@@ -166,6 +166,7 @@ article .image-container {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+    width: unset;
 }
 
 
@@ -179,7 +180,7 @@ article .image-container {
     max-height: 90vh;
   }
 
-.image-container:hover .img-hover {
+.img-hover.active {
     display: inline-block;
     width: unset;
 
@@ -288,7 +289,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 2em;
+    padding-left: 2em;
+    padding-top: .5em;
+    margin-bottom: -.5em;
     flex-wrap: nowrap;
     /* Prevent wrapping to the next line */
     overflow-x: auto;
@@ -309,10 +312,13 @@ footer {
     margin-top: 1.5em;
     margin-bottom: 3.5em;
     border: .05em solid #000000;
+
+    transition: transform 0.3s ease; 
+
 }
 
 .article-box:hover {
-    background-color: rgba(80, 255, 65, 1);
+    transform: scale(1.02);
 }
 
 .article-box .tags{
@@ -438,6 +444,8 @@ footer {
     /* Set a maximum height for images */
     width: 100%;
 }
+
+
 
 
 
