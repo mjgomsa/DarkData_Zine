@@ -5,6 +5,7 @@ function toggleImgHover(clickedElement) {
   if (imgHoverClicked.classList.contains("active")) {
     // Toggle off if already active
     imgHoverClicked.classList.remove("active");
+    removeOverlay();
   } else {
     // Get all image containers
     var imageContainers = document.querySelectorAll(".image-container");
@@ -17,6 +18,20 @@ function toggleImgHover(clickedElement) {
 
     // Toggle on for the clicked container
     imgHoverClicked.classList.add("active");
+    createOverlay();
+  }
+}
+
+function createOverlay() {
+  var overlay = document.createElement("div");
+  overlay.classList.add("overlay");
+  document.body.appendChild(overlay);
+}
+
+function removeOverlay() {
+  var overlay = document.querySelector(".overlay");
+  if (overlay) {
+    overlay.remove();
   }
 }
 

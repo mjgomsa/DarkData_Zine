@@ -334,7 +334,7 @@ ul {
     margin-top: 1.5em;
     margin-bottom: 3.5em;
     border: .05em solid #000000;
-
+    height: 500px;
     transition: transform 0.3s ease; 
 
 }
@@ -467,8 +467,16 @@ ul {
     width: 100%;
 }
 
-
-
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the background color and opacity as needed */
+    z-index: 2; /* Ensure the overlay is on top of other elements */
+}
+  
 
 
 /* CSS for formatting individual images */
@@ -487,7 +495,6 @@ ul {
     color: rgb(78, 78, 78);
     margin-top: 1em;
     margin-bottom: 1em;
-
 }
 
 
