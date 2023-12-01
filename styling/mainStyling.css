@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Unibody8_Reg';
-    src: url('/assets/fonts/Unibody8_Reg.ttf') format('truetype');
+    src: url('../assets/fonts/Unibody8_Reg.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'SpaceMono_Reg';
-    src: url('/assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/SpaceMono-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'SpaceGrot_Reg';
-    src: url('/assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'BasementGrotesque';
-    src: url('/assets/fonts/BasementGrotesque.otf') format('truetype');
+    src: url('../assets/fonts/BasementGrotesque.otf') format('truetype');
 }
 
 p {

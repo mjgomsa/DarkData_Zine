@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark Data Zine: Fall 2023</title>
     <link rel="stylesheet" type="text/css" href="/styling/mainStyling.css" />
+    <link rel="stylesheet" type="text/css" href="/styling/articleMenu.css" />
   </head>
   <body>
     <nav>
@@ -14,7 +15,7 @@
           alt="Navbar icon"
           class="nav-icon"
         />
-        <a href="./index.html">Editor’s Note</a>
+        <a href="../index.html">Articles</a>
       </div>
       <div class="nav-div">
         <img
@@ -22,7 +23,7 @@
           alt="Navbar icon"
           class="nav-icon"
         />
-        <a href="./pages/articleMenu.html">Articles</a>
+        <a href="./pages/editors.html">Editors' Note</a>
       </div>
       <div class="nav-div">
         <img
@@ -30,47 +31,32 @@
           alt="Navbar icon"
           class="nav-icon"
         />
-        <a href="/pages/references.html">About</a>
+        <a href="./pages/about.html">About</a>
       </div>
     </nav>
 
-    <div class="land-cont">
-      <div class="text-cont">
-        <h1>A Letter from the Editors</h1>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
-        </p>
-        <br />
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
-        </p>
-      </div>
-      <div class="img-cont">
-        <img
-          id="head"
-          src="./assets/landing/editors-head.png"
-          alt="A sculpture of a head, in rizzo style"
-        />
-        <a href="/pages/articleMenu.html">
-          <img id="readnow" src="/assets/landing/ReadNow.png" />
-        </a>
-      </div>
+    <div class="gallery" id="gallery">
+      <img src="https://via.placeholder.com/300x200" alt="Image 1" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 2" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 3" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 4" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 5" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 6" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 7" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 8" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 9" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 10" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 11" />
+      <img src="https://via.placeholder.com/300x200" alt="Image 12" />
     </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="footer">
+      <label class="checkbox-label" for="toggleCheckbox">Toggle Overlay</label>
+      <input type="checkbox" id="toggleCheckbox" class="checkbox" />
+    </div>
+
+    <script src="../scripts/toggleOverlays.js" defer></script>
   </body>
 </html>
