@@ -87,6 +87,22 @@ header {
 
 }
 
+#readnow {
+    position: fixed;
+    width: 5em;
+    float: right;
+    right: 2em;
+    top: 2em;
+    z-index: 20;
+    transition: transform 0.3s ease; 
+}
+
+#readnow:hover {
+    transform: scale(1.02);
+    transform: rotate(180deg);
+    cursor: cell;
+}
+
 h1 {
     font-family: 'BasementGrotesque';
     /* Custom font for the title */
@@ -132,6 +148,18 @@ h4 {
     /* Adjust the font size as needed */
     line-height: 1;
     margin: 0;
+    padding: 0;
+}
+
+article h2 {
+    grid-column: 3 / span 12;
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+.recommended-articles h2{
+    font-size: 2.5em;
+    grid-column: 1 /span 12;
     padding: 0;
 }
 
@@ -201,10 +229,6 @@ article p {
     line-height: 1.75;
 }
 
-article h2 {
-    grid-column: 1 / span 4;
-}
-
 .quote {
     grid-column: 2 /span 10;
     color: rgba(80, 255, 65, 1);
@@ -272,7 +296,8 @@ ul {
     float: left;
     height: 100%;
     padding-right: 1%;
-    text-align: left;
+    text-align: right;
+    padding-top: 0em;
 }
 
 .Num p {
@@ -341,6 +366,7 @@ ul {
 
 .article-box:hover {
     transform: scale(1.02);
+    cursor: cell;
 }
 
 .article-box .tags{
@@ -501,6 +527,12 @@ ul {
 .image-container:last-child {
     margin-right: 0;
     /* Remove the right margin from the last image */
+}
+
+.image-container:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: zoom-in;
 }
 
 p {
@@ -786,7 +818,7 @@ p {
     }
 
     article h2 {
-        grid-column: 2 / span 9;
+        grid-column: 1 / span 9;
     }
 
     .quote {

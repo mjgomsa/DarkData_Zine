@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/styling/style.css">
+
+    <!-- ADD THE TITLE OF YOUR ARTICLE -->
+    <meta property="og:title" content="Title of your article">
+
+    <!-- ONE OR TWO SENTENCES ABSTRACT -->
+    <meta property="og:description" content="One or two sentences about your article">
+
+    <!-- ONE OR TWO SENTENCES ABSTRACT -->
+    <meta name="description" content="Your website description">
+
+    <!-- COMMA SEPERATED KEYWORDS -->
+    <meta name="keywords" content="your, keywords, here, comma, seperated">
+
+    <!-- EDITORS - DO NOT CHANGE -->
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:image" content="https://www.yourwebsite.com/your-image.jpg">
+    <meta property="og:type" content="Article">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <!-- ADD THE TITLE OF YOUR ARTICLE -->
+                <h1>TITLE OF THE ARTICLE</h1>
+                <a href="tag1.html" class="box">
+                    <div class="info">
+                        <!-- ADD YOUR NAME -->
+                        <h4> AUTHOR NAME</h4>
+                    </div>
+                </a>
+                <!-- ADD THE ABSTRACT OF YOUR ARTICLE -->
+                <p class="abstract">THE ABSTRACT OF YOUR ARTICLE</p>
+
+                <!-- EDITORS - DO NOT CHANGE -->
+                <div class="tags">
+                    <a href="tag1.html" class="box">
+                        <div class="circle AIHardware"> </div>
+                        <div class="info">
+                            <h4>AI Hardware</h4>
+                        </div>
+                    </a>
+                    <a href="tag2.html" class="box">
+                        <div class="circle DesignEthics"> </div>
+                        <div class="info">
+                            <h4>Design Ethics</h4>
+                        </div>
+                    </a>
+                    <a href="tag3.html" class="box">
+                        <div class="circle TechnologyGovernance "> </div>
+                        <div class="info">
+                            <h4>Technology Governance</h4>
+                        </div>
+                    </a>
+                    <a href="tag2.html" class="box">
+                        <div class="circle PrivacyConcerns"> </div>
+                        <div class="info">
+                            <h4>Privacy Concerns</h4>
+                        </div>
+                    </a>
+                    <a href="tag3.html" class="box">
+                        <div class="circle EthicalAI"> </div>
+                        <div class="info">
+                            <h4>Ethical AI</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="header-image">
+                <img class="mobile" src="assets/max_article/1_2.png" alt="Header Image">
+            </div>
+        </div>
+    </header>
+
+    <!-- THIS IS THE MAIN ARTICLE -->
+    <main>
+        <article>
+            <!-- THIS IS NORMAL TEXT -->
+            <p>THIS IS NORMAL TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien magna,
+                consectetur vel elit ac,
+                tempus pellentesque massa. Pellentesque faucibus hendrerit viverra. In molestie enim congue neque
+                porttitor, eu lobortis leo ultrices. In at purus tincidunt, fermentum libero dapibus, blandit tortor.
+                Nam convallis dapibus lectus in facilisis. Proin congue ante in diam sollicitudin rutrum. Donec nec
+                mauris elit. Duis neque quam, pulvinar a laoreet quis, vulputate at justo. Nunc non mollis odio. Integer
+                sed molestie dolor.
+            </p>
+            <!-- THIS IS A SUBHEADING -->
+            <h2>this is a subheading</h2>
+
+            <!-- THIS IS A SINGLE PICTURE -->
+            <div class="image-container row1" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/6.png" alt="Image 1 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover wide" src="assets/max_article/6.png"
+                    alt="Image 1 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>THIS IS A SINGLE PICTURE DESCRIPTION</figcaption>
+            </div>
+
+            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien magna, consectetur vel elit ac,
+                tempus pellentesque massa.
+
+                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">THIS IS THE FOOTNOTE NUMBER </a>
+                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+                        <span class="footnote-content">
+                            <!-- USE CHICAGO CITATION STYLE --> THIS IS THE FOOTNOTE THAT APPEARS ON HOVER
+                        </span>
+                    </span></sup>
+
+                Pellentesque faucibus hendrerit viverra. In molestie enim congue neque
+                porttitor, eu lobortis leo ultrices.
+            </p>
+
+            <!-- THIS IS TWO PICTURES -->
+            <div class="image-container row21" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/11.png" alt="Image 5 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover height" src="assets/max_article/11.png"
+                    alt="Image 5 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>THESE ARE 2 PICTURES THEY SHOULD ALL BE THE SAME SIZE</figcaption>
+            </div>
+            <div class="image-container row22" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/12.png" alt="Image 6 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover height" src="assets/max_article/12.png"
+                    alt="Image 6 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>THESE ARE 2 PICTURES THEY SHOULD ALL BE THE SAME SIZE</figcaption>
+            </div>
+
+            <!-- THIS IS A QUOTE -->
+            <div class="quote">
+                <h1>THIS IS A QUOTE</h1>
+            </div>
+
+            <!-- THESE ARE 4 PICTURES -->
+            <div class="image-container row41" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/7.jpg" alt="Image 1 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover height" src="assets/max_article/7.jpg"
+                    alt="Image 1 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>Google</figcaption>
+            </div>
+            <div class="image-container row42" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/8.jpg" alt="Image 2 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover height" src="assets/max_article/8.jpg"
+                    alt="Image 2 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>Google </figcaption>
+            </div>
+            <div class="image-container row43" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/9.jpg" alt="Image 3 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover height" src="assets/max_article/9.jpg"
+                    alt="Image 3 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>Humane, Inc.</figcaption>
+            </div>
+            <div class="image-container row44" onclick="toggleImgHover(this)">
+                <!-- CHANGE FILE NAME --> <img src="assets/max_article/10.jpg" alt="Image 4 Description">
+                <!-- CHANGE FILE NAME --> <img class="img-hover height" src="assets/max_article/10.jpg"
+                    alt="Image 4 Description">
+                <!-- CHANGE IMAGE DESCRIPTION -->
+                <figcaption>Humane, Inc. </figcaption>
+            </div>
+
+            <!-- THIS IS NORMAL TEXT -->
+            <p>THIS IS NORMAL TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien magna,
+                consectetur vel elit ac,
+                tempus pellentesque massa. Pellentesque faucibus hendrerit viverra. In molestie enim congue neque
+                porttitor, eu lobortis leo ultrices. In at purus tincidunt, fermentum libero dapibus, blandit tortor.
+                Nam convallis dapibus lectus in facilisis. Proin congue ante in diam sollicitudin rutrum. Donec nec
+                mauris elit. Duis neque quam, pulvinar a laoreet quis, vulputate at justo. Nunc non mollis odio. Integer
+                sed molestie dolor.
+            </p>
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="Bibliography">
+            <a id="Bibliography"></a>
+            <h2>Bibliography: </h2>
+            <ul class="columns" data-columns="2">
+                <!-- THIS IS A FOOTNOTE -->
+                <li class="Num">
+                    <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+                    <!-- USE CHICAGO CITATION STYLE -->
+                    <p>
+                        <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai
+                            Everywhere.”</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                        Imran Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED
+                        Talk, April
+                        2023.
+                        https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                    </p>
+                </li>
+
+                <!-- THIS IS A FOOTNOTE -->
+                <li class="Num">
+                    <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+                    <!-- USE CHICAGO CITATION STYLE -->
+                    <p>
+                        <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai
+                            Everywhere.”</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                        Imran Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED
+                        Talk, April
+                        2023.
+                        https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                    </p>
+                </li>
+
+                <!-- THIS IS A FOOTNOTE -->
+                <li class="Num">
+                    <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+                    <!-- USE CHICAGO CITATION STYLE -->
+                    <p>
+                        <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai
+                            Everywhere.”</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                        Imran Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED
+                        Talk, April
+                        2023.
+                        https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <article>
+
+    </article>
+</body>
+
+</html>
