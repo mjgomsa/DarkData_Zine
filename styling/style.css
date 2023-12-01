@@ -87,6 +87,22 @@ header {
 
 }
 
+#readnow {
+    position: fixed;
+    width: 5em;
+    float: right;
+    right: 2em;
+    top: 2em;
+    z-index: 20;
+    transition: transform 0.3s ease; 
+}
+
+#readnow:hover {
+    transform: scale(1.02);
+    transform: rotate(180deg);
+    cursor: cell;
+}
+
 h1 {
     font-family: 'BasementGrotesque';
     /* Custom font for the title */
@@ -350,6 +366,7 @@ ul {
 
 .article-box:hover {
     transform: scale(1.02);
+    cursor: cell;
 }
 
 .article-box .tags{
@@ -502,6 +519,12 @@ ul {
 .image-container:last-child {
     margin-right: 0;
     /* Remove the right margin from the last image */
+}
+
+.image-container:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: zoom-in;
 }
 
 p {
