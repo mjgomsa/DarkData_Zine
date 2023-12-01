@@ -135,6 +135,12 @@ h4 {
     padding: 0;
 }
 
+article h2 {
+    grid-column: 3 / span 12;
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -199,10 +205,6 @@ article .quote {
 article p {
     grid-column: 3 / span 8;
     line-height: 1.75;
-}
-
-article h2 {
-    grid-column: 1 / span 4;
 }
 
 .quote {
@@ -465,7 +467,6 @@ footer {
     color: rgb(78, 78, 78);
     margin-top: 1em;
     margin-bottom: 1em;
-
 }
 
 
@@ -757,7 +758,7 @@ p {
     }
 
     article h2 {
-        grid-column: 2 / span 9;
+        grid-column: 1 / span 9;
     }
 
     .quote {
