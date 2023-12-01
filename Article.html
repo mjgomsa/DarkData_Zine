@@ -8,29 +8,7 @@
 </head>
 
 <body>
-    <script>
- function toggleImgHover(clickedElement) {
-    var imgHoverClicked = clickedElement.querySelector('.img-hover');
-
-    // Check if the clicked container already has the 'active' class
-    if (imgHoverClicked.classList.contains('active')) {
-      // Toggle off if already active
-      imgHoverClicked.classList.remove('active');
-    } else {
-      // Get all image containers
-      var imageContainers = document.querySelectorAll('.image-container');
-
-      // Loop through all containers to reset img-hover display
-      imageContainers.forEach(function(container) {
-        var imgHover = container.querySelector('.img-hover');
-        imgHover.classList.remove('active');
-      });
-
-      // Toggle on for the clicked container
-      imgHoverClicked.classList.add('active');
-    }
-  }
-      </script>
+    <script src="./scripts/articleScripts.js" defer></script>
     <header>
         <div class="header-content">
             <div class="header-text">
@@ -255,32 +233,45 @@
     </main>
 
     <footer>
-        
         <div class="Bibliography">
             <a id="Bibliography"></a>
             <h2>Bibliography: </h2>
-            <div class="Num"><h1>01</h1></div>
-            <p> <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai Everywhere.”</b> Imran
-                Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED Talk, April
-                2023. https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
-            </p>
-            <div class="Num"><h1>02</h1></div>
-            <p> <b>Kudina, Olya, and Peter-Paul Verbeek. “Ethics from within: Google Glass, the Collingridge Dilemma, and
-                the Mediated Value of Privacy.”</b> *Science, Technology, &amp; Human Values* 44, no. 2 (2018): 291–314.
-                https://doi.org/10.1177/0162243918793711.</p>
-            <div class="Num"><h1>03</h1></div>
-            <p><b>Stern, Joanna, Mira Murati, and Sam Altman. “A Conversation with OpenAI’s Sam Altman and Mira Murati.”</b>
-                WSJ, October 20, 2023. https://open.spotify.com/episode/6JE1wksSOkMApOuwqiN9BK?si=126807ed409a427b.</p>
-            <div class="Num"><h1>04</h1></div>
-            <p><b>Poel, Ibo van de. “An Ethical Framework for Evaluating Experimental Technology.” </b>*Science and
-                Engineering Ethics* 22, no. 3 (2015): 667–86. https://doi.org/10.1007/s11948-015-9724-3.</p>
-            <div class="Num"><h1>05</h1></div>
-            <p><b>Humane. “Humane Reveals the Name of First Device, the Humane AI Pin.”</b> Humane News, 2023.
-                https://hu.ma.ne/media/humane-names-first-device-humane-ai-pin.</p>
-            <div class="Num"><h1>06</h1></div>
-            <p><b>Zhuang, Justin. “Lessons in the ‘New Ugly’ School of Design.”</b> Aiga Eye on Design, January 11, 2019.
-                https://eyeondesign.aiga.org/schooled-in-the-new-ugly-lessons-from-darius-ous-autotypography/.</p>
-            <!-- Add more references as needed -->
+            <ul class="columns" data-columns="2">
+                <li class="Num">
+                    <h1>01</h1>
+                    <p> <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai Everywhere.”</b> Imran
+                        Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED Talk, April
+                        2023. https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                    </p>
+                </li>
+                <li class="Num">
+                    <h1>02</h1>
+                    <p> <b>Kudina, Olya, and Peter-Paul Verbeek. “Ethics from within: Google Glass, the Collingridge Dilemma, and
+                        the Mediated Value of Privacy.”</b> *Science, Technology, &amp; Human Values* 44, no. 2 (2018): 291–314.
+                        https://doi.org/10.1177/0162243918793711.</p>
+                </li>
+                <li class="Num">
+                    <h1>03</h1>
+                    <p><b>Stern, Joanna, Mira Murati, and Sam Altman. “A Conversation with OpenAI’s Sam Altman and Mira Murati.”</b>
+                        WSJ, October 20, 2023. https://open.spotify.com/episode/6JE1wksSOkMApOuwqiN9BK?si=126807ed409a427b.</p>
+                </li>
+                <li class="Num">
+                    <h1>04</h1>
+                    <p><b>Poel, Ibo van de. “An Ethical Framework for Evaluating Experimental Technology.” </b>*Science and
+                        Engineering Ethics* 22, no. 3 (2015): 667–86. https://doi.org/10.1007/s11948-015-9724-3.</p>
+                </li>
+                <li class="Num">
+                    <h1>05</h1>
+                    <p><b>Humane. “Humane Reveals the Name of First Device, the Humane AI Pin.”</b> Humane News, 2023.
+                        https://hu.ma.ne/media/humane-names-first-device-humane-ai-pin.</p>
+                </li>
+                <li class="Num">
+                    <h1>06</h1>
+                    <p><b>Zhuang, Justin. “Lessons in the ‘New Ugly’ School of Design.”</b> Aiga Eye on Design, January 11, 2019.
+                        https://eyeondesign.aiga.org/schooled-in-the-new-ugly-lessons-from-darius-ous-autotypography/.</p>
+                </li>
+                <!-- <li class="Num"><h1>07</h1></li> -->
+            </ul>
         </div>
     </footer>
 
