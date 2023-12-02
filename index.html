@@ -6,55 +6,72 @@
     <title>Dark Data Zine: Fall 2023</title>
     <link rel="stylesheet" type="text/css" href="/styling/mainStyling.css" />
     <link rel="stylesheet" type="text/css" href="/styling/articleMenu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
   </head>
   <body>
-    <nav>
-      <div class="nav-div">
-        <img
-          src="/assets/landing/Star-grn.png"
-          alt="Navbar icon"
-          class="nav-icon"
-        />
-        <a href="../index.html">Articles</a>
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <h1 class="navbar-item" id="navbar-class-title">Dark Data 2023</h1>
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-      <div class="nav-div">
-        <img
-          src="/assets/landing/Star-blk.png"
-          alt="Navbar icon"
-          class="nav-icon"
-        />
-        <a href="./pages/editors.html">Editors' Note</a>
-      </div>
-      <div class="nav-div">
-        <img
-          src="/assets/landing/Star-blk.png"
-          alt="Navbar icon"
-          class="nav-icon"
-        />
-        <a href="./pages/about.html">About</a>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" id="spacing-nav" href="./index.html">
+            <img
+              src="/assets/landing/Star-grn.png"
+              alt="Navbar icon"
+              class="nav-icon"
+            />
+            Articles
+          </a>
+          <a class="navbar-item" id="spacing-nav" href="./pages/editors.html">
+            <img
+              src="/assets/landing/Star-blk.png"
+              alt="Navbar icon"
+              class="nav-icon"
+            />
+            Editors' Note
+          </a>
+          <a class="navbar-item" id="spacing-nav" href="./pages/about.html">
+            <img
+              src="/assets/landing/Star-blk.png"
+              alt="Navbar icon"
+              class="nav-icon"
+            />
+            About
+          </a>
+        </div>
       </div>
     </nav>
 
-    <div class="gallery" id="gallery">
-      <img src="https://via.placeholder.com/300x200" alt="Image 1" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 2" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 3" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 4" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 5" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 6" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 7" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 8" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 9" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 10" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 11" />
-      <img src="https://via.placeholder.com/300x200" alt="Image 12" />
-    </div>
+    <div class="hero is-fullheight">
+      <div class="gallery" id="gallery">
+        <img src="https://via.placeholder.com/300x200" alt="Image 1" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 2" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 3" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 4" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 5" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 6" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 7" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 8" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 9" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 10" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 11" />
+        <img src="https://via.placeholder.com/300x200" alt="Image 12" />
+      </div>
 
-    <div class="overlay" id="overlay"></div>
-
-    <div class="footer">
-      <label class="checkbox-label" for="toggleCheckbox">Toggle Overlay</label>
-      <input type="checkbox" id="toggleCheckbox" class="checkbox" />
+      <div class="overlay" id="overlay"></div>
     </div>
 
     <script src="../scripts/toggleOverlays.js" defer></script>

@@ -4,36 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark Data Zine: Fall 2023</title>
-    <link rel="stylesheet" type="text/css" href="/styling/mainStyling.css" />
+    <link rel="stylesheet" type="text/css" href="../styling/mainStyling.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
   </head>
+
   <body>
-    <nav>
-      <div class="nav-div">
-        <img
-          src="/assets/landing/Star-blk.png"
-          alt="Navbar icon"
-          class="nav-icon"
-        />
-        <a href="../index.html">Articles</a>
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <h1 class="navbar-item" id="navbar-class-title">Dark Data 2023</h1>
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-      <div class="nav-div">
-        <img
-          src="/assets/landing/Star-blk.png"
-          alt="Navbar icon"
-          class="nav-icon"
-        />
-        <a href="./editors.html">Editors' Note</a>
-      </div>
-      <div class="nav-div">
-        <img
-          src="/assets/landing/Star-grn.png"
-          alt="Navbar icon"
-          class="nav-icon"
-        />
-        <a href="./about.html">About</a>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" id="spacing-nav" href="../index.html">
+            <img
+              src="/assets/landing/Star-blk.png"
+              alt="Navbar icon"
+              class="nav-icon"
+            />
+            Articles
+          </a>
+          <a class="navbar-item" id="spacing-nav" href="./editors.html">
+            <img
+              src="/assets/landing/Star-blk.png"
+              alt="Navbar icon"
+              class="nav-icon"
+            />
+            Editors' Note
+          </a>
+          <a class="navbar-item" id="spacing-nav" href="./about.html">
+            <img
+              src="/assets/landing/Star-grn.png"
+              alt="Navbar icon"
+              class="nav-icon"
+            />
+            About
+          </a>
+        </div>
       </div>
     </nav>
 
-    <div class="references">Ref</div>
+    <div class="hero is-fullheight">Ref</div>
+    <script src="../scripts/toggleOverlays.js" defer></script>
   </body>
 </html>

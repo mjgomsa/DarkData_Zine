@@ -1,0 +1,80 @@
+body {
+    background-color: #FFF9EB;
+}
+
+#land-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text-cont {
+    flex: 1;
+    box-sizing: border-box;
+    /* padding: 20px;  */
+    max-width: 60rem; /* Adjust max-width as needed */
+  }
+  
+  .text-cont h1 {
+    color: #000;
+    font-family: 'BasementGrotesque';
+    font-size: 4.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left:3.5rem; /* Adjust padding as needed */
+    padding-bottom: 2.66rem;
+
+  }
+
+  .img-cont {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px; /* Adjust padding as needed */
+    max-width: 100%; /* Adjust max-width as needed */
+  }
+
+  .text-cont p {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left:3.5rem; /* Adjust padding as needed */
+    padding-right: 3.5rem; /* Adjust padding as needed */
+  }
+
+  #head {
+    width: 100%;
+    max-width: 784px; /* Adjust max-width as needed */
+    margin-left: 5%;
+    z-index: 0;
+  }
+
+  #readnow {
+    width: 100%;
+    max-width: 316.43px; /* Adjust max-width as needed */
+    margin-top: -35%;
+    z-index: 1;
+  }
+
+  @media (max-width: 768px) {
+    .text-cont h1 {
+        font-size: 3rem;
+    
+      }
+
+    .text-cont, .img-cont {
+      flex: 1;
+      max-width: 100%;
+    }
+
+    #readnow {
+      margin-top: 0;
+    }
+
+    #land-cont {
+      flex-direction: column;
+    }
+
+    .hero {
+        padding-top: 3.56rem;
+    }
+  }
