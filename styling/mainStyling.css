@@ -34,7 +34,7 @@ p {
 }
 
 .hero {
-    padding-top: 5.5rem;
+    padding-top: 4.19rem !important;
     background-color: #FFF9EB;
 }
 
@@ -94,7 +94,7 @@ body {
 .nav-icon{
     width: 1.3125rem;
     vertical-align: text-top;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 nav a:hover {
     color: #000 !important;
