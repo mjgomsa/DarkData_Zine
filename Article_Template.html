@@ -11,7 +11,7 @@
     <!-- ONE OR TWO SENTENCES ABSTRACT -->
     <meta property="og:description" content="One or two sentences about your article">
 
-    <!-- ONE OR TWO SENTENCES ABSTRACT -->
+    <!-- 250 Character  ABSTRACT -->
     <meta name="description" content="Your website description">
 
     <!-- COMMA SEPERATED KEYWORDS -->
@@ -25,6 +25,10 @@
 </head>
 
 <body>
+    <script src="./scripts/articleScripts.js" defer></script>
+    <a href="/pages/articleMenu.html">
+        <img id="readnow" src="/assets/landing/Star-grn.png" />
+      </a>
     <header>
         <div class="header-content">
             <div class="header-text">
@@ -36,42 +40,9 @@
                         <h4> AUTHOR NAME</h4>
                     </div>
                 </a>
-                <!-- ADD THE ABSTRACT OF YOUR ARTICLE -->
+                <!-- ADD THE ABSTRACT OF YOUR ARTICLE MAX 400 Characters -->
                 <p class="abstract">THE ABSTRACT OF YOUR ARTICLE</p>
 
-                <!-- EDITORS - DO NOT CHANGE -->
-                <div class="tags">
-                    <a href="tag1.html" class="box">
-                        <div class="circle AIHardware"> </div>
-                        <div class="info">
-                            <h4>AI Hardware</h4>
-                        </div>
-                    </a>
-                    <a href="tag2.html" class="box">
-                        <div class="circle DesignEthics"> </div>
-                        <div class="info">
-                            <h4>Design Ethics</h4>
-                        </div>
-                    </a>
-                    <a href="tag3.html" class="box">
-                        <div class="circle TechnologyGovernance "> </div>
-                        <div class="info">
-                            <h4>Technology Governance</h4>
-                        </div>
-                    </a>
-                    <a href="tag2.html" class="box">
-                        <div class="circle PrivacyConcerns"> </div>
-                        <div class="info">
-                            <h4>Privacy Concerns</h4>
-                        </div>
-                    </a>
-                    <a href="tag3.html" class="box">
-                        <div class="circle EthicalAI"> </div>
-                        <div class="info">
-                            <h4>Ethical AI</h4>
-                        </div>
-                    </a>
-                </div>
             </div>
             <div class="header-image">
                 <img class="mobile" src="assets/max_article/1_2.png" alt="Header Image">
@@ -82,6 +53,10 @@
     <!-- THIS IS THE MAIN ARTICLE -->
     <main>
         <article>
+
+            <!-- THIS IS A SUBHEADING -->
+            <h2>Heading1</h2>
+
             <!-- THIS IS NORMAL TEXT -->
             <p>THIS IS NORMAL TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien magna,
                 consectetur vel elit ac,
@@ -91,6 +66,7 @@
                 mauris elit. Duis neque quam, pulvinar a laoreet quis, vulputate at justo. Nunc non mollis odio. Integer
                 sed molestie dolor.
             </p>
+            
             <!-- THIS IS A SUBHEADING -->
             <h2>this is a subheading</h2>
 
@@ -108,7 +84,7 @@
                 tempus pellentesque massa.
 
                 <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">THIS IS THE FOOTNOTE NUMBER </a>
+                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1 </a>
                         <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
                         <span class="footnote-content">
                             <!-- USE CHICAGO CITATION STYLE --> THIS IS THE FOOTNOTE THAT APPEARS ON HOVER
@@ -117,6 +93,39 @@
 
                 Pellentesque faucibus hendrerit viverra. In molestie enim congue neque
                 porttitor, eu lobortis leo ultrices.
+
+                 <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+                 <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1 </a>
+                    <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+                    <span class="footnote-content">
+                        <!-- USE CHICAGO CITATION STYLE --> THIS IS THE FOOTNOTE THAT APPEARS ON HOVER
+                    </span>
+                </span></sup>
+
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien magna, consectetur vel elit ac,
+                tempus pellentesque massa.
+
+                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1 </a>
+                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+                        <span class="footnote-content">
+                            <!-- USE CHICAGO CITATION STYLE --> THIS IS THE FOOTNOTE THAT APPEARS ON HOVER
+                        </span>
+                    </span></sup>
+
+                Pellentesque faucibus hendrerit viverra. In molestie enim congue neque
+                porttitor, eu lobortis leo ultrices.
+
+                 <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+                 <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1 </a>
+                    <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+                    <span class="footnote-content">
+                        <!-- USE CHICAGO CITATION STYLE --> THIS IS THE FOOTNOTE THAT APPEARS ON HOVER
+                    </span>
+                </span></sup>
+                
             </p>
 
             <!-- THIS IS TWO PICTURES -->
@@ -173,7 +182,18 @@
             <!-- THIS IS NORMAL TEXT -->
             <p>THIS IS NORMAL TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien magna,
                 consectetur vel elit ac,
-                tempus pellentesque massa. Pellentesque faucibus hendrerit viverra. In molestie enim congue neque
+                tempus pellentesque massa. Pellentesque faucibus hendrerit viverra.
+
+
+                 <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+                 <sup><span class="footnote"><a rel="noopener" href="#Bibliography">3</a>
+                    <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+                    <span class="footnote-content">
+                        <!-- USE CHICAGO CITATION STYLE --> THIS IS THE FOOTNOTE THAT APPEARS ON HOVER
+                    </span>
+                </span></sup>
+                
+                In molestie enim congue neque
                 porttitor, eu lobortis leo ultrices. In at purus tincidunt, fermentum libero dapibus, blandit tortor.
                 Nam convallis dapibus lectus in facilisis. Proin congue ante in diam sollicitudin rutrum. Donec nec
                 mauris elit. Duis neque quam, pulvinar a laoreet quis, vulputate at justo. Nunc non mollis odio. Integer
@@ -190,6 +210,36 @@
             <a id="Bibliography"></a>
             <h2>Bibliography: </h2>
             <ul class="columns" data-columns="2">
+                <!-- THIS IS A FOOTNOTE -->
+                <li class="Num">
+                    <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+                    <!-- USE CHICAGO CITATION STYLE -->
+                    <p>
+                        <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai
+                            Everywhere.”</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                        Imran Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED
+                        Talk, April
+                        2023.
+                        https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                    </p>
+                </li>
+
+                <!-- THIS IS A FOOTNOTE -->
+                <li class="Num">
+                    <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+                    <!-- USE CHICAGO CITATION STYLE -->
+                    <p>
+                        <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai
+                            Everywhere.”</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                        Imran Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED
+                        Talk, April
+                        2023.
+                        https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                    </p>
+                </li>
+
                 <!-- THIS IS A FOOTNOTE -->
                 <li class="Num">
                     <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
