@@ -8,7 +8,7 @@
 
 
 .gracia {
-    background-image: url('../assets/articles/Article/gracia.png');
+    background-image: url('../assets/articles/Article/gracia_replace.png');
 }
 
 .guanhao {
@@ -29,6 +29,22 @@
 
 .max {
     background-image: url('../assets/articles/Article/MaxLG2.png');
+}
+
+.rebecca {
+    background-image: url('../assets/articles/Article/rebecca_replace.png');
+}
+
+.rishi {
+    background-image: url('../assets/articles/Article/RishiArticle.png');
+}
+
+.shravani {
+    background-image: url('../assets/articles/Article/ShivraniLG.png');
+}
+
+.sid {
+    background-image: url('../assets/articles/Article/SidLG.png');
 }
 
 @font-face {
@@ -379,6 +395,7 @@ ul {
     padding-right: 1%;
     text-align: right;
     padding-top: 0em;
+    margin-top: -.15em;
 }
 
 .Num p {
@@ -829,11 +846,11 @@ ul {
     }
 
     .row21 {
-        grid-column: 2/ span 4;
+        grid-column: 2/ span 5;
     }
 
     .row22 {
-        grid-column: 7/ span 4;
+        grid-column: 7/ span 5;
     }
 
 
@@ -854,7 +871,7 @@ ul {
     }
 }
 
-@media (max-aspect-ratio: .56) {
+@media (max-aspect-ratio: .6) {
 
     .recommended-articles {
         margin-left: 2em;
