@@ -13,7 +13,7 @@ body {
   }
 
   .abImgCont, .abTextCont {
-    /* border: 1px solid #000;  */
+    border: 1px solid blue; 
     box-sizing: border-box;
   }
 
@@ -52,7 +52,7 @@ body {
     width: 15.9375rem;
     height: 2.625rem;
     flex-shrink: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
  }
 
  .abtFacultyTeam h1, .abEditorialCont h1, .abContributorsCont h1{
@@ -70,7 +70,7 @@ body {
  .abtFacultyPerson {
     width: 19.87244rem;
     height: 2.625rem;
-    /* border: 1px solid blue */
+    border: 1px solid blue
  }
 
  .abtFacultyPerson h3 {
@@ -83,14 +83,14 @@ body {
  }
 
  .abEditorialCont {
-    /* background-color: yellow; */
+    background-color: yellow;
     padding-bottom: 7.5rem;
-    /* border-bottom: 1px solid black; */
+    border-bottom: 1px solid blue;
  }
  .abContributorsCont {
     /* background-color: blue; */
     padding-bottom: 11.25rem;
-    /* border-bottom: 1px solid black; */
+    border-bottom: 1px solid blue;
  }
 
  /* collapsable */
@@ -104,39 +104,53 @@ body {
   }
   
   summary {
-    
-    font-family: Space Mono;
+    background-color: white;
+    border: 1px solid green;
+    font-family: "SpaceMono_Reg";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.4375rem; /* 115% */
+    line-height:4.375rem;; /* 115% */
     margin: -0.5em -0.5em 0;
-    padding: 0.5em;
+    /* padding: 0.5em; */
     cursor: pointer; 
     list-style: none; 
     position: relative;
+    vertical-align: auto;
   }
   
   details[open] {
-    padding: 0.5em;
+    /* padding: 0.5em; */
+    background-color: aqua;
   }
   
   details[open] summary {
-    /* border-bottom: 1px solid #aaa; */
     margin-bottom: 0.5em;
+    /* background-color: red;; */
+  }
+
+  details > summary {
+    display: flex;
+    align-items: last baseline;
+    vertical-align:baseline;
   }
   
   /* Custom image for open state */
   details[open] > summary::before {
     content: url(../assets/landing/open.png);
-    margin-right: 8px; /* Adjust as needed */
+    padding-right: 1rem; /* Adjust as needed */
+    /* vertical-align: middle; */
+    border: 1px solid magenta;
   }
   
   /* Custom image for closed state */
   details > summary::before {
     content: url(../assets/landing/closed.png);
-    margin-right: 8px; /* Adjust as needed */
+    padding-right: 1rem; /* Adjust as needed */
+    /* vertical-align: middle;  */
+    border: 1px solid magenta;
   }
+
   
   .links {
     display: flex;
@@ -145,7 +159,7 @@ body {
   .links a {
     margin-top:1.13rem;
     margin-right: 1.56rem;
-    color: #000;
+    color: var(--9070FF, #9070FF);
     font-family: "SpaceGrot_Reg";
     font-size: 0.875rem;
     font-style: normal;
@@ -173,14 +187,20 @@ body {
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 162.052%; /* 1.82306rem */
+    line-height: 162.052%;
     padding-left: 11.56rem;
     padding-right: 11.56rem;
-    padding-bottom: 8.78rem;
+    padding-bottom: 8.78rem; 
   }
 
   .footerEnd p {
-    width: 84.6875rem;
+    /* width: 84.6875rem;
     border-top: 1px solid black;
-    padding-top: 2.39rem;
+    padding-top: 2.39rem; */
+    color: var(--000000, #000);
+font-family: "SpaceMono_Reg";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 162.052%; /* 1.82306rem */
   }

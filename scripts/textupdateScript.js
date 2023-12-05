@@ -8,7 +8,7 @@ const dict = {
     author: "Sidsel Ostbjerg",
   },
   3: {
-    title: "Entangled Gazes: Comparing Ring and Citizen",
+    title: "Entangled Gazes",
     author: "Shravani Bagawde",
   },
   4: {
@@ -41,6 +41,10 @@ const dict = {
   },
   11: {
     title: "The Attention Economy Payday",
+<<<<<<< Updated upstream
+=======
+    /* title_short: "Blockchain and Attention Economics", // I'm not sure about this one -- need to run it by Leo too */
+>>>>>>> Stashed changes
     author: "Haoxin Tao",
   },
   12: {
@@ -48,11 +52,13 @@ const dict = {
     author: "Sid",
   },
   13: {
-    title: "NAME TBD",
-    author: "Tuerhong Guliniali",
+    title: "Little Sweet Potato, Who Gets to Eat It?",
+    title_short: "Little Sweet Potato",
+    author: "Alvin Liu",
   },
   14: {
-    title: "NAME TBD",
+    title: "Digital Trust: Unmasking Deceptive Patterns",
+    title_short: "Digital Trust",
     author: "Juliana Serna Mesa",
   },
 };
