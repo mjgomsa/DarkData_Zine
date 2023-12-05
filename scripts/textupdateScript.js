@@ -36,11 +36,11 @@ const dict = {
     author: "Johann Yamin",
   },
   10: {
-    title: "Unveiling the AI layers",
+    title: "Unveiling AI layers",
     author: "Guanhao Zhu",
   },
   11: {
-    title: "Interplay between Blockchain and Attention Economics",
+    title: "The Attention Economy Payday",
     author: "Haoxin Tao",
   },
   12: {
