@@ -41,10 +41,7 @@ const dict = {
   },
   11: {
     title: "The Attention Economy Payday",
-<<<<<<< Updated upstream
-=======
     /* title_short: "Blockchain and Attention Economics", // I'm not sure about this one -- need to run it by Leo too */
->>>>>>> Stashed changes
     author: "Haoxin Tao",
   },
   12: {
