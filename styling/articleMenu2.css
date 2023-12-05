@@ -1,0 +1,199 @@
+/* Common styles for all devices */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+
+/* Media query for tablets and greater */
+@media screen and (min-width: 480px) {
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 4.81rem;
+
+  }
+
+  .flip-card {
+    perspective: 1000px;
+    width: 19vw;
+    height: 19vw;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    transform: rotateY(0deg);
+  }
+
+  .flip-card-back {
+    border: 1px solid black;
+    padding-left: 1.26rem;
+    padding-right: 1.26rem;
+    padding-top: 1.26rem;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .flip-card .flip-card-inner {
+    box-sizing: border-box;
+  }
+
+  .flip-card-back h1 {
+    color: #000;
+    font-family: "BasementGrotesque";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+  }
+
+  .flip-card-back h2 {
+    color: #000;
+    font-family: "SpaceMono_Reg";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: .506rem;
+  }
+
+  /* Add additional tablet styles if needed */
+}
+
+/* Media query for mobile */
+@media screen and (max-aspect-ratio: .7) {
+  #gallery {
+    margin-top: -2.5rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 0em;
+  }
+
+
+  #gallery {
+    display: grid;
+    padding-top: 5em;
+  }
+
+    .flip-card-front,
+    .flip-card-back,
+    .flip-card-inner{
+      position: relative;
+    }
+
+    .flip-card-front img {
+      grid-column: 1 / span 3;
+      width: 24.9vw;
+    }
+
+    .flip-card {
+      perspective: 1000px;
+      width: 24.9vw;
+      height: 24.9vw;
+      padding-bottom: -12em;
+    }
+
+    .flip-card {
+      grid-column: 1 / span 11;
+    }
+
+
+    #dynamicTitle_1, #dynamicTitle_2, #dynamicTitle_3, #dynamicTitle_4, #dynamicTitle_5,
+     #dynamicTitle_6, #dynamicTitle_7, #dynamicTitle_8, #dynamicTitle_9, #dynamicTitle_10,
+      #dynamicTitle_11, #dynamicTitle_12, #dynamicTitle_13, #dynamicTitle_14{
+
+      padding-left: 26vw;
+      display: grid;
+      font-size: 2.5em;
+      line-height: 1.5;
+      font-weight: 300;
+      width: 50vw;
+      padding-left: 27vw;
+    }
+
+    .flip-card-back h2{
+
+      display: none;
+    }
+
+
+    .flip-card-front img {
+      height: auto;
+      width: 25vw;
+    }
+
+    .flip-card-back h1 {
+      margin-top: 0.75rem;
+      color: #000;
+      font-family: "BasementGrotesque";
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 2.1875rem;
+      /* 145.833% */
+      width: 22.0625rem;
+    }
+
+    .flip-card-back h2 {
+      color: #000;
+      font-family: "SpaceMono_Reg";
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 134.1%;
+      /* 1.50863rem */
+      margin-top: 0.25rem;
+      ;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: none;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      width: auto;
+      height: auto;
+      position: absolute;
+      backface-visibility: visible;
+    }
+
+    .flip-card-back {
+      border: none;
+      padding-left: 1.26rem;
+      padding-right: 1.26rem;
+      padding-top: 1.84rem;
+      transform: rotateY(0deg);
+    }
+
+  }

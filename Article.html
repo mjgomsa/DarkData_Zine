@@ -6,9 +6,11 @@
     <title>Your Article Title</title>
     <link rel="stylesheet" type="text/css" href="/styling/style.css">
 
+    <link rel="stylesheet" type="text/css" href="/styling/articleMenu2.css" />
+
     <meta name="description" content="Your website description">
     <meta name="keywords" content="your, keywords, here">
-    
+
     <!-- Open Graph Meta Tags (for Facebook, LinkedIn, etc.) -->
     <meta property="og:title" content="Article XXXX">
     <meta property="og:description" content="AI is progressing rapidly, and hardware devices centered around AI, like Humane's AIPin, are emerging. However, the Collingridge Dilemma poses a challenge in influencing the development of AI. Sam Altman suggests being thoughtful about the risks and building technology that mitigates them.
@@ -21,56 +23,26 @@
 
 <body>
     <script src="./scripts/articleScripts.js" defer></script>
+
+    <script src="./scripts/landingScripts.js" defer></script>
+    <script src="./scripts/textupdateScript.js" defer></script>
+
     <a href="/pages/articleMenu.html">
         <img id="readnow" src="/assets/landing/Star-grn.png" />
-      </a>
+    </a>
+
     <header>
         <div class="header-content">
             <div class="header-text">
-                <h1>Can 10 Design Principles Govern AI?</h1>
+                <h1>Design principles can't control AI</h1>
                 <a href="tag1.html" class="box">
-                    
-                    <div class="info">
-                        <h4> by Max Emrich</h4>
-                    </div>
+                    <p> by Max Emrich</p>
                 </a>
                 <p class="abstract">AI is progressing rapidly, and hardware devices centered around AI, like Humane's
                     AIPin, are emerging. However, the Collingridge Dilemma poses a challenge in influencing the
                     development of AI. Sam Altman suggests being thoughtful about the risks and building technology that
                     mitigates them.</p>
-                
-                <div class="tags">
-                    <a href="tag1.html" class="box">
-                        <div class="circle AIHardware"> </div>
-                        <div class="info">
-                            <h4>AI Hardware</h4>
-                        </div>
-                    </a>
-                    <a href="tag2.html" class="box">
-                        <div class="circle DesignEthics"> </div>
-                        <div class="info">
-                            <h4>Design Ethics</h4>
-                        </div>
-                    </a>
-                    <a href="tag3.html" class="box">
-                        <div class="circle TechnologyGovernance "> </div>
-                        <div class="info">
-                            <h4>Technology Governance</h4>
-                        </div>
-                    </a>
-                    <a href="tag2.html" class="box">
-                        <div class="circle PrivacyConcerns"> </div>
-                        <div class="info">
-                            <h4>Privacy Concerns</h4>
-                        </div>
-                    </a>
-                    <a href="tag3.html" class="box">
-                        <div class="circle EthicalAI"> </div>
-                        <div class="info">
-                            <h4>Ethical AI</h4>
-                        </div>
-                    </a>
-                </div>
+
             </div>
             <div class="header-image">
                 <img class="mobile" src="assets/max_article/1_2.png" alt="Header Image">
@@ -78,6 +50,7 @@
         </div>
     </header>
 
+    <div class="line show"></div>
     <main>
         <article>
             <p>AI is progressing rapidly, and hardware devices centered around AI, like Humane's AIPin, are emerging.
@@ -88,9 +61,18 @@
                 control the implications of AI hardware products.
 
             </p>
+            <p class="q2">AI is progressing rapidly, and hardware devices centered around AI, like Humane's AIPin, are
+                emerging.
+                However, the Collingridge Dilemma poses a challenge in influencing the development of AI. Sam Altman
+                suggests being thoughtful about the risks and building technology that mitigates them. Humane's ten
+                design principles for good AI draw parallels to Dieter Rams' principles for good design. The principles
+                aim to guide the responsible development of AI, but questions remain about whether they can fully
+                control the implications of AI hardware products.
+
+            </p>
             <p>AI has been progressing faster than we all suspected. And while AI for now has been restricted to
                 software, we will very soon see the first hardware devices centred around AI.</p>
-                <h2>this is a subheading</h2>
+            <h2>this is a subheading</h2>
             <div class="image-container row1" onclick="toggleImgHover(this)">
                 <img src="assets/max_article/6.png" alt="Image 1 Description">
                 <img class="img-hover wide" src="assets/max_article/6.png" alt="Image 1 Description">
@@ -134,8 +116,10 @@
                             2 (2018): 291–314.
                         </span>
                     </span></sup>
-            <div  class="quote" ><h1>“As AI advances, we will see how it will transform
-                every aspect of our lives in ways that seem unimaginable right now.”</h1></div>
+            <div class="quote">
+                <h1>“As AI advances, we will see how it will transform
+                    every aspect of our lives in ways that seem unimaginable right now.”</h1>
+            </div>
             <p>Humane’s CEO Imran Chaudhri more indirectly acknowledges this conundrum during the first-ever public demo
                 of the Human AIPin during a TED Talk by mentioning, “As AI advances, we will see how it will transform
                 every aspect of our lives in ways that seem unimaginable right now.” <sup><span class="footnote"><a
@@ -247,126 +231,106 @@
 
     </main>
 
+    <div class="line"></div>
     <article>
-        <div class="recommended-articles"><h2>Explore related articles: </h2></div>
-        <section class="recommended-articles">
-            <div class="article-box">
-                <img src="assets/max_article/3.png" alt="Article 1 Image">
-                <div class="article-content">
-                    <h3>Click the Earth</h3>
-                    <div class="tags">
-                        <a href="tag1.html" class="box">
-                            <div class="circle AIHardware"> </div>
-                            <div class="info">
-                                <h4>AI Hardware</h4>
-                            </div>
-                        </a>
-                        <a href="tag2.html" class="box">
-                            <div class="circle PrivacyConcerns"> </div>
-                            <div class="info">
-                                <h4>Privacy Concerns</h4>
-                            </div>
-                        </a>
-                        <a href="tag2.html" class="box">
-                            <div class="circle DesignEthics"> </div>
-                            <div class="info">
-                                <h4>Design Ethics</h4>
-                            </div>
-                        </a>
+        <div class="recommended-articles">
+            <h2>Related Articles </h2>
+        </div>
+        <div class="hero is-fullheight">
+            <div class="gallery" id="gallery">
+                <a class="flip-card" href="/pages/about.html">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./assets/landing/gallery/Img1.png"
+                                alt="A group of plastic bags on a beige background." />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 id="dynamicTitle_1"></h1>
+                            <h2 id="dynamicAuthor_1"></h2>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="article-box">
-                <img src="/assets/max_article/4.png" alt="Article 2 Image">
-                <div class="article-content">
-                    <h3>The Decolonial Web? On Colonial Infrastructure and Reclaiming Data</h3>
-                    <div class="tags">
-                        <a href="tag1.html" class="box">
-                            <div class="circle AIHardware"> </div>
-                            <div class="info">
-                                <h4>AI Hardware</h4>
-                            </div>
-                        </a>
-                        <a href="tag2.html" class="box">
-                            <div class="circle DesignEthics"> </div>
-                            <div class="info">
-                                <h4>Design Ethics</h4>
-                            </div>
-                        </a>
+                </a>
+                <a class="flip-card" href="/pages/about.html">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./assets/landing/gallery/Img2.png"
+                                alt="An illustration of a heart with a blue and pink heart." />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 id="dynamicTitle_2"></h1>
+                            <h2 id="dynamicAuthor_2"></h2>
+                        </div>
                     </div>
-                    
-                </div>
-            </div>
-            <div class="article-box" id="remove">
-                <img src="assets/max_article/5.png" alt="Article 3 Image">
-                <div class="article-content">
-                    <h3>Digital Detoxes, Data Leakage and Me</h3>
-                    <div class="tags">
-                        <a href="tag3.html" class="box">
-                            <div class="circle TechnologyGovernance "> </div>
-                            <div class="info">
-                                <h4>Technology Governance</h4>
-                            </div>
-                        </a>
-                        <a href="tag2.html" class="box">
-                            <div class="circle PrivacyConcerns"> </div>
-                            <div class="info">
-                                <h4>Privacy Concerns</h4>
-                            </div>
-                        </a>
-                        <a href="tag3.html" class="box">
-                            <div class="circle EthicalAI"> </div>
-                            <div class="info">
-                                <h4>Ethical AI</h4>
-                            </div>
-                        </a>
+                </a>
+                <a class="flip-card" href="/pages/about.html">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./assets/landing/gallery/Img3.png"
+                                alt="A man on a ladder gazes at a red arrow." />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 id="dynamicTitle_3"></h1>
+                            <h2 id="dynamicAuthor_3"></h2>
+                        </div>
                     </div>
-                </div>
+                </a>
+
             </div>
         </div>
-        </section>
     </article>
-
     <footer>
         <div class="Bibliography">
             <a id="Bibliography"></a>
-            <h2>Bibliography: </h2>
-            <ul class="columns" data-columns="2">
-                <li class="Num">
-                    <h1>01</h1>
-                    <p> <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai Everywhere.”</b> Imran
-                        Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED Talk, April
-                        2023. https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
-                    </p>
-                </li>
-                <li class="Num">
-                    <h1>02</h1>
-                    <p> <b>Kudina, Olya, and Peter-Paul Verbeek. “Ethics from within: Google Glass, the Collingridge Dilemma, and
-                        the Mediated Value of Privacy.”</b> *Science, Technology, &amp; Human Values* 44, no. 2 (2018): 291–314.
-                        https://doi.org/10.1177/0162243918793711.</p>
-                </li>
-                <li class="Num">
-                    <h1>03</h1>
-                    <p><b>Stern, Joanna, Mira Murati, and Sam Altman. “A Conversation with OpenAI’s Sam Altman and Mira Murati.”</b>
-                        WSJ, October 20, 2023. https://open.spotify.com/episode/6JE1wksSOkMApOuwqiN9BK?si=126807ed409a427b.</p>
-                </li>
-                <li class="Num">
-                    <h1>04</h1>
-                    <p><b>Poel, Ibo van de. “An Ethical Framework for Evaluating Experimental Technology.” </b>*Science and
-                        Engineering Ethics* 22, no. 3 (2015): 667–86. https://doi.org/10.1007/s11948-015-9724-3.</p>
-                </li>
-                <li class="Num">
-                    <h1>05</h1>
-                    <p><b>Humane. “Humane Reveals the Name of First Device, the Humane AI Pin.”</b> Humane News, 2023.
-                        https://hu.ma.ne/media/humane-names-first-device-humane-ai-pin.</p>
-                </li>
-                <li class="Num">
-                    <h1>06</h1>
-                    <p><b>Zhuang, Justin. “Lessons in the ‘New Ugly’ School of Design.”</b> Aiga Eye on Design, January 11, 2019.
-                        https://eyeondesign.aiga.org/schooled-in-the-new-ugly-lessons-from-darius-ous-autotypography/.</p>
-                </li>
-                <!-- <li class="Num"><h1>07</h1></li> -->
-            </ul>
+            <h2>Bibliography </h2>
+            <div class="margin">
+                <ul class="columns" data-columns="2">
+                    <li class="Num">
+                        <h1>01</h1>
+                        <p> <b>Chaudhri, Imran. “The Disappearing Computer - and a World Where You Can Take Ai
+                                Everywhere.”</b> Imran
+                            Chaudhri: The disappearing computer - and a world where you can take AI everywhere | TED
+                            Talk, April
+                            2023.
+                            https://www.ted.com/talks/imran_chaudhri_the_disappearing_computer_and_a_world_where_you_can_take_ai_everywhere.
+                        </p>
+                    </li>
+                    <li class="Num">
+                        <h1>02</h1>
+                        <p> <b>Kudina, Olya, and Peter-Paul Verbeek. “Ethics from within: Google Glass, the Collingridge
+                                Dilemma, and
+                                the Mediated Value of Privacy.”</b> *Science, Technology, &amp; Human Values* 44, no. 2
+                            (2018): 291–314.
+                            https://doi.org/10.1177/0162243918793711.</p>
+                    </li>
+                    <li class="Num">
+                        <h1>03</h1>
+                        <p><b>Stern, Joanna, Mira Murati, and Sam Altman. “A Conversation with OpenAI’s Sam Altman and
+                                Mira Murati.”</b>
+                            WSJ, October 20, 2023.
+                            https://open.spotify.com/episode/6JE1wksSOkMApOuwqiN9BK?si=126807ed409a427b.</p>
+                    </li>
+                    <li class="Num">
+                        <h1>04</h1>
+                        <p><b>Poel, Ibo van de. “An Ethical Framework for Evaluating Experimental
+                                Technology.” </b>*Science and
+                            Engineering Ethics* 22, no. 3 (2015): 667–86. https://doi.org/10.1007/s11948-015-9724-3.</p>
+                    </li>
+                    <li class="Num">
+                        <h1>05</h1>
+                        <p><b>Humane. “Humane Reveals the Name of First Device, the Humane AI Pin.”</b> Humane News,
+                            2023.
+                            https://hu.ma.ne/media/humane-names-first-device-humane-ai-pin.</p>
+                    </li>
+                    <li class="Num">
+                        <h1>06</h1>
+                        <p><b>Zhuang, Justin. “Lessons in the ‘New Ugly’ School of Design.”</b> Aiga Eye on Design,
+                            January 11, 2019.
+                            https://eyeondesign.aiga.org/schooled-in-the-new-ugly-lessons-from-darius-ous-autotypography/.
+                        </p>
+                    </li>
+                    <!-- <li class="Num"><h1>07</h1></li> -->
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

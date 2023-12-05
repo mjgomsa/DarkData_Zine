@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function handleMediaQuery(mediaQuery) {
       columns.forEach(function (col) {
-        col.style.width = mediaQuery.matches ? "98%" : "48%";
+        col.style.width = mediaQuery.matches ? "102%" : "48%";
       });
     }
 
