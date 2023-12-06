@@ -1,62 +1,61 @@
 const dict = {
   1: {
-    title: "Are We Data Hoarders or Digital Librarians?",
-    author: "Marshall Wang",
-  },
-  2: {
-    title: "Sharing Your Heartbeat?",
-    author: "Sidsel Ostbjerg",
-  },
-  3: {
-    title: "Entangled Gazes",
-    author: "Shravani Bagawde",
-  },
-  4: {
-    title: "The Man He Became",
-    author: "Rishi Shankar",
-  },
-  5: {
-    title: "The 21st Century Cyber War",
-    author: "Gracia Goh",
-  },
-  6: {
     title: "Design Principles Can’t Control AI",
     author: "Max Emrich",
   },
-  7: {
-    title: "Digital Detoxes, Data Leakage and Me",
-    author: "Rebecca Hart",
-  },
-  8: {
+  2: {
     title: "Cicada 3301: A Mystery Unsolved",
     author: "Joseph Wang",
   },
-  9: {
+  3: {
+    title: "The 21st Century Cyber War",
+    author: "Gracia Goh",
+  },
+  4: {
+    title: "Entangled Gazes",
+    author: "Shravani Bagawde",
+  },
+  5: {
     title: "The Decolonial Web?",
     author: "Johann Yamin",
   },
+  6: {
+    title: "Are We Data Hoarders or Digital Librarians?",
+    author: "Marshall Wang",
+  },
+  7: {
+    title: "Sharing Your Heartbeat?",
+    author: "Sidsel Ostbjerg",
+  },
+  8: {
+    title: "The Man He Became",
+    author: "Rishi Shankar",
+  },
+  9: {
+    title: "Digital Detoxes, Data Leakage and Me",
+    author: "Rebecca Hart",
+  },
   10: {
-    title: "Unveiling AI layers",
-    author: "Guanhao Zhu",
-  },
-  11: {
-    title: "The Attention Economy Payday",
-    /* title_short: "Blockchain and Attention Economics", // I'm not sure about this one -- need to run it by Leo too */
-    author: "Haoxin Tao",
-  },
-  12: {
     title: "The College Board’s Guide to Subjugating Minors",
     author: "Sid",
   },
-  13: {
+  11: {
+    title: "Unveiling AI layers",
+    author: "Guanhao Zhu",
+  },
+  12: {
     title: "Little Sweet Potato, Who Gets to Eat It?",
     title_short: "Little Sweet Potato",
     author: "Alvin Liu",
   },
-  14: {
+  13: {
     title: "Digital Trust: Unmasking Deceptive Patterns",
     title_short: "Digital Trust",
     author: "Juliana Serna Mesa",
+  },
+  14: {
+    title: "The Attention Economy Payday",
+    author: "Haoxin Tao",
   },
 };
 

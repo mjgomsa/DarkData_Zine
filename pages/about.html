@@ -6,56 +6,35 @@
     <title>Dark Data Zine: Fall 2023</title>
     <link rel="stylesheet" type="text/css" href="../styling/mainStyling.css" />
     <link rel="stylesheet" type="text/css" href="../styling/about.css" />
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <nav class="navbar is-transparent">
-      <div class="navbar-brand">
-        <h1 class="navbar-item" id="navbar-class-title">Dark Data 2023</h1>
-        <div
-          class="navbar-burger burger"
-          data-target="navbarExampleTransparentExample"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" id="spacing-nav" href="../index.html">
-            <img
-              src="/assets/landing/Star-blk.png"
-              alt="Navbar icon"
-              class="nav-icon"
-            />
-            Articles
-          </a>
-          <a class="navbar-item" id="spacing-nav" href="./editors.html">
-            <img
-              src="/assets/landing/Star-blk.png"
-              alt="Navbar icon"
-              class="nav-icon"
-            />
-            Editors' Note
-          </a>
-          <a class="navbar-item" id="spacing-nav" href="./about.html">
-            <img
-              src="/assets/landing/Star-grn.png"
-              alt="Navbar icon"
-              class="nav-icon"
-            />
-            About
-          </a>
-        </div>
-      </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+      <a href="" class="home"> Dark Data 2023</a>
+      <a href="./about.html" class="active"
+        ><span class="star"
+          ><img src="../assets/landing/Star-blk.png" alt="Star" /></span
+        >About</a
+      >
+      <a href="../pages/editors.html"
+        ><span class="star"
+          ><img src="../assets/landing/Star-blk.png" alt="Star" /></span
+        >Editor's Note</a
+      >
+      <a href="../index.html"
+        ><span class="star"
+          ><img src="../assets/landing/Star-blk.png" alt="Star" /></span
+        >Articles</a
+      >
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
     <div class="hero is-fullheight">
       <div class="headerContent">
@@ -64,11 +43,13 @@
         </div>
         <div class="abTextCont">
           <h5>
-            This digital zine was compiled from scholarship, research, and creative practice in Fall 2023 to fulfill the requirements for PSAM 5752 Dark Data, a course at Parsons School of Design. 
+            This digital zine was compiled from scholarship, research, and
+            creative practice in Fall 2023 to fulfill the requirements for PSAM
+            5752 Dark Data, a course at Parsons School of Design.
           </h5>
-          <br />
           <h5>
-            This site needs no privacy policy because we did not install any tracking code and this site does not store any cookies.
+            This site needs no privacy policy because we did not install any
+            tracking code and this site does not store any cookies.
           </h5>
           <div class="abtFaculty">
             <div class="abtFacultyTeam">
@@ -78,11 +59,6 @@
               <h3>David Carroll</h3>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="bodyContent">
-        <div class="abImgCont"></div>
-        <div class="abTextCont">
           <div class="abEditorialCont">
             <h1>Editorial + Production</h1>
             <div id="dynamicAccordion1"></div>
@@ -98,9 +74,8 @@
           Dark Data Vol. 5 — Fall 2023 — Parsons MFA Design and Technology —
           Licensed under Creative Commons BY-NC-SA 4.0L
         </p>
-      <div>
+      </div>
     </div>
-    
 
     <script src="../scripts/landingScripts.js" defer></script>
     <script src="../scripts/aboutScripts.js" defer></script>

@@ -1,24 +1,5 @@
 const dict = {
   1: {
-    author: "Marshall Wang",
-    description: [
-      "MFA Design & Technology",
-      "Marshall Wang Meixuan is a multidisciplinary designer, a creative technologist and an eastern surrealist based in New York. She has a synthetic body of works that are embedded with warmth and feelings. Ranging from time-based media, moving images, experimental sounds and human computer interaction, her works integrate conceptual undercurrents of research, design and tangible experiences, combining the analogue and digital landscape. With a cross-media approach, Marshall creates a unique visual vocabulary and builds her own creative containers through interactive storytelling, aiming to locate the fidelity in the hyper-connected world.",
-    ],
-    portfolio: "https://www.empacymachine.com/",
-    linkedIn: "https://www.linkedin.com/in/marshall041/",
-  },
-
-  2: {
-    author: "Sidsel Ostbjerg",
-    description: [
-      "MFA Design & Technology",
-      "Sidsel is a Danish interaction designer with experience in strategic design, UX/UI, user research and facilitation of goal specific workshops. She holds an undergraduate degree from IT University of Copenhagen in Digital Design and Interactive Technologies. During and after her studies in Copenhagen, she worked for the sustainable energy company Orsted for 2 years. It was in her position as User Experience Designer she got to apply her theoretical knowledge from her undergraduate degree to real life scenarios. Sidsel relocated to New York City Summer 2022 to pursue a Master of Fine Arts degree in Design and Technology at Parsons school of Design. Currently, Sidsel is researching applied utilitarian crafts such as knitting as community building and data visualizations.",
-    ],
-    linkedIn: "https://www.linkedin.com/in/sidsel-østbjerg-84063085/",
-  },
-
-  3: {
     author: "Shravani Bagawde",
     description: [
       "BFA Communication Design",
@@ -28,16 +9,7 @@ const dict = {
     ],
   },
 
-  4: {
-    author: "Rishi Shankar",
-    description: [
-      "MS Strategic Design & Management",
-      "Rishi is a seasoned marketing communication strategist and visual designer whose diverse journey in design has spanned nearly a decade. His evolution includes roles in industrial and furniture design, packaging, graphic and branding, and ultimately, consumer experience and brand strategy. With a keen eye for advertising and marketing, Rishi dedicates his time to analyzing brands and their consumer interactions. In his downtime, you can find Rishi at the local billiards club or at the park, people watching and writing observational comedy for his (imaginary) Netflix special.",
-    ],
-    linkedIn: "https://www.linkedin.com/in/rishishankar/",
-  },
-
-  5: {
+  2: {
     author: "Gracia Goh",
     description: [
       "MS Design & Urban Ecologies",
@@ -46,7 +18,21 @@ const dict = {
     linkedIn: "https://www.linkedin.com/in/graciagoh/",
   },
 
-  6: {
+  3: {
+    author: "Rebecca Hart",
+    description: [
+      "MPS Communication Design",
+      "Rebecca is a former clinical researcher specializing in neuroscience turned digital product designer. Originally from the UK, she relocated to New York City in 2018 to work in vertigo research and during COVID realized a passion for accessible digital design. She is now pursuing a Master of Professional Studies in Communication Design at Parsons School of Design. She anticipates returning to the world of science in a design capacity to bring her experience in both arenas together.",
+    ],
+    linkedIn: "https://www.linkedin.com/in/rebeccahart-nyc/",
+  },
+
+  4: {
+    author: "Alvin Liu",
+    // description: "",
+  },
+
+  5: {
     author: "Juliana Serna Mesa",
     description: [
       "MFA Design & Technology",
@@ -56,16 +42,37 @@ const dict = {
     linkedIn: "https://www.linkedin.com/in/julianasernamesa/",
   },
 
-  7: {
-    author: "Rebecca Hart",
+  6: {
+    author: "Sidsel Ostbjerg",
     description: [
-      "MPS Communication Design",
-      "Rebecca is a former clinical researcher specializing in neuroscience turned digital product designer. Originally from the UK, she relocated to New York City in 2018 to work in vertigo research and during COVID realized a passion for accessible digital design. She is now pursuing a Master of Professional Studies in Communication Design at Parsons School of Design. She anticipates returning to the world of science in a design capacity to bring her experience in both arenas together.",
+      "MFA Design & Technology",
+      "Sidsel is a Danish interaction designer with experience in strategic design, UX/UI, user research and facilitation of goal specific workshops. She holds an undergraduate degree from IT University of Copenhagen in Digital Design and Interactive Technologies. During and after her studies in Copenhagen, she worked for the sustainable energy company Orsted for 2 years. It was in her position as User Experience Designer she got to apply her theoretical knowledge from her undergraduate degree to real life scenarios. Sidsel relocated to New York City Summer 2022 to pursue a Master of Fine Arts degree in Design and Technology at Parsons school of Design. Currently, Sidsel is researching applied utilitarian crafts such as knitting as community building and data visualizations.",
     ],
-    linkedIn: "https://www.linkedin.com/in/rebeccahart-nyc/",
+    linkedIn: "https://www.linkedin.com/in/sidsel-østbjerg-84063085/",
   },
 
+  7: {
+    author: "Rishi Shankar",
+    description: [
+      "MS Strategic Design & Management",
+      "Rishi is a seasoned marketing communication strategist and visual designer whose diverse journey in design has spanned nearly a decade. His evolution includes roles in industrial and furniture design, packaging, graphic and branding, and ultimately, consumer experience and brand strategy. With a keen eye for advertising and marketing, Rishi dedicates his time to analyzing brands and their consumer interactions. In his downtime, you can find Rishi at the local billiards club or at the park, people watching and writing observational comedy for his (imaginary) Netflix special.",
+    ],
+    linkedIn: "https://www.linkedin.com/in/rishishankar/",
+  },
   8: {
+    author: "Sid",
+    description: ["https://iceage.fandom.com/wiki/Sid"],
+  },
+
+  9: {
+    author: "Haoxin Tao",
+    description: [
+      "MFA Design & Technology",
+      "Haoxin Tao is an interaction designer, currently pursuing an MFA in Design and Technology at Parsons School of Design in The New School. His art practice is driven by a passion for experimentation and a desire to push the boundaries of what is possible in the digital realm. As an interaction designer, he seeks to explore the intersection of technology and creativity, drawing on his background in product design and his expertise in programming, 3D modeling, and immersive technologies such as AR and VR. He attempts to create experiences that transport viewers to new worlds and invite them to become active participants in the creative process. He aims to challenge traditional design and explore new forms and mediums that speak to the possibilities of our digital age.",
+    ],
+  },
+
+  10: {
     author: "Joseph Wang",
     description: [
       "MFA Design & Technology",
@@ -75,7 +82,17 @@ const dict = {
     linkedIn: "https://www.linkedin.com/in/whyjoseph/",
   },
 
-  9: {
+  11: {
+    author: "Marshall Wang",
+    description: [
+      "MFA Design & Technology",
+      "Marshall Wang Meixuan is a multidisciplinary designer, a creative technologist and an eastern surrealist based in New York. She has a synthetic body of works that are embedded with warmth and feelings. Ranging from time-based media, moving images, experimental sounds and human computer interaction, her works integrate conceptual undercurrents of research, design and tangible experiences, combining the analogue and digital landscape. With a cross-media approach, Marshall creates a unique visual vocabulary and builds her own creative containers through interactive storytelling, aiming to locate the fidelity in the hyper-connected world.",
+    ],
+    portfolio: "https://www.empacymachine.com/",
+    linkedIn: "https://www.linkedin.com/in/marshall041/",
+  },
+
+  12: {
     author: "Johann Yamin",
     description: [
       "MA Media Studies",
@@ -84,31 +101,13 @@ const dict = {
     portfolio: "https://johannyamin.com/",
   },
 
-  10: {
+  13: {
     author: "Guanhao Zhu",
     description: [
       "MFA Design & Technology",
       "Guanhao is a creative technologist, interactive, and graphic designer, focusing on digital experiences, tangible media, and human-environmental interactions. He has experience in communication design, branding, publication, and the creation of interactive exhibitions, with a focus on creative usage of Artificial Intelligence and Machine Learning technologies.",
     ],
     portfolio: "https://guanhaozhu.com/",
-  },
-
-  11: {
-    author: "Haoxin Tao",
-    description: [
-      "MFA Design & Technology",
-      "Haoxin Tao is an interaction designer, currently pursuing an MFA in Design and Technology at Parsons School of Design in The New School. His art practice is driven by a passion for experimentation and a desire to push the boundaries of what is possible in the digital realm. As an interaction designer, he seeks to explore the intersection of technology and creativity, drawing on his background in product design and his expertise in programming, 3D modeling, and immersive technologies such as AR and VR. He attempts to create experiences that transport viewers to new worlds and invite them to become active participants in the creative process. He aims to challenge traditional design and explore new forms and mediums that speak to the possibilities of our digital age.",
-    ],
-  },
-
-  12: {
-    author: "Sid",
-    description: "https://iceage.fandom.com/wiki/Sid",
-  },
-
-  13: {
-    author: "Alvin Liu",
-    // description: "",
   },
 
   14: {
@@ -144,7 +143,11 @@ const dict = {
   17: {
     author: "MJ Gomez-Saavedra",
     role: "Technical Director",
-    description: ["MFA Design & Technology", " "],
+    description: [
+      "MFA Design & Technology",
+      "MJ is an Computer Scientist and Creative Technologist from San José, Costa Rica and based in New York City.",
+      "At her core, she holistically approaches everything she does through science, art, engineering and design. She holds a Bachelor’s of Science (B.S) in Computer Science from the University of North Carolina-Chapel Hill, and is currently pursuing her Master’s of Fine Arts (MFA) in Design and Technology at Parsons. To her, art is the mirror image of human creativity, and technology is a means to transform people’s lives. While not apparent, the union of tech and art creates an explosive combination. ",
+    ],
     portfolio: "https://www.mjgomez-saavedra.com/",
     linkedIn: "https://www.linkedin.com/in/mjgomsaav/",
   },

@@ -1,11 +1,8 @@
-body {
-    background-color: #FFF9EB;
-}
-
 #land-cont {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 11.31rem;
   }
 
   .text-cont {
@@ -35,6 +32,7 @@ body {
   }
 
   .text-cont p {
+    font-size: 1.35rem;
     width: 100%;
     box-sizing: border-box;
     padding-left:3.5rem; /* Adjust padding as needed */
