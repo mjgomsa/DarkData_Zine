@@ -3,6 +3,10 @@
   display: flex;
 }
 
+summary::-webkit-details-marker{
+  display: none;
+}
+
 .heroAbout {
   width: 100%;
 }
