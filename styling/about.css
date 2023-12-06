@@ -13,6 +13,7 @@ summary::-webkit-details-marker{
 
 .headerContent {
   display: flex;
+  padding-bottom: 4rem;
 }
 
 .abImgCont,
@@ -301,7 +302,7 @@ details > summary h3::before {
   line-height: 162.052%;
   /* padding-left: 1.56rem; */
   padding-right: 1.56rem;
-  padding-bottom: 8.78rem;
+  padding-bottom: 2rem;
 }
 
 .footerEnd p {
