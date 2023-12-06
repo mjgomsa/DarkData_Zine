@@ -241,7 +241,7 @@ i{
 }
 
 article h2 {
-    grid-column: 3 / span 12;
+    grid-column: 3 / span 8;
     font-size: 2.25em;
     padding-top: 1em;
 }
@@ -250,6 +250,7 @@ article h2 {
     font-size: 2.5em;
     grid-column: 1 /span 12;
     padding: 0;
+    width: 67vw;
 }
 
 a {
@@ -664,6 +665,7 @@ ul {
 
 .abstract {
     padding-top: 2.5em;
+    padding-bottom: 2em;
 }
 
 
@@ -789,7 +791,7 @@ ul {
     .line {
         height: 0.1vh;
         margin-left: 10vw;
-        padding-top: 2em;
+        padding-top: 0em;
         margin-right: 9vw;
         border-bottom: .075em solid #000000;
     }
@@ -1000,7 +1002,6 @@ ul {
     .line {
         height: 0.1vh;
         margin-left: 2vw;
-        padding-top: 2em;
         margin-right: 2vw;
         border-bottom: .075em solid #000000;
     }
