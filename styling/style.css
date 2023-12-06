@@ -136,6 +136,8 @@ header {
     border-bottom: .075em solid #000000;
     /* Add a 2px solid border at the bottom of the header */
 
+    padding-top: 1em;
+
 }
 
 #readnow {
@@ -794,7 +796,6 @@ ul {
     }
 
     header {
-
         border-bottom: none;
         /* Add a 2px solid border at the bottom of the header */
 
