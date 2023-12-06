@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Your Article Title</title>
-    <link rel="stylesheet" type="text/css" href="/styling/style.css">
+    <link rel="stylesheet" type="text/css" href="styling/style.css">
 
     <meta name="description" content="Your website description">
     <meta name="keywords" content="your, keywords, here, comma, seperated">

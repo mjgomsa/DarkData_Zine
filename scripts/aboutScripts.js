@@ -29,7 +29,9 @@ const dict = {
 
   4: {
     author: "Alvin Liu",
-    description: ["Posting under a pseudonym"],
+    description: [
+      "Alvin Liu, a design virtuoso and social media maven, hails from the bustling city of NeoMetropolis. Armed with a degree in Graphic Design from the Art & Innovation Institute, Alvin is renowned for blending minimalist elegance with bold innovation. A digital explorer at heart, Alvin's social media prowess extends from visually stunning Instagram feeds to captivating Twitter narratives. Beyond conventional design, Alvin pioneers interactive digital experiences, pushing the boundaries of art and technology. A community builder and workshop host, Alvin envisions a future where design and social media seamlessly intertwine, leaving an indelible mark on the evolving digital landscape. #DesignMaven #DigitalExplorer",
+    ],
   },
 
   5: {
