@@ -96,7 +96,7 @@ html {
     overflow-x: hidden;
     /* Add this line to prevent horizontal overflow */
     word-wrap: break-word;
-    background-color: rgba(255, 249, 235, 1);
+    background-color: #EFE6CD;
     cursor: crosshair;
 }
 
@@ -243,7 +243,7 @@ i{
 article h2 {
     grid-column: 3 / span 8;
     font-size: 2.25em;
-    padding-top: 1em;
+    padding-top: .5em;
 }
 
 .recommended-articles h2 {
@@ -266,7 +266,7 @@ main article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-left: 0em;
-    padding-bottom: 12em;
+    padding-bottom: 6em;
     padding-top: 4em;
 }
 
@@ -318,11 +318,12 @@ article .image-container {
 
 article p {
     padding-top: .25em;
+    padding-bottom: 1em;
 }
 
 article .quote {
     padding-top: 2.5em;
-    padding-bottom: 1em;
+    padding-bottom: 2.5em;
 }
 
 
@@ -333,7 +334,7 @@ article p {
 
 .quote {
     grid-column: 2 /span 10;
-    color: rgba(80, 255, 65, 1);
+    color: #48DF3B;
     margin: 0;
     padding: 0;
 }
@@ -446,7 +447,7 @@ ul {
 
 .Num {
     text-align: right;
-    color: rgba(80, 255, 65, 1);
+    color: #48DF3B;
 
 }
 
@@ -622,6 +623,13 @@ ul {
     padding-bottom: .5em;
 }
 
+.image-container video {
+    height: auto;
+    /* Set a maximum height for images */
+    width: 100%;
+    padding-bottom: .5em;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -701,7 +709,7 @@ ul {
     /* Full width of the viewport */
     max-width: 100%;
     /* Adjust to set the maximum width to the full viewport width */
-    background: rgba(80, 255, 65, 1);
+    background: #48DF3B;
     color: black;
     padding: 1em 5em 1em 5em;
     box-sizing: border-box;
@@ -909,13 +917,15 @@ ul {
 
 @media (max-aspect-ratio: .6) or (max-width:700px) {
 
+
+
     .recommended-articles {
         margin-left: 2em;
         margin-right: 1em;
     }
 
     main article {
-        padding-top: 1em;
+        padding-top: 5em;
         padding-left: 2em;
         padding-right: 2em;
     }
