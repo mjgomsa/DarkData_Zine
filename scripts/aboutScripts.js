@@ -148,7 +148,7 @@ const dict = {
     role: "Technical Director",
     description: [
       "MFA Design & Technology",
-      "MJ is an Computer Scientist and Creative Technologist from San José, Costa Rica and based in New York City.",
+      "MJ is a Computer Scientist and Creative Technologist from San José, Costa Rica and based in New York City.",
       "At her core, she holistically approaches everything she does through science, art, engineering and design. She holds a Bachelor’s of Science (B.S) in Computer Science from the University of North Carolina-Chapel Hill, and is currently pursuing her Master’s of Fine Arts (MFA) in Design and Technology at Parsons. To her, art is the mirror image of human creativity, and technology is a means to transform people’s lives. While not apparent, the union of tech and art creates an explosive combination. ",
     ],
     portfolio: "https://www.mjgomez-saavedra.com/",
