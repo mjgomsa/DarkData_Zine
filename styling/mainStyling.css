@@ -59,6 +59,8 @@ body {
 .topnav {
     overflow: hidden;
     background-color: transparent;
+    border-bottom: 1px solid black;
+  padding-bottom: 1.62rem;
   }
   
   .topnav a {
