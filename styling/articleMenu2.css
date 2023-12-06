@@ -95,7 +95,7 @@ body {
 }
 
 /* Media query for mobile */
-@media screen and (max-aspect-ratio: .7) {
+@media (max-aspect-ratio: .6) or (max-width:700px)  {
   #gallery {
     margin-top: -2.5rem;
     
