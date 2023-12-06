@@ -29,7 +29,7 @@ const dict = {
 
   4: {
     author: "Alvin Liu",
-    description: "Posting under a pseudonym",
+    description: ["Posting under a pseudonym"],
   },
 
   5: {
