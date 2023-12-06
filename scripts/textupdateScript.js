@@ -21,7 +21,7 @@ const dict = {
   },
   6: {
     title: "Are We Data Hoarders or Digital Librarians?",
-    author: "Marshall Wang",
+    author: "Marshall Wang Meixuan",
   },
   7: {
     title: "Sharing Your Heartbeat?",

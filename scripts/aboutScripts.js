@@ -85,7 +85,7 @@ const dict = {
   },
 
   11: {
-    author: "Marshall Wang",
+    author: "Marshall Wang Meixuan",
     description: [
       "MFA Design & Technology",
       "Marshall Wang Meixuan is a multidisciplinary designer, a creative technologist and an eastern surrealist based in New York. She has a synthetic body of works that are embedded with warmth and feelings. Ranging from time-based media, moving images, experimental sounds and human computer interaction, her works integrate conceptual undercurrents of research, design and tangible experiences, combining the analogue and digital landscape. With a cross-media approach, Marshall creates a unique visual vocabulary and builds her own creative containers through interactive storytelling, aiming to locate the fidelity in the hyper-connected world.",
