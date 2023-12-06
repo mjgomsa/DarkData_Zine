@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Unveiling AI layers</title>
-    <link rel="stylesheet" type="text/css" href="/styling/style.css">
+    <link rel="stylesheet" type="text/css" href="/styling/style.css" />
 
     <link rel="stylesheet" type="text/css" href="/styling/articleMenu2.css" />
+    <link rel="stylesheet" type="text/css" href="/styling/navStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- ADD THE TITLE OF YOUR ARTICLE -->
-    <meta property="og:title" content="Unveiling AI layers">
+    <meta property="og:title" content="Unveiling AI layers" />
 
     <!-- ONE OR TWO SENTENCES ABSTRACT -->
-    <meta property="og:description" content="Exploring the Intersection of AI, Infrastructure, and Hidden Realities
- ">
+    <meta
+      property="og:description"
+      content="Exploring the Intersection of AI, Infrastructure, and Hidden Realities
+ "
+    />
 
     <!-- 250 Character  ABSTRACT -->
-    <meta name="description" content="Exploring the Intersection of AI, Infrastructure, and Hidden Realities
- ">
+    <meta
+      name="description"
+      content="Exploring the Intersection of AI, Infrastructure, and Hidden Realities
+ "
+    />
 
     <!-- COMMA SEPERATED KEYWORDS -->
-    <meta name="keywords" content="your, keywords, here, comma, seperated">
+    <meta name="keywords" content="your, keywords, here, comma, seperated" />
 
     <!-- EDITORS - DO NOT CHANGE -->
-    <meta property="og:url" content="https://mfadt.parsons.edu/darkdata/202023/pages/articles/guanhao.html">
-    <meta property="og:image"
-        content="https://mfadt.parsons.edu/darkdata/202023/assets/articles/Article/Guan-HaoLG.png">
-    <meta property="og:type" content="Article">
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon">
-</head>
+    <meta
+      property="og:url"
+      content="https://mfadt.parsons.edu/darkdata/202023/pages/articles/guanhao.html"
+    />
+    <meta
+      property="og:image"
+      content="https://mfadt.parsons.edu/darkdata/202023/assets/articles/Article/Guan-HaoLG.png"
+    />
+    <meta property="og:type" content="Article" />
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <script src="../../scripts/articleScripts.js" defer></script>
 
     <script src="../../scripts/landingScripts.js" defer></script>
@@ -38,514 +53,683 @@
     <!-- <a href="/pages/articleMenu.html">
         <img id="readnow" src="/assets/landing/Star-grn.png" />
     </a> -->
+    <div class="topnav" id="myTopnav">
+      <a href="" class="home"> Dark Data 2023</a>
+      <a href="../about.html"
+        ><span class="star"
+          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
+        >About</a
+      >
+      <a href="../editors.html"
+        ><span class="star"
+          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
+        >Editor's Note</a
+      >
+      <a href="../../index.html" class="active"
+        ><span class="star"
+          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
+        >Articles</a
+      >
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
     <header>
-        <div class="header-content">
-            <div class="header-text">
-                <h1>Unveiling AI layers</h1>
-                <a href="../editors.html" class="box">
-                    <p> Guanhao Zhu</p>
-                </a>
-                <p class="abstract">
-                    Exploring the Intersection of AI, Infrastructure, and Hidden Realities
-                </p>
-
-            </div>
-            <div class="header-image guanhao">
-                <img class="mobile" src="../../assets/articles/Article/Guan-HaoLG.png" alt="Header Image">
-            </div>
+      <div class="header-content">
+        <div class="header-text">
+          <h1>Unveiling AI layers</h1>
+          <a href="../editors.html" class="box">
+            <p>Guanhao Zhu</p>
+          </a>
+          <p class="abstract">
+            Exploring the Intersection of AI, Infrastructure, and Hidden
+            Realities
+          </p>
         </div>
+        <div class="header-image guanhao">
+          <img
+            class="mobile"
+            src="../../assets/articles/Article/Guan-HaoLG.png"
+            alt="Header Image"
+          />
+        </div>
+      </div>
     </header>
-
 
     <div class="line show"></div>
     <main>
-        <article>
+      <article>
+        <!-- THIS IS A SINGLE PICTURE -->
+        <div class="image-container row1" onclick="toggleImgHover(this)">
+          <!-- CHANGE FILE NAME -->
+          <img
+            src="/assets/articles/guanhao/layers.gif"
+            alt="Image 1 Description"
+          />
+          <!-- CHANGE FILE NAME -->
+          <img
+            class="img-hover wide"
+            src="/assets/articles/guanhao/layers.gif"
+            alt="Image 1 Description"
+          />
+          <!-- CHANGE IMAGE DESCRIPTION -->
+        </div>
 
-            <!-- THIS IS A SINGLE PICTURE -->
-            <div class="image-container row1" onclick="toggleImgHover(this)">
-                <!-- CHANGE FILE NAME --> <img src="/assets/articles/guanhao/layers.gif" alt="Image 1 Description">
-                <!-- CHANGE FILE NAME --> <img class="img-hover wide" src="/assets/articles/guanhao/layers.gif"
-                    alt="Image 1 Description">
-                <!-- CHANGE IMAGE DESCRIPTION -->
-            </div>
+        <!-- THIS IS NORMAL TEXT -->
+        <p>
+          After the start of the fall semester, the schools reminded all
+          students that they had a duty to declare the use of AI in their
+          projects, and could only rely on such tools in a limited fashion. More
+          than that, AI-generated art cannot receive copyrights under U.S. law
 
-            <!-- THIS IS NORMAL TEXT -->
-            <p>After the start of the fall semester, the schools reminded all students that they had a duty to declare
-                the use of AI in their projects, and could only rely on such tools in a limited fashion. More than that,
-                AI-generated art cannot receive copyrights under U.S. law
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">1</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Brittain, B. (2023, August
+                21). AI-generated art cannot receive copyrights, US Court says.
+                Reuters.
+                https://www.reuters.com/legal/ai-generated-art-cannot-receive-copyrights-us-court-says-2023-08-21/
+              </span>
+            </span></sup
+          >
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Brittain, B. (2023, August 21). AI-generated art cannot
-                            receive copyrights, US Court says. Reuters.
-                            https://www.reuters.com/legal/ai-generated-art-cannot-receive-copyrights-us-court-says-2023-08-21/
-                        </span>
-                    </span></sup>
+          , which means creators are not able to claim ownership of AI work.
+          Students were undeterred, because the promulgation of the policy made
+          everyone more aware of the impact of AI tools, and led to more
+          discussions. In the campus environment, a great deal of courses,
+          creative works, and experiments have begun to cooperate with Machine
+          Learning (ML) models and Artificial Intelligence. Shirley Leung, a
+          creative technologist and interdisciplinary designer who focuses on
+          exploring social constructs through experiential design and
+          alternative forms of storytelling, teaches Materiality of Machine
+          Learning at The New School
 
-                , which means creators are not able to claim
-                ownership of AI work. Students were undeterred, because the promulgation of the policy made everyone
-                more aware of the impact of AI tools, and led to more discussions. In the campus environment, a great
-                deal of courses, creative works, and experiments have begun to cooperate with Machine Learning (ML)
-                models and Artificial Intelligence. Shirley Leung, a creative technologist and interdisciplinary
-                designer who focuses on exploring social constructs through experiential design and alternative forms of
-                storytelling, teaches Materiality of Machine Learning at The New School
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">2</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->https://courses.newschool.edu/courses/PSAM5600/15898/
+              </span>
+            </span></sup
+          >
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">2</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->https://courses.newschool.edu/courses/PSAM5600/15898/
-                        </span>
-                    </span></sup>
+          , She encourages the exploration of various platforms with AI
+          products, such as OpenAI, Midjourney. These AI tools serve
+          text-to-text, text-to-image, and image-to-video functions, which
+          arguably shift the creator’s main focus from handcrafting to ideation.
+          At the same time, the inability to see the process of creation when
+          using ML models has made the creative process somewhat of a black box.
+          Because generating content happens at the click of a button, giving
+          the process an easy and magical feel.
+        </p>
 
-                , She encourages the exploration
-                of various platforms with AI products, such as OpenAI, Midjourney. These AI tools serve text-to-text,
-                text-to-image, and image-to-video functions, which arguably shift the creator’s main focus from
-                handcrafting to ideation. At the same time, the inability to see the process of creation when using ML
-                models has made the creative process somewhat of a black box. Because generating content happens at the
-                click of a button, giving the process an easy and magical feel.
-            </p>
+        <!-- THIS IS A SINGLE PICTURE -->
+        <div class="image-container row1" onclick="toggleImgHover(this)">
+          <!-- CHANGE FILE NAME -->
+          <img
+            src="/assets/articles/guanhao/click.gif"
+            alt="Image 1 Description"
+          />
+          <!-- CHANGE FILE NAME -->
+          <img
+            class="img-hover wide"
+            src="/assets/articles/guanhao/click.gif"
+            alt="Image 1 Description"
+          />
+          <!-- CHANGE IMAGE DESCRIPTION -->
+        </div>
+        <!-- THIS IS A SUBHEADING -->
+        <h2>When AI becomes mundane</h2>
 
+        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+        <p>
+          There are two questions that pop up in my mind: When does AI become
+          mundane? and What would happen when AI becomes mundane. In every
+          click, people often overlook the fact that each action in the digital
+          network has a tangible impact on real life. I am intrigued by how each
+          click on the Internet intricately molds our physical environment.
+          Edwards’ emphasis on distributed forces within infrastructure prompts
+          a nuanced understanding of the intricate power dynamics inherent in
+          technological systems. Latour’s examination of seemingly mundane
+          artifacts expands this understanding, highlighting the societal
+          implications woven into everyday technologies. Additionally,
+          Crawford’s insightful perspective in 'The Atlas of AI' guides us to
+          contemplate the material and physical infrastructure essential for
+          training machine learning models, encouraging reflection on the
+          tangible resources and infrastructural demands embedded in AI
+          development. Collectively, these perspectives provide a comprehensive
+          lens through which we can better contextualize the impact when AI
+          becomes an everyday necessity, akin to water, electricity, and gas. To
+          delve into the practical aspects, I will use the hardware
+          requirements, cost, and time needed for personal training of models on
+          Google Colab as a reference. This will help explain the relationship
+          between this technology and the public.
+        </p>
 
-            <!-- THIS IS A SINGLE PICTURE -->
-            <div class="image-container row1" onclick="toggleImgHover(this)">
-                <!-- CHANGE FILE NAME --> <img src="/assets/articles/guanhao/click.gif" alt="Image 1 Description">
-                <!-- CHANGE FILE NAME --> <img class="img-hover wide" src="/assets/articles/guanhao/click.gif"
-                    alt="Image 1 Description">
-                <!-- CHANGE IMAGE DESCRIPTION -->
-            </div>
-            <!-- THIS IS A SUBHEADING -->
-            <h2>When AI becomes mundane</h2>
+        <!-- THIS IS A SUBHEADING -->
+        <h2>Where is the AI?</h2>
 
-            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-            <p>There are two questions that pop up in my mind: When does AI become mundane? and What would happen when
-                AI becomes mundane. In every click, people often overlook the fact that each action in the digital
-                network has a tangible impact on real life. I am intrigued by how each click on the Internet intricately
-                molds our physical environment. Edwards’ emphasis on distributed forces within infrastructure prompts a
-                nuanced understanding of the intricate power dynamics inherent in technological systems. Latour’s
-                examination of seemingly mundane artifacts expands this understanding, highlighting the societal
-                implications woven into everyday technologies. Additionally, Crawford’s insightful perspective in 'The
-                Atlas of AI' guides us to contemplate the material and physical infrastructure essential for training
-                machine learning models, encouraging reflection on the tangible resources and infrastructural demands
-                embedded in AI development. Collectively, these perspectives provide a comprehensive lens through which
-                we can better contextualize the impact when AI becomes an everyday necessity, akin to water,
-                electricity, and gas. To delve into the practical aspects, I will use the hardware requirements, cost,
-                and time needed for personal training of models on Google Colab as a reference. This will help explain
-                the relationship between this technology and the public.
-            </p>
+        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+        <p>
+          In order to evaluate the relationship between AI, physical
+          infrastructure, and the public, we must first define what an AI
+          infrastructure is. The truth is it’s almost impossible to simply
+          describe the relationship between Artificial Intelligence and physical
+          infrastructures. In 1996-97, the U.S. President’s Commission on
+          Critical Infrastructure Protection (PCCIP) chose transportation, water
+          supply, government services, electrical power, information,
+          communication, etc, as fundamental to its own definition of
+          infrastructure
 
-            <!-- THIS IS A SUBHEADING -->
-            <h2>Where is the AI?</h2>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">3</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Edwards, Paul N..
+                Infrastructure and Modernity: Force, Time, and Social
+                Organization in the History of Sociotechnical Systems. (2001):
+                3.
+              </span>
+            </span></sup
+          >
 
-            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-            <p>In order to evaluate the relationship between AI, physical infrastructure, and the public, we must first
-                define what an AI infrastructure is. The truth is it’s almost impossible to simply describe the
-                relationship between Artificial Intelligence and physical infrastructures. In 1996-97, the U.S.
-                President’s Commission on Critical Infrastructure Protection (PCCIP) chose transportation, water supply,
-                government services, electrical power, information, communication, etc, as fundamental to its own
-                definition of infrastructure
+          . Where does AI fit in this framework? The answer is everywhere. As
+          Crawford described “AI is born from salt lakes in Bolivia and mines in
+          Congo, constructed from crowd worker-labeled datasets that seek to
+          classify human actions, emotions, and identities.”
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">3</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Edwards, Paul N.. Infrastructure and Modernity: Force,
-                            Time, and Social Organization in the History of Sociotechnical Systems. (2001): 3.
-                        </span>
-                    </span></sup>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">4</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of
+                AI: Power, politics, and the planetary costs of Artificial
+                Intelligence: 33 Yale University Press.
+              </span>
+            </span></sup
+          >
 
-                . Where does AI fit in this framework? The answer is everywhere. As Crawford
-                described “AI is born from salt lakes in Bolivia and mines in Congo, constructed from crowd
-                worker-labeled datasets that seek to classify human actions, emotions, and identities.”
+          We can no longer regard Machine Learning as a single new tool
+          exclusive to one region or country under globalization. The emergence
+          of Artificial Intelligence is inevitable from a macro perspective of
+          the history of classical computation and telecommunication
+          development. Having shown that AI exists for versatile applications on
+          a global scale the way infrastructure does, we will now see how they
+          also share the same initial element: force.
+        </p>
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">4</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of AI: Power, politics, and
-                            the planetary costs of Artificial Intelligence: 33 Yale University Press.
-                        </span>
-                    </span></sup>
+        <!-- THIS IS A SUBHEADING -->
+        <h2>Who built the AI?</h2>
 
-                We can no longer
-                regard Machine Learning as a single new tool exclusive to one region or country under globalization. The
-                emergence of Artificial Intelligence is inevitable from a macro perspective of the history of classical
-                computation and telecommunication development. Having shown that AI exists for versatile applications on
-                a global scale the way infrastructure does, we will now see how they also share the same initial
-                element: force.
-            </p>
+        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+        <p>
+          When we think of AI, do we think of Alan Turing, Sam Altman, or Elon
+          Musk? Countless workers are engaged in the laborious task of labeling
+          for fine-tuning models. In Edwards’ framework, he considers
+          infrastructures on different scales of force, time, and social
+          organization, in the force sector, represents the powers of the human
+          body(at the low end) to geophysical(exploration of coal, oil, gas, and
+          geothermal energy resources)
 
-            <!-- THIS IS A SUBHEADING -->
-            <h2>Who built the AI?</h2>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">5</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Edwards, Paul N.
+                "Infrastructure and modernity: Force, time, and social
+                organization in the history of sociotechnical systems."
+                Modernity and technology 1 (2003): 185-226.
+              </span>
+            </span></sup
+          >
 
-            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-            <p>When we think of AI, do we think of Alan Turing, Sam Altman, or Elon Musk? Countless workers are engaged
-                in the laborious task of labeling for fine-tuning models. In Edwards’ framework, he considers
-                infrastructures on different scales of force, time, and social organization, in the force sector,
-                represents the powers of the human body(at the low end) to geophysical(exploration of coal, oil, gas,
-                and geothermal energy resources)
+          . It is easy to think of digital services and AI models as freeing
+          humans from physical labor. In reality, the opposite is true.
+          Artificial Intelligence is only made possible by a large workforce
+          working literally from the ground up, through mining, transportation,
+          engineering, and other operations. The vastness and freedom of the
+          digital space are an illusion. Each computing unit occupies a volume
+          in real life. The more we evolve into modernized societies, the more
+          we forget the relationship between built infrastructures, human labor,
+          and natural resources. Therefore, with the scale of “force” to frame,
+          we can dive deeper into the practical aspects like logistics and water
+          usage.
+          <br />
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">5</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Edwards, Paul N. "Infrastructure and modernity: Force,
-                            time, and social organization in the history of sociotechnical systems." Modernity and
-                            technology 1 (2003): 185-226.
-                        </span>
-                    </span></sup>
+          The status of logistics is closely linked to the technology industry.
+          In recent years, shipping vessels produced 3.1 percent of yearly
+          global carbon dioxide emissions, more than the total produced by
+          Germany
 
-                . It is easy to think of digital services and AI models as freeing
-                humans from physical labor. In reality, the opposite is true. Artificial Intelligence is only made
-                possible by a large workforce working literally from the ground up, through mining, transportation,
-                engineering, and other operations. The vastness and freedom of the digital space are an illusion. Each
-                computing unit occupies a volume in real life. The more we evolve into modernized societies, the more we
-                forget the relationship between built infrastructures, human labor, and natural resources. Therefore,
-                with the scale of “force” to frame, we can dive deeper into the practical aspects like logistics and
-                water usage.
-                <br>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">6</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->If shipping were a country,
+                it would be the world’s sixth-biggest greenhouse gas emitter.
+                World Economic Forum. (n.d.).
+                https://www.weforum.org/agenda/2018/04/if-shipping-were-a-country-it-would-be-the-world-s-sixth-biggest-greenhouse-gas-emitter
+              </span>
+            </span></sup
+          >
 
-                The status of logistics is closely linked to the technology industry. In recent years, shipping vessels
-                produced 3.1 percent of yearly global carbon dioxide emissions, more than the total produced by Germany
+          . In 2017, the capacity of container ships in the seaborne trade
+          reached nearly 250 million deadweight tons of cargo because it is a
+          cheaper solution for monitoring the vascular system of the global
+          factory
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">6</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->If shipping were a country, it would be the world’s
-                            sixth-biggest greenhouse gas emitter. World Economic Forum. (n.d.).
-                            https://www.weforum.org/agenda/2018/04/if-shipping-were-a-country-it-would-be-the-world-s-sixth-biggest-greenhouse-gas-emitter
-                        </span>
-                    </span></sup>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">7</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of
+                AI: Power, politics, and the planetary costs of Artificial
+                Intelligence: 47 Yale University Press.
+              </span>
+            </span></sup
+          >
 
-                .
-                In 2017, the capacity of container ships in the seaborne trade reached nearly 250 million deadweight
-                tons of cargo because it is a cheaper solution for monitoring the vascular system of the global factory
+          . By observing this data, we can see that the demand for the
+          infrastructure needed to build these AI services is continually
+          increasing. However, this demand is often overlooked, as these
+          facilities are typically constructed in suburban or uninhabited areas.
+          This system blurs the boundaries between physical and environmental
+          costs and digital services of AI infrastructure. Although it is
+          difficult to quantify how many resources are required to complete each
+          click online, what we can see is that as artificial intelligence
+          becomes more popular, our demand for logistical services will also
+          increase. The same situation can also be seen in the story of water.
+        </p>
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">7</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of AI: Power, politics, and
-                            the planetary costs of Artificial Intelligence: 47 Yale University Press.
-                        </span>
-                    </span></sup>
+        <!-- THIS IS A QUOTE -->
+        <div class="quote">
+          <h1>
+            “Water tells another story of computation’s true cost. The history
+            of water use in the United States is full of battles and secret
+            deals.”
+            <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          </h1>
+          <p class="inline">
+            <sup
+              ><span class="footnote"
+                ><a rel="noopener" href="#Bibliography">8</a>
+                <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+                <span class="footnote-content">
+                  <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas
+                  of AI: Power, politics, and the planetary costs of Artificial
+                  Intelligence: 44 Yale University Press.
+                </span>
+              </span></sup
+            >
+          </p>
+        </div>
 
-                .
-                By observing this data, we can see that the demand for the infrastructure needed to build these AI
-                services is continually increasing. However, this demand is often overlooked, as these facilities are
-                typically constructed in suburban or uninhabited areas. This system blurs the boundaries between
-                physical and environmental costs and digital services of AI infrastructure. Although it is difficult to
-                quantify how many resources are required to complete each click online, what we can see is that as
-                artificial intelligence becomes more popular, our demand for logistical services will also increase. The
-                same situation can also be seen in the story of water.
-            </p>
+        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+        <p>
+          Cooling systems play a significant role in the computing process. Data
+          centers usually need tons of water to cool them down, which is part of
+          the reason why these facilities are built in rural areas. Therefore,
+          gaining access to the usage data of water means one could map the web
+          weaving together tech giants, economics, and politics. Disappointedly,
+          and unfortunately, unsurprisingly, the National Security Agency (NSA)
+          refused to share their data, claiming it was a matter of national
+          security
+          <!-- THIS IS A QUOTE -->
 
-            <!-- THIS IS A QUOTE -->
-            <div class="quote">
-                <h1>“Water tells another story of computation’s true cost. The history of water use in the United States
-                    is full of battles and secret deals.”
-                    <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                    
-                </h1>
-                <p class="inline">
-                    <sup><span class="footnote"><a rel="noopener" href="#Bibliography">8</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of AI: Power, politics,
-                            and the planetary costs of Artificial Intelligence: 44 Yale University Press.
-                        </span>
-                    </span></sup>
-                </p>
-            </div>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">9</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of
+                AI: Power, politics, and the planetary costs of Artificial
+                Intelligence: 45 Yale University Press.
+              </span>
+            </span></sup
+          >
+          .
+        </p>
 
-            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-            <p>Cooling systems play a significant role in the computing process. Data centers usually need tons of water
-                to cool them down, which is part of the reason why these facilities are built in rural areas. Therefore,
-                gaining access to the usage data of water means one could map the web weaving together tech giants,
-                economics, and politics. Disappointedly, and unfortunately, unsurprisingly, the National Security Agency
-                (NSA) refused to share their data, claiming it was a matter of national security
-                <!-- THIS IS A QUOTE -->
+        <!-- THIS IS A SUBHEADING -->
+        <h2>Sitting back in front of my laptop</h2>
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">9</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Crawford, K. (2022). Atlas of AI: Power, politics,
-                            and the planetary costs of Artificial Intelligence: 45 Yale University Press.
-                        </span>
-                    </span></sup>
-                .
-            </p>
+        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+        <p>
+          In light of these challenges, I personally decided to take a step back
+          and embark on creating my own model. By attempting to calculate and
+          understand the intricate forces at play in AI development, I aim to
+          contribute to the broader conversation about the often unnoticed
+          elements that shape the AI landscape. This hands-on approach aligns
+          with Latour’s call to consider the various components, including
+          sourcing materials and labor, as integral to comprehending the full
+          scope of AI's existence.
+          <br />
+          I utilized Scotch-and-Soda, a Video Shadow Detection framework
+          developed by Lihao Liu. Regarding the need for computing power, my
+          option is to rent a graphics processing unit (GPU) on Google Colab.
+          The subscription fee for advanced GPU instances with 100 computing
+          units is $100 per month, and if you exceed 100 units, additional units
+          must be purchased. Regardless of the model being trained, using the
+          A100 GPU consumes 13.08 units per hour, resulting in an average cost
+          of $1.35 per hour. It raises the question: what tasks justify these
+          expenses? How much is allocated to maintaining and building data
+          centers, and how much goes to the cooling system? These costs do not
+          account for the time spent manually labeling images by laborers yet.
+        </p>
 
-            <!-- THIS IS A SUBHEADING -->
-            <h2>Sitting back in front of my laptop</h2>
+        <!-- THIS IS A SINGLE PICTURE -->
+        <div class="image-container row1" onclick="toggleImgHover(this)">
+          <!-- CHANGE FILE NAME -->
+          <img
+            src="/assets/articles/guanhao/piechart.gif"
+            alt="Image 1 Description"
+          />
+          <!-- CHANGE FILE NAME -->
+          <img
+            class="img-hover wide"
+            src="/assets/articles/guanhao/piechart.gif"
+            alt="Image 1 Description"
+          />
+          <!-- CHANGE IMAGE DESCRIPTION -->
+        </div>
 
-            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-            <p>In light of these challenges, I personally decided to take a step back and embark on creating my own
-                model. By attempting to calculate and understand the intricate forces at play in AI development, I aim
-                to contribute to the broader conversation about the often unnoticed elements that shape the AI
-                landscape. This hands-on approach aligns with Latour’s call to consider the various components,
-                including sourcing materials and labor, as integral to comprehending the full scope of AI's existence.
-                <br>
-                I utilized Scotch-and-Soda, a Video Shadow Detection framework developed by Lihao Liu. Regarding the
-                need for computing power, my option is to rent a graphics processing unit (GPU) on Google Colab. The
-                subscription fee for advanced GPU instances with 100 computing units is $100 per month, and if you
-                exceed 100 units, additional units must be purchased. Regardless of the model being trained, using the
-                A100 GPU consumes 13.08 units per hour, resulting in an average cost of $1.35 per hour. It raises the
-                question: what tasks justify these expenses? How much is allocated to maintaining and building data
-                centers, and how much goes to the cooling system? These costs do not account for the time spent manually
-                labeling images by laborers yet.
+        <!-- THIS IS A SUBHEADING -->
+        <h2>Conclusion</h2>
 
-            </p>
+        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+        <p>
+          Back in her New School classroom on a Wednesday night, Professor Leung
+          enthusiastically introduced commonly used AI models and platforms. She
+          mentioned that before 2019, people didn’t even know the capabilities
+          of artificial neural networks. When AlphaGo
 
-            <!-- THIS IS A SINGLE PICTURE -->
-            <div class="image-container row1" onclick="toggleImgHover(this)">
-                <!-- CHANGE FILE NAME --> <img src="/assets/articles/guanhao/piechart.gif" alt="Image 1 Description">
-                <!-- CHANGE FILE NAME --> <img class="img-hover wide" src="/assets/articles/guanhao/piechart.gif"
-                    alt="Image 1 Description">
-                <!-- CHANGE IMAGE DESCRIPTION -->
-            </div>
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">10</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->BBC. (2017, May 25). Google
+                AI defeats human go champion. BBC News.
+                https://www.bbc.com/news/technology-40042581
+              </span>
+            </span></sup
+          >
 
-            <!-- THIS IS A SUBHEADING -->
-            <h2>Conclusion</h2>
+          beat the professional Go player, Fan Hui, in 2015, the public started
+          noticing the potential of machine learning. Then OpenAI launched their
+          product ChatGPT (Generative Pre-trained Transformer) in 2020, and the
+          rest is history. Interestingly, this happened during the lockdown
+          period. Every Internet user around the world wanted to see what this
+          AI chatbot could do. Since then, panicked reports on the matter also
+          appeared in rapid succession, with one former Google software
+          engineer, Blake Lemoine, arguing that the AI model, LaMDA, that Google
+          was developing had its own consciousness
 
-            <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-            <p>Back in her New School classroom on a Wednesday night, Professor Leung enthusiastically introduced
-                commonly used AI models and platforms. She mentioned that before 2019, people didn’t even know the
-                capabilities of artificial neural networks. When AlphaGo
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+          <sup
+            ><span class="footnote"
+              ><a rel="noopener" href="#Bibliography">11</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Google Engineer Blake Lemoine
+                thinks its LAMDA AI ... - The Washington Post. (n.d.).
+                https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/
+              </span>
+            </span></sup
+          >
+          .
+          <br />
 
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">10</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->BBC. (2017, May 25). Google AI defeats human go champion.
-                            BBC News. https://www.bbc.com/news/technology-40042581
-                        </span>
-                    </span></sup>
-
-                beat the professional Go player, Fan Hui, in
-                2015, the public started noticing the potential of machine learning. Then OpenAI launched their product
-                ChatGPT (Generative Pre-trained Transformer) in 2020, and the rest is history. Interestingly, this
-                happened during the lockdown period. Every Internet user around the world wanted to see what this AI
-                chatbot could do. Since then, panicked reports on the matter also appeared in rapid succession, with one
-                former Google software engineer, Blake Lemoine, arguing that the AI model, LaMDA, that Google was
-                developing had its own consciousness
-
-                <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-                <sup><span class="footnote"><a rel="noopener" href="#Bibliography">11</a>
-                        <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                        <span class="footnote-content">
-                            <!-- USE CHICAGO CITATION STYLE -->Google Engineer Blake Lemoine thinks its LAMDA AI ... -
-                            The Washington Post. (n.d.).
-                            https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/
-                        </span>
-                    </span></sup>
-                .
-                <br>
-
-                Venturing from the initial curiosity about the impact of every click to traversing the pages of
-                Crawford’s book and finally, returning to the computer to train the model myself, the process unfolds as
-                a time-consuming and expensive endeavor. Yet, as the curtain pulled back, questions emerged. Are the
-                data running behind these AI platforms and are the resources they consume properly regulated? As AI
-                gradually becomes mundane, can we discern in the receipts how and where every penny is used, and what
-                impact it has on the environment? The conclusion invites reflection on the hidden costs, in financial,
-                infrastructural, and environmental, that accompany the integration of AI into our everyday lives. It
-                prompts us to consider the responsibility that comes with the normalization of AI and the imperative to
-                ensure transparency in its development and utilization.
-
-            </p>
-
-        </article>
+          Venturing from the initial curiosity about the impact of every click
+          to traversing the pages of Crawford’s book and finally, returning to
+          the computer to train the model myself, the process unfolds as a
+          time-consuming and expensive endeavor. Yet, as the curtain pulled
+          back, questions emerged. Are the data running behind these AI
+          platforms and are the resources they consume properly regulated? As AI
+          gradually becomes mundane, can we discern in the receipts how and
+          where every penny is used, and what impact it has on the environment?
+          The conclusion invites reflection on the hidden costs, in financial,
+          infrastructural, and environmental, that accompany the integration of
+          AI into our everyday lives. It prompts us to consider the
+          responsibility that comes with the normalization of AI and the
+          imperative to ensure transparency in its development and utilization.
+        </p>
+      </article>
     </main>
     <div class="line"></div>
     <article>
-        <div class="recommended-articles">
-            <h2>Read More on AI </h2>
-        </div>
-        <div class="hero is-fullheight">
-            <div class="gallery" id="gallery">
-
-                <a class="flip-card" href="../../pages/articles/johann.html">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="../../assets/landing/gallery/JohannSQ.png"
-                                alt="People standing in front of red and blue background.">
-                        </div>
-                        <div class="flip-card-back">
-                            <h1 id="dynamicTitle_9">The Decolonial Web?</h1>
-                            <h2 id="dynamicAuthor_9">Johann Yamin</h2>
-                        </div>
-                    </div>
-                </a>
-
-                <a class="flip-card" href="../../pages/articles/max.html">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="../../assets/landing/gallery/MaxSQ.png"
-                                alt="A man on top of a pole in a green poster.">
-                        </div>
-                        <div class="flip-card-back">
-                            <h1 id="dynamicTitle_6">Design Principles Can’t Control AI</h1>
-                            <h2 id="dynamicAuthor_6">Max Emrich</h2>
-                        </div>
-                    </div>
-                </a>
-
-
+      <div class="recommended-articles">
+        <h2>Read More on AI</h2>
+      </div>
+      <div class="hero is-fullheight">
+        <div class="gallery" id="gallery">
+          <a class="flip-card" href="../../pages/articles/johann.html">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="../../assets/landing/gallery/JohannSQ.png"
+                  alt="People standing in front of red and blue background."
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1 id="dynamicTitle_9">The Decolonial Web?</h1>
+                <h2 id="dynamicAuthor_9">Johann Yamin</h2>
+              </div>
             </div>
+          </a>
+
+          <a class="flip-card" href="../../pages/articles/max.html">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="../../assets/landing/gallery/MaxSQ.png"
+                  alt="A man on top of a pole in a green poster."
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1 id="dynamicTitle_6">Design Principles Can’t Control AI</h1>
+                <h2 id="dynamicAuthor_6">Max Emrich</h2>
+              </div>
+            </div>
+          </a>
         </div>
+      </div>
     </article>
     <footer>
-        <div class="Bibliography">
-            <a id="Bibliography"></a>
-            <h2>Bibliography </h2>
-            <div class="margin">
-                <ul class="columns" data-columns="2">
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>01</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+      <div class="Bibliography">
+        <a id="Bibliography"></a>
+        <h2>Bibliography</h2>
+        <div class="margin">
+          <ul class="columns" data-columns="2">
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>01</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Brittain, B. (2023, August 21). AI-generated art cannot receive copyrights, US Court
-                                says.</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            Reuters.
-                            https://www.reuters.com/legal/ai-generated-art-cannot-receive-copyrights-us-court-says-2023-08-21/
-                        </p>
-                    </li>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Brittain, B. (2023, August 21). AI-generated art cannot
+                  receive copyrights, US Court says.</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                Reuters.
+                https://www.reuters.com/legal/ai-generated-art-cannot-receive-copyrights-us-court-says-2023-08-21/
+              </p>
+            </li>
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>02</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>02</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            https://courses.newschool.edu/courses/PSAM5600/15898/
-                        </p>
-                    </li>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>https://courses.newschool.edu/courses/PSAM5600/15898/</p>
+            </li>
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>03</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>03</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Edwards, Paul N.. Infrastructure and Modernity: Force, Time, and Social Organization in
-                                the
-                                History of Sociotechnical Systems. (2001)</b>
-                            <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            : 3.
-                        </p>
-                    </li>
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>04</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Edwards, Paul N.. Infrastructure and Modernity: Force, Time,
+                  and Social Organization in the History of Sociotechnical
+                  Systems. (2001)</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                : 3.
+              </p>
+            </li>
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>04</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Crawford, K. (2022). Atlas of AI: Power, politics, and the planetary costs of Artificial
-                                Intelligence:</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            33 Yale University Press.
-                        </p>
-                    </li>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Crawford, K. (2022). Atlas of AI: Power, politics, and the
+                  planetary costs of Artificial Intelligence:</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                33 Yale University Press.
+              </p>
+            </li>
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>05</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>05</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Edwards, Paul N. "Infrastructure and modernity: Force, time, and social organization in
-                                the
-                                history of sociotechnical systems."</b>
-                            <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            Modernity and technology 1 (2003): 185-226.
-                        </p>
-                    </li>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Edwards, Paul N. "Infrastructure and modernity: Force, time,
+                  and social organization in the history of sociotechnical
+                  systems."</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                Modernity and technology 1 (2003): 185-226.
+              </p>
+            </li>
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>06</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>06</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>If shipping were a country, it would be the world’s sixth-biggest greenhouse gas
-                                emitter.</b>
-                            <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            World Economic Forum. (n.d.).
-                            https://www.weforum.org/agenda/2018/04/if-shipping-were-a-country-it-would-be-the-world-s-sixth-biggest-greenhouse-gas-emitter
-                        </p>
-                    </li>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >If shipping were a country, it would be the world’s
+                  sixth-biggest greenhouse gas emitter.</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                World Economic Forum. (n.d.).
+                https://www.weforum.org/agenda/2018/04/if-shipping-were-a-country-it-would-be-the-world-s-sixth-biggest-greenhouse-gas-emitter
+              </p>
+            </li>
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>07</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>07</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Crawford, K. (2022). Atlas of AI: Power, politics, and the planetary costs of Artificial
-                                Intelligence:</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            47 Yale University Press.
-                        </p>
-                    </li>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Crawford, K. (2022). Atlas of AI: Power, politics, and the
+                  planetary costs of Artificial Intelligence:</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                47 Yale University Press.
+              </p>
+            </li>
 
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>08</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>08</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Crawford, K. (2022). Atlas of AI: Power, politics, and the
+                  planetary costs of Artificial Intelligence:</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                44 Yale University Press.
+              </p>
+            </li>
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Crawford, K. (2022). Atlas of AI: Power, politics, and the planetary costs of Artificial
-                                Intelligence:</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            44 Yale University Press.
-                        </p>
-                    </li>
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>09</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>09</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b>
+                  Crawford, K. (2022). Atlas of AI: Power, politics, and the
+                  planetary costs of Artificial Intelligence:</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                45 Yale University Press.
+              </p>
+            </li>
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b> Crawford, K. (2022). Atlas of AI: Power, politics, and the planetary costs of Artificial
-                                Intelligence:</b> <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            45 Yale University Press.
-                        </p>
-                    </li>
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>10</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>10</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b>BBC. (2017, May 25). Google AI defeats human go champion.</b>
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                BBC News. https://www.bbc.com/news/technology-40042581
+              </p>
+            </li>
 
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>BBC. (2017, May 25). Google AI defeats human go champion.</b>
-                            <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            BBC News. https://www.bbc.com/news/technology-40042581
-                        </p>
-                    </li>
+            <!-- THIS IS A FOOTNOTE -->
+            <li class="Num">
+              <h1>11</h1>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
 
-                    <!-- THIS IS A FOOTNOTE -->
-                    <li class="Num">
-                        <h1>11</h1> <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-                        <!-- USE CHICAGO CITATION STYLE -->
-                        <p>
-                            <b>Google Engineer Blake Lemoine thinks its LAMDA AI ... - The Washington Post. (n.d.).</b>
-                            <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                            https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/
-                        </p>
-                    </li>
-
-                </ul>
-            </div>
+              <!-- USE CHICAGO CITATION STYLE -->
+              <p>
+                <b
+                  >Google Engineer Blake Lemoine thinks its LAMDA AI ... - The
+                  Washington Post. (n.d.).</b
+                >
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/
+              </p>
+            </li>
+          </ul>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
