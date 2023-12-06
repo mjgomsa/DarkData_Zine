@@ -17,8 +17,8 @@ body {
 
   .flip-card {
     perspective: 1000px;
-    width: 19vw;
-    height: 19vw;
+    width: 16rem;
+    height: 16rem;
     box-sizing: border-box;
     position: relative;
   }
@@ -51,9 +51,9 @@ body {
 
   .flip-card-back {
     border: 1px solid black;
-    padding-left: 1.26rem;
-    padding-right: 1.26rem;
-    padding-top: 1.26rem;
+    /* padding-left: 1.26rem;
+    padding-right: 1.26rem; */
+    /* padding-top: 1.26rem; */
     transform: rotateY(180deg);
   }
 
@@ -74,6 +74,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 2.125rem;
+    margin-top: 1.26rem;
+    margin-left: 1.26rem;
+    margin-right: 1.26rem;
   }
 
   .flip-card-back h2 {
@@ -84,6 +87,8 @@ body {
     font-weight: 400;
     line-height: 1.625rem;
     margin-top: .506rem;
+    margin-left: 1.26rem;
+    margin-right: 1.26rem;
   }
 
   /* Add additional tablet styles if needed */
