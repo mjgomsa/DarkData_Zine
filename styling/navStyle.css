@@ -112,7 +112,7 @@
 
   .topnav a {
 
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   .star {
@@ -120,5 +120,10 @@
     width: 2.3rem;
     height: 2.3rem;
 
+  }
+
+  .topnav a {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
   }
 }

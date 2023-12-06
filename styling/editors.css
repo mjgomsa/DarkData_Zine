@@ -58,7 +58,7 @@
         font-size: 3rem;
     
       }
-
+      
     .text-cont, .img-cont {
       flex: 1;
       max-width: 100%;
@@ -76,3 +76,18 @@
         padding-top: 3.56rem;
     }
   }
+
+  @media (max-aspect-ratio: .6) or (max-width:768px) {
+
+    .text-cont p {
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 1.5rem; /* Adjust padding as needed */
+      padding-right: 1.5rem; /* Adjust padding as needed */
+    }
+
+    .text-cont h1 {
+      padding-left: 1.5rem; /* Adjust padding as needed */
+      padding-right: 1.5rem; /* Adjust padding as needed */
+  }}
