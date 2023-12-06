@@ -719,7 +719,7 @@ ul {
     border-bottom: .075em solid #000000;
 }
 
-@media (min-aspect-ratio: 9/16) and (max-aspect-ratio: 2.5/2) {
+@media (orientation: portrait ) {
 
 
 
@@ -897,7 +897,7 @@ ul {
     }
 }
 
-@media (max-aspect-ratio: .6) {
+@media (max-aspect-ratio: .6) or (max-width:780px) {
 
     .recommended-articles {
         margin-left: 2em;
