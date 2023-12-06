@@ -61,19 +61,19 @@
 
 @font-face {
     font-family: 'BasementGrotesque';
-    src: url('/assets/fonts/BasementGrotesque-Black_v1.202.woff') format('woff');
+    src: url('../assets/fonts/BasementGrotesque-Black_v1.202.woff') format('woff');
     /* Replace with the actual path to your font file */
 }
 
 @font-face {
     font-family: 'SpaceGrotesk';
-    src: url('/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+    src: url('../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
     /* Replace with the actual path to your font file */
 }
 
 @font-face {
     font-family: 'Unibody8_Reg';
-    src: url('/assets/fonts/Unibody8_Reg.ttf') format('truetype');
+    src: url('../assets/fonts/Unibody8_Reg.ttf') format('truetype');
 }
 
 @font-face {
