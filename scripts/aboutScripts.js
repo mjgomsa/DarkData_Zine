@@ -113,13 +113,16 @@ const dict = {
   14: {
     author: "Juwon Lee",
     role: "Production Manager",
-    description: ["MFA Design & Technology", ""],
+    description: [
+      "MFA Design & Technology",
+      "Juwon is a designer, creative, and maker currently based in New York. She enjoys tackling projects that involve human-centered design thinking, vision, and a high degree of craft. By combining her precise design skills with a strong passion for making, she aims to delve deeper into the intersection of design and technology, particularly through creative coding, machine learning, interactive media, and data exploration.",
+    ],
     portfolio: "https://juwon-lee.com/",
     linkedIn: "https://www.linkedin.com/in/juwonleeee/",
   },
 
   15: {
-    author: "Anne-Isabelle de Bokay",
+    author: "Anne-Isabelle (Leo) de Bokay",
     role: "Editor / Art Director",
     description: [
       "MFA Design & Technology",
@@ -175,10 +178,31 @@ function makeAccordion(numberOfSections, startNum, parentDiv) {
 
     // Create the summary element with the specified content
     const summary = document.createElement("summary");
+
     if (dict[i].role) {
-      summary.innerHTML = dict[i].author + " <span>" + dict[i].role + "</span>";
+      const roleSpan = document.createElement("span");
+      roleSpan.textContent = dict[i].role;
+      roleSpan.id = "role";
+
+      const authorText = document.createElement("h3");
+      authorText.textContent = dict[i].author;
+
+      if (window.innerWidth <= 1200) {
+        // Mobile view: role first, then author
+        summary.textContent = ""; // Clear existing content
+        summary.appendChild(roleSpan);
+        summary.appendChild(authorText);
+      } else {
+        // Desktop view: author first, then role
+        summary.textContent = ""; // Clear existing content
+        summary.appendChild(authorText);
+        summary.appendChild(roleSpan);
+      }
     } else {
-      summary.innerHTML = dict[i].author;
+      const authorText = document.createElement("h3");
+      authorText.textContent = dict[i].author;
+      summary.textContent = ""; // Clear existing content
+      summary.appendChild(authorText);
     }
 
     // Create the paragraphs and set their content

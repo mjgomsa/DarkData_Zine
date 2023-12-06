@@ -1,204 +1,318 @@
+/* General styles */
+.bodyContent {
+  display: flex;
+}
 
-  .bodyContent {
-    display: flex;
-    /* height: 100vh;  */
-  }
-  .headerContent {
-    display: flex;
-  }
+.heroAbout {
+  width: 100%;
+}
 
-  .abImgCont, .abTextCont {
-    border: 1px solid blue; 
-    box-sizing: border-box;
-    width: 100%;
-  }
+.headerContent {
+  display: flex;
+}
 
-  .abTextCont {
-    width: 71.063rem;
-  }
+.abImgCont,
+.abTextCont {
+  /* border: 1px solid blue; */
+  box-sizing: border-box;
+  /* width: 100%; */
+}
 
-  .abImgCont {
-    flex: 1;
-  }
+.abTextCont {
+  width: 71.063rem;
+}
 
-  .abTextCont h5 {
-    color: var(--000000, #000);
+.abImgCont {
+  flex: 1;
+}
 
-/* W: Body */
-font-family: "SpaceGrot_Reg";
-font-size: 1.35rem;
-font-style: normal;
-font-weight: 400;
-line-height: 164%; /* 2.46rem */
-  }
+.abTextCont h5 {
+  color: var(--000000, #000);
+  font-family: "SpaceGrot_Reg";
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164%;
+}
 
- .abImgCont img {
+.abImgCont img {
   float: right;
   padding-right: 3.75rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1281px) {
   /* Adjust styles for smaller screens */
+  .abImgCont,
+  .abTextCont {
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .abImgCont img {
+    float: none;
+    padding-right: 0;
+    width: 22.1875rem;
+  }
+
+  .headerContent {
+    display: block;
+  }
+
   .abTextCont h5 {
     padding-right: 1rem;
+    font-size: 1rem;
   }
+
+  .abtFacultyTeam h1,
+.abEditorialCont h1,
+.abContributorsCont h1 {
+  font-size: 1.25rem !important;
+}
+.abtFacultyPerson h3 {
+  font-size: 1.125rem !important;
 }
 
- .abtFaculty {
-    display: flex;
-    /* background-color: red !important; */
-    height: fit-content;
-    margin-top: 7.72rem;
-    margin-bottom: 5.34rem;
- }
+  .abtFaculty {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 
- .abtFacultyTeam {
-    width: 15.9375rem;
-    height: 2.625rem;
- }
+  .abEditorialCont {
+    padding-bottom: 2rem;
+  }
+  .abtFacultyPerson {
+    margin-top: 0;
+  }
+  summary {
+    /* background-color: coral; */
+    font-size: 1.0rem !important;
+    flex-direction: column; 
+    /* line-height: 2rem !important; */
+    margin: 0;
+  }
 
- .abtFacultyTeam h1, .abEditorialCont h1, .abContributorsCont h1{
+  summary h3 {
+    font-size: 1rem !important;
+  }
+
+  summary span#role {
+    display: block; 
+    font-size: 0.875rem !important;
+    width: fit-content;
+    /* border: 1px solid white; */
+    padding-left: 2.063rem;
+    /* margin-top: 0.5rem;  */
+  }
+
+  details p{
+    font-size: 0.875rem !important;
+  }
+  .links a {
+    font-size: 0.68rem !important;
+  }
+
+  /* .footerEnd {
+    width: 88% ;
+  }
+
+  .footerEnd p{
+    padding: 0;
+    margin-left: -1.56rem !important;
+    margin-right: -1.56rem !important;
+  } */
+
+}
+
+.abtFaculty {
+  display: flex;
+  height: fit-content;
+  margin-top: 7.72rem;
+  margin-bottom: 5.34rem;
+  /* border: 1px solid red */
+}
+
+.abtFacultyTeam {
+  /* border: 1px solid aqua; */
+  /* width: 15.9375rem; */
+  width: 40%;
+  /* height: 2.625rem; */
+}
+
+.abtFacultyTeam h1{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 175%;
     color: #000;
     font-family: "BasementGrotesque";
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
- }
- .abEditorialCont h1, .abContributorsCont h1 {
-    margin-bottom: 2.19rem;
- }
-
- .abtFacultyPerson h3 {
-    color: #000;
-    font-family: "SpaceGrot_Reg";
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 175%; /* 2.625rem */
- }
-
- .abEditorialCont {
-    background-color: yellow;
-    padding-bottom: 7.5rem;
- }
-
- /* collapsable */
- details {
-    padding: 0.5em 0.5em 0;
-  }
-
-  details p, details .links {
-    /* background-color: red; */
-    padding-left: 2rem;
-  }
+    /* border: 1px solid magenta; */
+}
+.abEditorialCont h1,
+.abContributorsCont h1 {
+  color: #000;
+  font-family: "BasementGrotesque";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* border: 1px solid magenta; */
   
-  summary {
-    background-color: white;
-    border: 1px solid green;
-    font-family: "SpaceMono_Reg";
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height:4.375rem;
-    margin: -0.5em -0.5em 0;
-    /* padding: 0.5em; */
-    cursor: pointer; 
-    list-style: none; 
-    position: relative;
-    vertical-align: auto;
-  }
-  
-  details[open] {
-    /* padding: 0.5em; */
-    /* background-color: aqua; */
-    padding-bottom: 2.38rem;
-  }
-  
-  details[open] summary {
-    margin-bottom: 0.5em;
-    /* background-color: red;; */
-  }
+}
 
-  details > summary {
-    display: flex;
-    align-items: last baseline;
-    vertical-align:baseline;
-  }
-  
-/* Custom image for open state */
-details[open] > summary::before {
+.abEditorialCont h1,
+.abContributorsCont h1 {
+  margin-bottom: 2.19rem;
+}
+
+.abtFacultyPerson h3 {
+  color: #000;
+  font-family: "SpaceGrot_Reg";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+  text-align: center;
+  /* border: 1px solid orange; */
+}
+
+.abEditorialCont {
+  /* background-color: yellow; */
+  padding-bottom: 7.5rem;
+}
+
+details {
+  padding: 0.5em 0.5em 0;
+}
+
+details p,
+details .links {
+  padding-left: 2rem;
+}
+
+details p {
+  font-size: 1.2rem;
+}
+
+summary {
+  /* background-color: white; */
+  /* border: 1px solid green; */
+  font-family: "SpaceMono_Reg";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 4.375rem; */
+  /* margin: -0.5em -0.5em 0; */
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  vertical-align: auto;
+  margin-bottom: 1.75rem;
+}
+
+summary h3{
+  /* color: red; */
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+
+details[open] {
+  padding-bottom: 2.38rem;
+}
+
+details[open] summary {
+  margin-bottom: 0.5em;
+}
+
+details > summary {
+  display: flex;
+  align-items: last baseline;
+  vertical-align: baseline;
+}
+
+details[open] > summary h3::before {
   content: url(../assets/landing/open.png);
   padding-right: 1rem;
   width: 1rem;
 }
 
-/* Custom image for closed state */
-details > summary::before {
+details > summary h3::before {
   content: url(../assets/landing/closed.png);
   padding-right: 1rem;
   width: 1rem;
 }
 
-/* Hide the default arrow in Safari */
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
-    /* Target Safari specifically */
     details > summary::-webkit-details-marker {
       display: none;
     }
   }
 }
-  
-  .links {
-    display: flex;
-  }
-  
-  .links a {
-    margin-top:1.13rem;
-    margin-right: 1.56rem;
-    color: var(--9070FF, #9070FF);
-    font-family: "SpaceGrot_Reg";
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 162.052%; /* 1.41794rem */
-    text-decoration-line: underline;
-  }
 
-  span {
-    color: var(--7C7C7C, #7C7C7C);
-    font-family: 'SpaceGrot_Reg';
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.875rem; /* 166.667% */
-    margin-left: 3.75rem;
-  }
-  
-  .footerEnd {
-    width: 100%;
-    height: 1.8125rem;
-    flex-shrink: 0;
-    color: var(--000000, #000);
-    font-family: "SpaceMono_Reg";
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 162.052%;
-    padding-left: 1.56rem;
-    padding-right: 1.56rem;
-    padding-bottom: 8.78rem;
-  }
+.links {
+  display: flex;
+}
 
-  .footerEnd p {
-    border-top: 1px solid black;
-    color: var(--000000, #000);
-    font-family: "SpaceMono_Reg";
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 162.052%;
-    margin-left: 1.56rem;
-    margin-right: 1.56rem;
-  }
+.links a {
+  margin-top: 1.13rem;
+  margin-right: 1.56rem;
+  color: var(--9070FF, #9070FF);
+  font-family: "SpaceGrot_Reg";
+  font-size: 1.005rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.052%;
+  text-decoration-line: underline;
+}
+
+#role {
+  /* border: 1px solid red; */
+  color: var(--7C7C7C, #7C7C7C);
+  width: 70%;
+  /* font-family: 'SpaceGrot_Reg'; */
+  font-size: 1.2rem;
+  /* font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-left: 3.75rem; */
+}
+
+.footerEnd {
+  width: 100%;
+  height: 1.8125rem;
+  flex-shrink: 0;
+  color: var(--000000, #000);
+  font-family: "SpaceMono_Reg";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.052%;
+  /* padding-left: 1.56rem; */
+  padding-right: 1.56rem;
+  padding-bottom: 8.78rem;
+}
+
+.footerEnd p {
+  border-top: 1px solid black;
+  color: var(--000000, #000);
+  font-family: "SpaceMono_Reg";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.052%;
+  margin-left: 1.56rem;
+  margin-right: 1.56rem;
+}
+
+.collapsableSection{
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
