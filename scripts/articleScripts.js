@@ -1,3 +1,4 @@
+
 function toggleImgHover(clickedElement) {
   var imgHoverClicked = clickedElement.querySelector(".img-hover");
 
@@ -19,6 +20,27 @@ function toggleImgHover(clickedElement) {
     // Toggle on for the clicked container
     imgHoverClicked.classList.add("active");
     createOverlay();
+
+    // Add a click event listener to the document to handle clicks outside of .image-container
+    document.addEventListener("click", documentClickHandler);
+  }
+
+  // Function to handle clicks on the document
+  function documentClickHandler(event) {
+    // Check if the clicked element is not inside an .image-container
+    if (!event.target.closest(".image-container")) {
+      // Remove 'active' class from all img-hover elements
+      imageContainers.forEach(function (container) {
+        var imgHover = container.querySelector(".img-hover");
+        imgHover.classList.remove("active");
+      });
+
+      // Remove overlay
+      removeOverlay();
+
+      // Remove the click event listener from the document
+      document.removeEventListener("click", documentClickHandler);
+    }
   }
 }
 

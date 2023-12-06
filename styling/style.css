@@ -8,7 +8,7 @@
 
 
 .gracia {
-    background-image: url('../assets/articles/Article/gracia_replace.png');
+    background-image: url('../assets/articles/Article/GraciaLG2.png');
 }
 
 .guanhao {
@@ -24,7 +24,7 @@
 }
 
 .marshall {
-    background-image: url('../assets/articles/Article/NO-MarshalLG.png');
+    background-image: url('../assets/articles/Article/Fixedmarshall.png');
 }
 
 .max {
@@ -32,7 +32,7 @@
 }
 
 .rebecca {
-    background-image: url('../assets/articles/Article/rebecca_replace.png');
+    background-image: url('../assets/articles/Article/RebeccaArticle.png');
 }
 
 .rishi {
@@ -197,7 +197,7 @@ article h3{
     padding-left: 0;
     margin-left: 0;
     margin-top: 1.5em;
-    margin-bottom: 0;
+    margin-bottom: .25em;
 }
 
 h4 {
@@ -266,8 +266,8 @@ main article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-left: 0em;
-    padding-bottom: 3.5em;
-    padding-top: 2em;
+    padding-bottom: 12em;
+    padding-top: 4em;
 }
 
 
@@ -317,7 +317,7 @@ article .image-container {
 }
 
 article p {
-    padding-top: 1.5em;
+    padding-top: .25em;
 }
 
 article .quote {
@@ -378,7 +378,6 @@ footer {
 
 .Bibliography {
     padding-top: 1em;
-    border-bottom: .075em solid #000000;
     padding-bottom: 5em;
 }
 
@@ -550,6 +549,12 @@ ul {
 .header-text h1 {
     padding-top: 1.8em;
     margin-bottom: .5em;
+    line-height: 1.3;
+}
+
+.header-text h2 {
+    line-height: 1.5;
+    margin-top: -.5em;
 }
 
 .header-image {
@@ -724,6 +729,9 @@ ul {
 @media (orientation: portrait ) {
 
 
+    main article {
+        padding-bottom: 8em;
+    }
 
     #remove {
         display: none;
@@ -899,7 +907,7 @@ ul {
     }
 }
 
-@media (max-aspect-ratio: .6) or (max-width:780px) {
+@media (max-aspect-ratio: .6) or (max-width:700px) {
 
     .recommended-articles {
         margin-left: 2em;
