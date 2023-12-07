@@ -3,7 +3,7 @@
   display: flex;
 }
 
-summary::-webkit-details-marker{
+summary::-webkit-details-marker {
   display: none;
 }
 
@@ -46,6 +46,7 @@ summary::-webkit-details-marker{
 }
 
 @media screen and (max-width: 1281px) {
+
   /* Adjust styles for smaller screens */
   .abImgCont,
   .abTextCont {
@@ -70,13 +71,14 @@ summary::-webkit-details-marker{
   }
 
   .abtFacultyTeam h1,
-.abEditorialCont h1,
-.abContributorsCont h1 {
-  font-size: 1.25rem !important;
-}
-.abtFacultyPerson h3 {
-  font-size: 1.125rem !important;
-}
+  .abEditorialCont h1,
+  .abContributorsCont h1 {
+    font-size: 1.25rem !important;
+  }
+
+  .abtFacultyPerson h3 {
+    font-size: 1.125rem !important;
+  }
 
   .abtFaculty {
     margin-top: 1rem;
@@ -86,13 +88,15 @@ summary::-webkit-details-marker{
   .abEditorialCont {
     padding-bottom: 2rem;
   }
+
   .abtFacultyPerson {
     margin-top: 0;
   }
+
   summary {
     /* background-color: coral; */
     font-size: 1.0rem !important;
-    flex-direction: column; 
+    flex-direction: column;
     /* line-height: 2rem !important; */
     margin: 0;
   }
@@ -102,7 +106,7 @@ summary::-webkit-details-marker{
   }
 
   summary span#role {
-    display: block; 
+    display: block;
     font-size: 0.875rem !important;
     width: fit-content;
     /* border: 1px solid white; */
@@ -110,9 +114,10 @@ summary::-webkit-details-marker{
     /* margin-top: 0.5rem;  */
   }
 
-  details p{
+  details p {
     font-size: 0.875rem !important;
   }
+
   .links a {
     font-size: 0.68rem !important;
   }
@@ -144,21 +149,22 @@ summary::-webkit-details-marker{
   /* height: 2.625rem; */
 }
 
-.abtFacultyTeam h1{
+.abtFacultyTeam h1 {
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    line-height: 175%;
-    color: #000;
-    font-family: "BasementGrotesque";
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    /* border: 1px solid magenta; */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 175%;
+  color: #000;
+  font-family: "BasementGrotesque";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* border: 1px solid magenta; */
 }
+
 .abEditorialCont h1,
 .abContributorsCont h1 {
   color: #000;
@@ -168,7 +174,7 @@ summary::-webkit-details-marker{
   font-weight: 800;
   line-height: normal;
   /* border: 1px solid magenta; */
-  
+
 }
 
 .abEditorialCont h1,
@@ -221,7 +227,7 @@ summary {
   margin-bottom: 1.75rem;
 }
 
-summary h3{
+summary h3 {
   /* color: red; */
   font-size: 1.5rem;
   width: 100%;
@@ -236,19 +242,19 @@ details[open] summary {
   margin-bottom: 0.5em;
 }
 
-details > summary {
+details>summary {
   display: flex;
   align-items: last baseline;
   vertical-align: baseline;
 }
 
-details[open] > summary h3::before {
+details[open]>summary h3::before {
   content: url(../assets/landing/open.png);
   padding-right: 1rem;
   width: 1rem;
 }
 
-details > summary h3::before {
+details>summary h3::before {
   content: url(../assets/landing/closed.png);
   padding-right: 1rem;
   width: 1rem;
@@ -256,7 +262,7 @@ details > summary h3::before {
 
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
-    details > summary::-webkit-details-marker {
+    details>summary::-webkit-details-marker {
       display: none;
     }
   }
@@ -317,7 +323,23 @@ details > summary h3::before {
   margin-right: 1.56rem;
 }
 
-.collapsableSection{
+.collapsableSection {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
+}
+
+@media (max-aspect-ratio: .6) or (max-width:768px) {
+
+  .footerEnd p {
+
+    font-size: .8rem;
+
+  }
+  .footerEnd p {
+
+   padding-top: .8rem;
+   padding-bottom: .8rem;
+
+  }
+
 }
