@@ -40,7 +40,7 @@ const dict = {
     author: "Sid",
   },
   11: {
-    title: "Unveiling AI layers",
+    title: "Unveiling AI Layers",
     author: "Guanhao Zhu",
   },
   12: {
