@@ -1,1497 +1,1264 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>
-      The Decolonial Web? On Colonial Infrastructure and Reclaiming Data
-    </title>
-    <link rel="stylesheet" type="text/css" href="../../styling/style.css" />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../styling/articleMenu2.css"
-    />
-    <link rel="stylesheet" type="text/css" href="../../styling/navStyle.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    The Decolonial Web? On Colonial Infrastructure and Reclaiming Data
+  </title>
+  <link rel="stylesheet" type="text/css" href="../../styling/style.css" />
 
-    <!-- ADD THE TITLE OF YOUR ARTICLE -->
-    <meta
-      property="og:title"
-      content="The Decolonial Web? On Colonial Infrastructure and Reclaiming Data"
-    />
+  <link rel="stylesheet" type="text/css" href="../../styling/articleMenu2.css" />
+  <link rel="stylesheet" type="text/css" href="../../styling/navStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!-- ONE OR TWO SENTENCES ABSTRACT -->
-    <meta
-      property="og:description"
-      content="Analyzing data extraction and the history of the internet through the lens of decolonial theory, this article explores tactics for a decolonial web through a case study of the Migrant Death Map."
-    />
+  <!-- ADD THE TITLE OF YOUR ARTICLE -->
+  <meta property="og:title" content="The Decolonial Web? On Colonial Infrastructure and Reclaiming Data" />
 
-    <!-- ONE OR TWO SENTENCES ABSTRACT -->
-    <meta
-      name="description"
-      content="Analyzing data extraction and the history of the internet through the lens of decolonial theory, this article explores tactics for a decolonial web through a case study of the Migrant Death Map."
-    />
+  <!-- ONE OR TWO SENTENCES ABSTRACT -->
+  <meta property="og:description"
+    content="Analyzing data extraction and the history of the internet through the lens of decolonial theory, this article explores tactics for a decolonial web through a case study of the Migrant Death Map." />
 
-    <!-- COMMA SEPERATED KEYWORDS -->
-    <meta
-      name="keywords"
-      content="colonialism, decolonial, infrastructure, internet, migrant, labor, technocolonialism"
-    />
+  <!-- ONE OR TWO SENTENCES ABSTRACT -->
+  <meta name="description"
+    content="Analyzing data extraction and the history of the internet through the lens of decolonial theory, this article explores tactics for a decolonial web through a case study of the Migrant Death Map." />
 
-    <!-- EDITORS - DO NOT CHANGE -->
-    <meta
-      property="og:url"
-      content="https://mfadt.parsons.edu/darkdata/2023/pages/articles/johann.html"
-    />
-    <meta
-      property="og:image"
-      content="https://mfadt.parsons.edu/darkdata/2023/assets/articles/Article/JohannLG.png"
-    />
-    <meta property="og:type" content="Article" />
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
-  </head>
+  <!-- COMMA SEPERATED KEYWORDS -->
+  <meta name="keywords"
+    content="colonialism, decolonial, infrastructure, internet, migrant, labor, technocolonialism" />
 
-  <body>
-    <script src="../../scripts/articleScripts.js" defer></script>
+  <!-- EDITORS - DO NOT CHANGE -->
+  <meta property="og:url" content="https://mfadt.parsons.edu/darkdata/2023/pages/articles/johann.html" />
+  <meta name="twitter:image" content="https://mfadt.parsons.edu/darkdata/2023/assets/landing/gallery/JohannSQ-mobile.png">
+  <meta property="og:image" content="https://mfadt.parsons.edu/darkdata/2023/assets/articles/Article/JohannLG.png" />
+  <meta property="og:type" content="Article" />
+  <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+</head>
 
-    <script src="../../scripts/landingScripts.js" defer></script>
-    <script src="../../scripts/textupdateScript.js" defer></script>
-    <!-- <a href="pages/articleMenu.html">
+<body>
+  <script src="../../scripts/articleScripts.js" defer></script>
+
+  <script src="../../scripts/landingScripts.js" defer></script>
+  <script src="../../scripts/textupdateScript.js" defer></script>
+  <!-- <a href="pages/articleMenu.html">
         <img id="readnow" src="/assets/landing/Star-grn.png" />
     </a> -->
-    <div class="topnav" id="myTopnav">
-      <a href="../../index.html" class="home"> Dark Data 2023</a>
-      <a href="../about.html"
-        ><span class="star"
-          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
-        >About</a
-      >
-      <a href="../editors.html"
-        ><span class="star"
-          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
-        >Editor's Note</a
-      >
-      <a href="../../index.html" class="active"
-        ><span class="star"
-          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
-        >Articles</a
-      >
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+  <div class="topnav" id="myTopnav">
+    <a href="../../index.html" class="home"> Dark Data 2023</a>
+    <a href="../about.html"><span class="star"><img src="../../assets/landing/Star-blk.png"
+          alt="Star" /></span>About</a>
+    <a href="../editors.html"><span class="star"><img src="../../assets/landing/Star-blk.png"
+          alt="Star" /></span>Editor's Note</a>
+    <a href="../../index.html" class="active"><span class="star"><img src="../../assets/landing/Star-blk.png"
+          alt="Star" /></span>Articles</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <header>
+    <div class="header-content">
+      <div class="header-text">
+        <h1>The Decolonial Web?</h1>
+        <h2>On Colonial Infrastructure and Reclaiming Data</h2>
+        <a href="../about.html" class="box">
+          <p>Johann Yamin</p>
+        </a>
+        <p class="abstract">
+          Analyzing data extraction and the history of the internet through
+          the lens of decolonial theory, this article explores tactics for a
+          decolonial web through a case study of the Migrant Death Map.
+        </p>
+      </div>
+      <div class="header-image johann">
+        <img class="mobile" src="../../assets/articles/Article/JohannLG.png" alt="Header Image" />
+      </div>
     </div>
+  </header>
 
-    <header>
-      <div class="header-content">
-        <div class="header-text">
-          <h1>The Decolonial Web?</h1>
-          <h2>On Colonial Infrastructure and Reclaiming Data</h2>
-          <a href="../about.html" class="box">
-            <p>Johann Yamin</p>
-          </a>
-          <p class="abstract">
-            Analyzing data extraction and the history of the internet through
-            the lens of decolonial theory, this article explores tactics for a
-            decolonial web through a case study of the Migrant Death Map.
-          </p>
-        </div>
-        <div class="header-image johann">
-          <img
-            class="mobile"
-            src="../../assets/articles/Article/JohannLG.png"
-            alt="Header Image"
-          />
-        </div>
-      </div>
-    </header>
-
-    <div class="line show"></div>
-    <main>
-      <article>
-        <p>
-          Beginning with Walter Mignolo and Madina Tlostanova’s assertion that
-          “[t]he modern foundation of knowledge is territorial and imperial,”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">1</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Walter D. Mignolo and Madina
-                V. Tlostanova, “Theorizing from the Borders: Shifting to Geo-
-                and Body-Politics of Knowledge,”
-                <i>European Journal of Social Theory</i> 9, no. 2 (2006): 205.
-              </span>
-            </span></sup
-          >
-          this essay examines a select moment in the historical development of
-          the internet through the lens of coloniality. It continues by
-          speculating on the possible means through which we arrive at a
-          decolonial internet, where the internet may instead be used to disrupt
-          logics of extraction and subjugation. The notion of colonialism might
-          initially seem distant from present-day discussions about the
-          internet, particularly when understood as “a practice of domination
-          involving the subjugation of one people by another through military,
-          economic and political means.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">2</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Walter D. Mignolo and
-                Catherine E. Walsh,
-                <i>On Decoloniality: Concepts, Analytics, Praxis</i> (Durham,
-                NC: Duke University Press), 116.
-              </span>
-            </span></sup
-          >
-          This is especially so in today’s context, with the independence of
-          postcolonial states being well-established.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">3</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Mirca Madianou,
-                “Technocolonialism: Digital Innovation and Data Practices in the
-                Humanitarian Response to Refugee Crises,”
-                <i>Social Media + Society</i> (July–September 2019): 2.
-              </span>
-            </span></sup
-          >
-          However, this essay operates with the understanding that colonial
-          inequalities continue to persist and evolve for the contemporary
-          moment.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">4</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Madianou, 2.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          Following Aníbal Quijano’s notion of the coloniality of power, it may
-          be understood that the subjugation of colonized communities takes
-          place beyond direct colonial rule.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">5</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->See Aníbal Quijano,
-                “Coloniality of Power and Eurocentrism in Latin America,”
-                <i>International Sociology</i> 15 (2000): 215–232.
-              </span>
-            </span></sup
-          >
-          It endures today through the dominance of Euro-American perspectives
-          in knowledge systems, systemic racial and ethnic discrimination, and
-          the pervasive reach of global capitalism, for instance.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">6</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Madianou,
-                “Technocolonialism,” 2.
-              </span>
-            </span></sup
-          >
-          This finds connections in the seminal work of Ann Stoler on
-          contemporary global inequalities, which are the “refashioned and
-          sometimes opaque reworkings […] of colonial histories.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">7</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Ann L. Stoler,
-                <i>Duress: Imperial Durabilities in our Times</i> (Durham, NC:
-                Duke University Press, 2016), 5, as quoted in Madianou, 2.
-              </span>
-            </span></sup
-          >
-          Colonialism’s extraction of resources underpins global capitalism, and
-          “extractivism” extends beyond just material resources, including
-          processes such as data mining.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">8</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->See Sandro Mezzadra and Brett
-                Neilson, “On the Multiple Frontiers of Extraction: Excavating
-                Contemporary Capitalism,” <i>Cultural Studies</i> 31, no. 2–3
-                (2017): 185–204.
-              </span>
-            </span></sup
-          >
-          It is through this nexus between data, extraction, and online
-          platforms that the internet is entangled with the coloniality of
-          power.
-        </p>
-        <p>
-          In speculating on a decolonial internet, the case study emerges from
-          the postcolonial context of Singapore, an island-city state that is a
-          highly connected node within broader transnational fiber optic cable
-          networks for the internet, while simultaneously complicit in
-          extractive uses of material resources and labor in Asia.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">9</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->See, for instance, Joshua
-                Comaroff, "Built on Sand: Singapore and the New State of Risk,"
-                <i>Harvard Design Magazine</i>, Fall/Winter 2014,
-                https://www.harvarddesignmagazine.org/articles/built-on-sand-singapore-and-the-new-state-of-risk/
-                and Ben Westcott and Katie Hunt, “Most Singapore Foreign
-                Domestic Workers Exploited, Survey Says,” <i>CNN</i>, December
-                4, 2017,
-                https://www.cnn.com/2017/11/28/asia/singapore-domestic-helpers-maids/index.html.
-              </span>
-            </span></sup
-          >
-          The internet often carries assumptions of being a global information
-          infrastructure that confers political agency in its ability to
-          ‘democratize’ flows of information, affording greater political
-          participation through its decentering of central sources for media
-          messages. Yet, computationally-constructed harms are an inextricable
-          feature of contemporary dysfunction, with the internet and its
-          facilitation of data extraction deeply enmeshed within destructive
-          processes of surveillance capitalism, algorithmically-augmented
-          inequities, and the persistence of colonial logics.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">10</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->See Shoshana Zuboff,
-                <i
-                  >The Age of Surveillance Capitalism: The Fight for a Human
-                  Future at the New Frontier of Power</i
-                >
-                (New York: PublicAffairs, 2019); Safiya Umoja Noble,
-                <i
-                  >Algorithms of Oppression: How Search Engines Reinforce
-                  Racism</i
-                >
-                (New York: NYU Press, 2018); Cathy O’Neil,
-                <i
-                  >Weapons of Math Destruction: How Big Data Increases
-                  Inequality and Threatens Democracy</i
-                >
-                (New York: Crown, 2016); Arun Kundnani and Deepa Kumar, “Race,
-                Surveillance, and Empire,”
-                <i>International Socialist Review</i> 96, no. 5 (2015): 18–44.
-              </span>
-            </span></sup
-          >
-          To begin contending with these problems, this essay starts with the
-          foundational rhetorics from which the present-day internet was
-          developed. These examples will be examined to reveal assumptions of
-          universalizing infrastructure and underlying developmental conceptions
-          of ‘civilization.’ With such histories of technology often finding
-          their origins in the United States and Europe, this essay invokes
-          Brian Larkin in his desire “to discover where their insights have
-          force and where their analytical assumptions turn out to be socially
-          specific rather than universal to a technology.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">11</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Brian Larkin,
-                <i
-                  >Signal and Noise: Media, Infrastructure, and Urban Culture in
-                  Nigeria (Durham, NC; London: Duke University Press, 2008),
-                  15.</i
-                >
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          This essay operates in three parts. Firstly, it begins with a close
-          reading of a scene from the 1972 documentary
-          <i>Computer Networks: The Heralds of Resource Sharing</i>, which
-          features the perspectives of computer scientists and engineers
-          directly involved in the development of ARPANET. By analyzing this
-          documentary scene by way of the art-historical reference it makes, we
-          examine underlying ideals underpinning the ARPANET. Secondly, by
-          examining the rhetoric of “resource sharing” for the network as
-          universalizing civilizational technology, the essay threads through
-          different ways in which the logics of coloniality underlie the
-          internet. Lastly, through contemporary examples of web-based projects
-          that seek to disrupt neocolonial logics, the essay considers how
-          decolonial practices may emerge online, and possibilities for a
-          decolonial web that refuses the extractive uses of data and
-          reconfigures data as method for contending with the
-          <i>problems to be addressed</i>.
-        </p>
-
-        <!-- THIS IS A SUBHEADING -->
-        <h2>Heralds of Resource Sharing</h2>
-        <p>
-          In 1965, while working for ARPA, computer scientist Robert Taylor
-          initiated the funding of advanced research in computing at major
-          universities and corporate research centers across the US.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">12</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Sergio Rajsbaum and Michel
-                Raynal, “60 Years of Mastering Concurrent Computing through
-                Sequential Thinking,” <i>ACM SIGACT News</i> 51, no. 2 (2020):
-                65.
-              </span>
-            </span></sup
-          >
-          Often considered the technological precursor laying the technical
-          foundations for the present-day internet, the ARPANET emerged from the
-          activities of the Advanced Research Projects Agency (ARPA) of the
-          United States Department of Defense. The notion of “resource sharing”
-          is articulated as the driving force behind Taylor’s development of
-          ARPANET.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">13</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Rajsbaum and Raynal, 65.
-              </span>
-            </span></sup
-          >
-          Here, “resource sharing” referred not only to dissemination of data
-          over a network, but also served as a technical term referencing
-          time-sharing practices as a method to optimize multiple users’ sharing
-          of a computer.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">14</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Rajsbaum and Raynal, 65. For
-                a technical definition of resource sharing, see also Michael A.
-                Padlipsky, “A Perspective on the ARPANET Reference Model (RFC
-                871),” <i>IETF</i>, September 1982. “By ‘resource sharing’ we
-                mean the potential ability for programs on each of the Hosts to
-                interoperate with programs on the other Hosts and for data
-                housed on each of the Hosts to be made available to the other
-                Hosts in a more general and flexible fashion.”
-              </span>
-            </span></sup
-          >
-          The term aptly appears in the title of the 1972 documentary focusing
-          on the development of ARPANET,
-          <i>Computer Networks: The Heralds of Resource Sharing</i>. Originally
-          produced to demonstrate the ARPANET’s workings and capabilities for
-          the First International Conference of Computer Communications held in
-          Washington, D.C. in October 1972, the documentary was not completed in
-          time,
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">15</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Andrew L. Russell,
-                <i
-                  >Open Standards and the Digital Age: History, Ideology, and
-                  Networks</i
-                >
-                (Cambridge University Press, 2014).
-              </span>
-            </span></sup
-          >
-          but has since resurfaced online on the Internet Archive.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">16</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Peter Chvany, director.
-                <i>Computer Networks: The Heralds of Resource Sharing</i>, 1972,
-                1:39 to 2:20. Retrieved from
-                https://archive.org/details/ComputerNetworks_TheHeraldsOfResourceSharing.
-              </span>
-            </span></sup
-          >
-          The short film features internet pioneers such as Larry Roberts, Bob
-          Kahn, and J.C.R. Licklider provides technical explanations of how the
-          ARPANET functions.
-        </p>
-        <p>
-          Within the documentary, American engineer Lawrence G. Roberts speaks
-          of computer networks as a universalizing infrastructure: Working at
-          ARPA, Roberts asserts the necessity of a network like ARPANET in the
-          dissemination of information, a form of resource sharing that leads to
-          the formation of an advanced ‘civilization.’ Roberts identifies the
-          issue of “small civilizations or small cities trying to develop
-          separately and not having any way of sharing what they’ve learnt with
-          other groups.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">17</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Chvany, 1:39 to 2:20.
-              </span>
-            </span></sup
-          >
-          He claims that “if that continues to happen, they don’t have a
-          civilization.” Roberts argues that “the necessity was to provide a
-          mechanism so that what was learned one place could be transferred
-          effectively and directly to other places without re-doing it all and
-          learning it all over again at each place.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">18</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Chvany, 1:39 to 2:20.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          Within this framework of information infrastructure, the dissemination
-          of knowledge is entwined with the very foundation of ‘civilization.’
-          This follows a developmental logic: For one to develop as a
-          ‘civilization,’ one must follow a predetermined trajectory towards a
-          singular model of civilization often based on existing knowledge and
-          structures of power. Even more striking is the image used in the
-          documentary during this explanation: During Roberts’ interview, the
-          documentary cuts away to the image of an engraving of
-          <i>William Penn’s Treaty with the Indians</i>, based on the 1771–72
-          oil painting by Benjamin West. As Roberts’ voiceover is delivered, the
-          viewer sees close-ups of the engraving, their eyes guided across
-          details of this image that depicts the meeting between William Penn
-          and members of the Lenni Lenape tribe at Shackamaxon on the Delaware
-          River.
-        </p>
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row1" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/johann/1_penn.jpeg"
-            alt="John Hall, William Penn’s Treaty with the Indians, 1755"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/johann/1_penn.jpeg"
-            alt="John Hall, William Penn’s Treaty with the Indians, 1755"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>
-            John Hall, <i>William Penn’s Treaty with the Indians</i>, 1775,
-            Engraving, 48.4 × 62.1 cm, After a painting by Benjamin West. Image
-            retrieved from
-            http://ds.haverford.edu/penn-treaty-elm/objects/west/.
-          </figcaption>
-        </div>
-        <p>
-          West’s painting assumes canonical status in American popular culture,
-          finding its presence in the pages of high school history textbooks to
-          illustrate the nobility of Penn in his power to effect peaceful
-          relations between Europeans and Native Americans.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">19</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Beth Fowkes Tobin, "Native
-                Land and Foreign Desires: William Penn’s Treaty with the
-                Indians" in
-                <i
-                  >Picturing Imperial Power: Colonial Subjects in
-                  Eighteenth-century British Painting</i
-                >
-                (Durham, NC: Duke University Press, 1999), 56.
-              </span>
-            </span></sup
-          >
-          Through the portrayal of Penn and his associates in the act of
-          bestowing gifts to the Lenape people, the image presents colonization
-          as a benign and benevolent gesture that disguises political and
-          economic power as advanced moral sensibility.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">20</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tobin, 56.
-              </span>
-            </span></sup
-          >
-          Central to the image is a bolt of cloth, the gift being exchanged for
-          land, with the viewer’s eye then moving out towards the arc of Lenape
-          people crouching around Penn, with light falling upon them in their
-          feathered headdresses, beaded accessories, and elaborate clothing. Set
-          up as a visual counterpoint to the Lenape people are Penn and the
-          Quakers, portrayed somberly in darker tones. Here, they connote a
-          rational and moral counterpoint as individuals led by radical
-          Christian beliefs to peacefully negotiate exchange.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">21</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tobin, 62.
-              </span>
-            </span></sup
-          >
-          Penn’s outstretched hand not only emphasizes the gift exchanged with
-          the Lenape people for land, but further signifies the creation of the
-          colony and economic opportunity created for colonists in generations
-          to come.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">22</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tobin, 64.
-              </span>
-            </span></sup
-          >
-        </p>
-        <!-- THIS IS A SUBHEADING -->
-        <h2>Digital Colonialisms</h2>
-        <p>
-          While initially created to convey Penn’s highly developed moral
-          sensibility, and by extension, the right to ownership over the land,
-          the image is now critiqued for obscuring and excusing of later acts of
-          betrayal enacted upon Indigenous people, after the Lenape were forced
-          out of traditional homelands due to illegal colonial settlements.
-          Instead of a magnanimous exchange, Penn’s ability to ensure peaceful
-          relations must be seen in relation to the implicit threat of violence
-          that suffused the European colonization of America.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">23</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tobin, 62.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          Through data dissemination’s entwinement with an image of colonial
-          expansion and exploitation, the ARPANET’s development is imbued with
-          troubling notions of a universalizing infrastructure that follows a
-          developmental conception of ‘civilization.’ In this sense, it is
-          ‘universalizing’ as a system that moves towards negating differences
-          across contexts, with aims of achieving a singular vision of an
-          often-Western notion of modernity that is assumed to be more advanced,
-          and thus universally beneficial. When seen in relation to the idea of
-          “resource sharing” through the ARPANET, the dissemination of data
-          cannot be seen as a benevolent exchange. Rather, it foregrounds ideas
-          about information infrastructure as a ‘civilizing’ tactic that
-          operates over existing inequities. It is here that “resource sharing”
-          and computer networks are imbued with a colonial dimension. Such a
-          relationship between data, the internet, and coloniality that has been
-          noted by artists, activists, and academics.
-        </p>
-        <p>
-          The artist Keith Obadike points out the “odd Euro colonialist
-          narrative that exists on the web […] there are browsers called
-          Explorer and Navigator that take you to explore the Amazon or trade in
-          the ebay. It’s all just too blatant to ignore.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">24</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Simone Browne,
-                <i>Dark Matters: On the Surveillance of Blackness</i> (Durham:
-                Duke University Press, 2015), 106.
-              </span>
-            </span></sup
-          >
-          While colonial dimensions of the internet may function on this
-          semiotic level, the relationship between information technologies and
-          colonial processes of extraction and cultural displacement have also
-          been analyzed in relation to broader political realities. This has
-          previously been articulated across time through terms such as data
-          colonialism, digital colonialism, cyber colonialism, and
-          technocolonialism.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">25</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->See Jim Thatcher, David
-                O’Sullivan, and Dillon Mahmoudi, “Data Colonialism through
-                Accumulation by Dispossession: New Metaphors for Daily Data,”
-                <i>Environment and Planning D: Society and Space</i> 34, no. 6
-                (2016): 990–1006; Michael Kwet, “Digital Colonialism: US Empire
-                and the New Imperialism in the Global South,”
-                <i>Race and Class</i> 60, no. 4 (2019): 3–26; Thomas L. McPhail;
-                Pinar Tuzcu, “Decoding the Cybaltern: Cybercolonialism and
-                Postcolonial Intellectuals in the Digital Age,”
-                <i>Postcolonial Studies</i> 24, no. 4 (2021): 514–527.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          In 2016, Jim Thatcher, David O’Sullivan, and Dillon Mahmoudi critiqued
-          the excitement around ‘big data,’ arguing that the extraction and
-          collection of personal data was “a form of capitalist expropriation
-          and dispossession.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">26</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Thatcher, O’Sullivan, and
-                Mahmoudi, “Data Colonialism through Accumulation by
-                Dispossession,” 990–991.
-              </span>
-            </span></sup
-          >
-          They proposed the term “data colonialism” as a means of articulating
-          the asymmetry of data capture by big tech companies such as Facebook.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">27</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Thatcher, O’Sullivan, and
-                Mahmoudi, 990–991.
-              </span>
-            </span></sup
-          >
-          Similarly, using South Africa as a case study, Michael Kwet proposed
-          in 2019 that the United States re-asserts coloniality in the Global
-          South by dominating the use of digital technology, enacting “digital
-          colonialism” in exercising the imperial control of software, hardware,
-          and network connectivity.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">28</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Kwet, “Digital Colonialism,”
-                3.
-              </span>
-            </span></sup
-          >
-          The term “digital colonialism” was previously invoked during
-          discussions in 2017 about Facebook’s Free Basics, the platform’s free
-          and limited internet service for markets predominantly in the Global
-          South. Ellery Biddle, advocacy director of Global Voices, argues that:
-        </p>
-        <!-- THIS IS A QUOTE -->
-        <div class="quote">
-          <h1>
-            “Facebook is not introducing people to open internet where you can
-            learn, create and build things [...]. It’s building this little web
-            that turns the user into a mostly passive consumer of mostly western
-            corporate content. That’s digital colonialism.”
-            <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          </h1>
-          <p class="inline">
-            <sup
-              ><span class="footnote"
-                ><a rel="noopener" href="#Bibliography">29</a>
-                <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-                <span class="footnote-content">
-                  <!-- USE CHICAGO CITATION STYLE -->Olivia Solon, “‘It’s
-                  Digital Colonialism’: How Facebook’s Free Internet Service Has
-                  Failed Its Users,” <i>The Guardian</i>, July 27, 2017.
-                </span>
-              </span></sup
-            >
-          </p>
-        </div>
-        <p>
-          Meanwhile, in Pinar Tuzcu’s analysis of the 2018 Cambridge Analytica
-          data scandal, “cybercolonialism” is used to describe how knowledge
-          production in the digital age creates new colonial relations.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">30</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tuzcu, “Decoding the
-                Cybaltern,” 514–527.
-              </span>
-            </span></sup
-          >
-        </p>
-        <!-- THIS IS A SUBHEADING -->
-        <h2>A Decolonial Web? Migrant Death Map as Case Study</h2>
-        <p>
-          Terms such as “digital colonialism” foreground the internet’s ability
-          to facilitate resource extraction or exploitative labor practices
-          enacted under global capitalism, emphasizing that information
-          infrastructures are ultimately able to reproduce the coloniality of
-          power by exacerbating existing inequities. In this sense, “resource
-          sharing” as an ideal is conceived on uneven topographies, and while
-          conceived as being beneficial to communities, ends up privileging
-          existing structures of power. Given the continued manifestation of
-          colonial logics through the internet, this essay re-centers decolonial
-          studies in the desire to engage with possible practices in addressing
-          the colonial dimensions of the internet. Here, the decolonial approach
-          serves as an “instrument for transforming the world by transforming
-          the way people see it, feel it and act in it.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">31</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Madina V. Tlostanova and
-                Walter D. Mignolo, “Global Coloniality and the Decolonial
-                Option,” Special Issue, <i>Kult</i> 6 (2009): 131.
-              </span>
-            </span></sup
-          >
-          Rather than identifying “the object or objects to be studied,” the
-          decolonial option places emphasis on the “<i
-            >problems to be addressed</i
-          >.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">32</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tlostanova and Mignolo, 131.
-              </span>
-            </span></sup
-          >
-          These <i>problems</i> emerge from what Mignolo and Tlostanova identify
-          as the “modern/colonial matrix of power,” with coloniality both an
-          historical and extant force that persists and underlies the very
-          conceptions of modernity.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">33</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Tlostanova and Mignolo,
-                131–132.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          The essay turns to the context of Singapore, a highly-networked city
-          enmeshed in the global politics of contemporary data flows. As a
-          wealthy postcolonial nation that is simultaneously complicit in
-          extractive uses of resources and labor from neighboring contexts in
-          Southeast Asia, East Asia, and South Asia, examples of online
-          data-based projects like the Migrant Death Map offer examples in using
-          data for contending with extractivist or neocolonial logics.
-        </p>
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row1" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/johann/2_migrant.png"
-            alt="Screenshot of the Migrant Death Map website"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/johann/2_migrant.png"
-            alt="Screenshot of the Migrant Death Map website"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>
-            Screenshot of the Migrant Death Map website, retrieved from
-            https://migrantdeathmap.sg.
-          </figcaption>
-        </div>
-        <p>
-          The Migrant Death Map is an activist website that aims to analyze
-          “precarity, violence, and disregard for migrant life in Singapore.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">34</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->“Migrant Worker Death Map,”
-                Migrant Death Map, 2022, https://www.migrantdeathmap.sg.
-              </span>
-            </span></sup
-          >
-          Harnessing publicly available reports about the hundreds of deaths of
-          migrant workers in Singapore from January 2000 to August 2022, the
-          site collates usually occluded or dispersed data about migrant deaths
-          in newspapers and reports, highlighting the lack of easily available
-          government data on migrant worker deaths.
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">35</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->See “List of Demands,”
-                Migrant Death Map, 2022,
-                https://www.migrantdeathmap.sg/list-of-demands. “Current and
-                readily available datasets are very limited, often aggregated at
-                levels that are too general to enable detailed meaningful
-                analysis, or lacking in scale and comprehensiveness.”
-              </span>
-            </span></sup
-          >
-          The Migrant Death Map team collaborated with digital storytelling firm
-          Kontinentalist to visualize the large amounts of collected data on a
-          geographical map of the country, pinpointing sites of reported
-          incidents as color-coded nodes. By transmuting these reports into
-          easily accessible data in the visual form, the project is careful to
-          assert that “migrant workers are more than data points,”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">36</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->“Migrant Workers are More
-                Than Data Points,” Migrant Death Map, 2022,
-                https://www.migrantdeathmap.sg/morethandata.
-              </span>
-            </span></sup
-          >
-          illuminating the interior world of migrant workers through video
-          interviews that are also published on the website.
-        </p>
-        <p>
-          The website lists the key issues that migrant workers face, spanning
-          abuse and unsafe workplaces, presenting a list of demands proposing
-          possible solutions. For instance, on the issue of data transparency
-          surrounding migrant deaths and accidents, the Migrant Death Map team
-          makes demands for publicly available data points on incidents,
-          requesting for specific information such as names, nationalities,
-          ages, industries, worksites, penalties issued, compensation received,
-          and follow-up actions.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">37</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->“List of Demands,” Migrant
-                Death Map, 2022, https://www.migrantdeathmap.sg/list-of-demands.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          The Migrant Death Map is reflexive of its use of familiar colonial
-          tools such as the archive and the map, but resists their limitations
-          and expands such tactics in deploying them as a long-form multimedia
-          piece to build what the team describes as an “alternative archive of
-          stories and experiences that have not been verified or validated by
-          news media.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">38</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->“Note from our Team,” Migrant
-                Death Map, 2022,
-                https://www.migrantdeathmap.sg/note-from-our-team.
-              </span>
-            </span></sup
-          >
-          The Migrant Death Map’s tactics may be seen as an instance of
-          “counter-cartography,” a practice emerging from multiple traditions
-          from the arts, academia, and political activism.
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">39</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Severin Halder and Boris
-                Michel,
-                <i
-                  >This Is Not an Atlas: A Global Collection of
-                  Counter-Cartographies</i
-                >
-                (Verlag, Bielefeld: transcript, 2018), 13.
-              </span>
-            </span></sup
-          >
-          Described as “a political practice of mapping back,”
-          counter-cartography melds mapping practices with theoretical critique.
-          In the context of the Migrant Death Map, it is through the painstaking
-          collection of obscured data and the re-acknowledgement of the meanings
-          that have been hidden that the lives of migrant workers are mapped and
-          made tangible again, in spite of the lack of government support or
-          biased reporting from state-controlled media. To invoke Catherine
-          D’Ignazio and Lauren F. Klein in Data Feminism, this is a
-          counter-cartographical practice that maps and creates space for an
-          attunement to the “bodies uncounted, undercounted, silenced.”
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">40</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->Catherine D’Ignazio and
-                Lauren F. Klein, <i>Data Feminism</i> (Cambridge, MA: MIT Press,
-                2020), 21.
-              </span>
-            </span></sup
-          >
-        </p>
-        <p>
-          The case study of the Migrant Death Map demonstrates several tactics
-          for possible routes towards decoloniality through the internet. In the
-          disruption of extractivist logics towards labor, the first tactic
-          involves the seeking out and reclaiming of occluded data, of the
-          information missing from datasets, and making such silences legible
-          once more. The second observable tactic is the use of a longform and
-          multimedia approach, one that complicates the colonial possibilities
-          of the map and the archive. By fleshing out the internal lives of
-          migrant workers through audiovisual material, the Migrant Death Map
-          resists the reduction of human life to data points. Lastly, the tactic
-          of clear, actionable demands based on the careful parsing of data
-          ensures identifiable pathways towards justice for migrant workers.
-        </p>
-        <p>
-          In this manner, the Migrant Death Map enacts a vision of a decolonial
-          web through its repurposing of data, its emphasis on the
-          <i>problems to be addressed</i>, and its strategic disruption of
-          logics of extraction through web-based platforms. If the modern
-          foundation of knowledge is territorial and imperial,
-          counter-cartography posits the tactics for refashioning these
-          territories into spaces wherein the silenced are made tangible one
-          more. While these practices do not contend with the full injustices
-          enacted, facilitated, and exacerbated by the uneven topographies of
-          the internet, they provide us tactics for envisioning a decolonial
-          internet and reclaiming data.
-        </p>
-      </article>
-    </main>
-    <div class="line"></div>
+  <div class="line show"></div>
+  <main>
     <article>
-      <div class="recommended-articles">
-        <h2>Read More on Digital Power Imbalances or Ethics in Tech</h2>
+      <p>
+        Beginning with Walter Mignolo and Madina Tlostanova’s assertion that
+        “[t]he modern foundation of knowledge is territorial and imperial,”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Walter D. Mignolo and Madina
+              V. Tlostanova, “Theorizing from the Borders: Shifting to Geo-
+              and Body-Politics of Knowledge,”
+              <i>European Journal of Social Theory</i> 9, no. 2 (2006): 205.
+            </span>
+          </span></sup>
+        this essay examines a select moment in the historical development of
+        the internet through the lens of coloniality. It continues by
+        speculating on the possible means through which we arrive at a
+        decolonial internet, where the internet may instead be used to disrupt
+        logics of extraction and subjugation. The notion of colonialism might
+        initially seem distant from present-day discussions about the
+        internet, particularly when understood as “a practice of domination
+        involving the subjugation of one people by another through military,
+        economic and political means.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">2</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Walter D. Mignolo and
+              Catherine E. Walsh,
+              <i>On Decoloniality: Concepts, Analytics, Praxis</i> (Durham,
+              NC: Duke University Press), 116.
+            </span>
+          </span></sup>
+        This is especially so in today’s context, with the independence of
+        postcolonial states being well-established.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">3</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Mirca Madianou,
+              “Technocolonialism: Digital Innovation and Data Practices in the
+              Humanitarian Response to Refugee Crises,”
+              <i>Social Media + Society</i> (July–September 2019): 2.
+            </span>
+          </span></sup>
+        However, this essay operates with the understanding that colonial
+        inequalities continue to persist and evolve for the contemporary
+        moment.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">4</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Madianou, 2.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        Following Aníbal Quijano’s notion of the coloniality of power, it may
+        be understood that the subjugation of colonized communities takes
+        place beyond direct colonial rule.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">5</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->See Aníbal Quijano,
+              “Coloniality of Power and Eurocentrism in Latin America,”
+              <i>International Sociology</i> 15 (2000): 215–232.
+            </span>
+          </span></sup>
+        It endures today through the dominance of Euro-American perspectives
+        in knowledge systems, systemic racial and ethnic discrimination, and
+        the pervasive reach of global capitalism, for instance.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">6</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Madianou,
+              “Technocolonialism,” 2.
+            </span>
+          </span></sup>
+        This finds connections in the seminal work of Ann Stoler on
+        contemporary global inequalities, which are the “refashioned and
+        sometimes opaque reworkings […] of colonial histories.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">7</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Ann L. Stoler,
+              <i>Duress: Imperial Durabilities in our Times</i> (Durham, NC:
+              Duke University Press, 2016), 5, as quoted in Madianou, 2.
+            </span>
+          </span></sup>
+        Colonialism’s extraction of resources underpins global capitalism, and
+        “extractivism” extends beyond just material resources, including
+        processes such as data mining.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">8</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->See Sandro Mezzadra and Brett
+              Neilson, “On the Multiple Frontiers of Extraction: Excavating
+              Contemporary Capitalism,” <i>Cultural Studies</i> 31, no. 2–3
+              (2017): 185–204.
+            </span>
+          </span></sup>
+        It is through this nexus between data, extraction, and online
+        platforms that the internet is entangled with the coloniality of
+        power.
+      </p>
+      <p>
+        In speculating on a decolonial internet, the case study emerges from
+        the postcolonial context of Singapore, an island-city state that is a
+        highly connected node within broader transnational fiber optic cable
+        networks for the internet, while simultaneously complicit in
+        extractive uses of material resources and labor in Asia.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">9</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->See, for instance, Joshua
+              Comaroff, "Built on Sand: Singapore and the New State of Risk,"
+              <i>Harvard Design Magazine</i>, Fall/Winter 2014,
+              https://www.harvarddesignmagazine.org/articles/built-on-sand-singapore-and-the-new-state-of-risk/
+              and Ben Westcott and Katie Hunt, “Most Singapore Foreign
+              Domestic Workers Exploited, Survey Says,” <i>CNN</i>, December
+              4, 2017,
+              https://www.cnn.com/2017/11/28/asia/singapore-domestic-helpers-maids/index.html.
+            </span>
+          </span></sup>
+        The internet often carries assumptions of being a global information
+        infrastructure that confers political agency in its ability to
+        ‘democratize’ flows of information, affording greater political
+        participation through its decentering of central sources for media
+        messages. Yet, computationally-constructed harms are an inextricable
+        feature of contemporary dysfunction, with the internet and its
+        facilitation of data extraction deeply enmeshed within destructive
+        processes of surveillance capitalism, algorithmically-augmented
+        inequities, and the persistence of colonial logics.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">10</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->See Shoshana Zuboff,
+              <i>The Age of Surveillance Capitalism: The Fight for a Human
+                Future at the New Frontier of Power</i>
+              (New York: PublicAffairs, 2019); Safiya Umoja Noble,
+              <i>Algorithms of Oppression: How Search Engines Reinforce
+                Racism</i>
+              (New York: NYU Press, 2018); Cathy O’Neil,
+              <i>Weapons of Math Destruction: How Big Data Increases
+                Inequality and Threatens Democracy</i>
+              (New York: Crown, 2016); Arun Kundnani and Deepa Kumar, “Race,
+              Surveillance, and Empire,”
+              <i>International Socialist Review</i> 96, no. 5 (2015): 18–44.
+            </span>
+          </span></sup>
+        To begin contending with these problems, this essay starts with the
+        foundational rhetorics from which the present-day internet was
+        developed. These examples will be examined to reveal assumptions of
+        universalizing infrastructure and underlying developmental conceptions
+        of ‘civilization.’ With such histories of technology often finding
+        their origins in the United States and Europe, this essay invokes
+        Brian Larkin in his desire “to discover where their insights have
+        force and where their analytical assumptions turn out to be socially
+        specific rather than universal to a technology.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">11</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Brian Larkin,
+              <i>Signal and Noise: Media, Infrastructure, and Urban Culture in
+                Nigeria (Durham, NC; London: Duke University Press, 2008),
+                15.</i>
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        This essay operates in three parts. Firstly, it begins with a close
+        reading of a scene from the 1972 documentary
+        <i>Computer Networks: The Heralds of Resource Sharing</i>, which
+        features the perspectives of computer scientists and engineers
+        directly involved in the development of ARPANET. By analyzing this
+        documentary scene by way of the art-historical reference it makes, we
+        examine underlying ideals underpinning the ARPANET. Secondly, by
+        examining the rhetoric of “resource sharing” for the network as
+        universalizing civilizational technology, the essay threads through
+        different ways in which the logics of coloniality underlie the
+        internet. Lastly, through contemporary examples of web-based projects
+        that seek to disrupt neocolonial logics, the essay considers how
+        decolonial practices may emerge online, and possibilities for a
+        decolonial web that refuses the extractive uses of data and
+        reconfigures data as method for contending with the
+        <i>problems to be addressed</i>.
+      </p>
+
+      <!-- THIS IS A SUBHEADING -->
+      <h2>Heralds of Resource Sharing</h2>
+      <p>
+        In 1965, while working for ARPA, computer scientist Robert Taylor
+        initiated the funding of advanced research in computing at major
+        universities and corporate research centers across the US.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">12</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Sergio Rajsbaum and Michel
+              Raynal, “60 Years of Mastering Concurrent Computing through
+              Sequential Thinking,” <i>ACM SIGACT News</i> 51, no. 2 (2020):
+              65.
+            </span>
+          </span></sup>
+        Often considered the technological precursor laying the technical
+        foundations for the present-day internet, the ARPANET emerged from the
+        activities of the Advanced Research Projects Agency (ARPA) of the
+        United States Department of Defense. The notion of “resource sharing”
+        is articulated as the driving force behind Taylor’s development of
+        ARPANET.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">13</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Rajsbaum and Raynal, 65.
+            </span>
+          </span></sup>
+        Here, “resource sharing” referred not only to dissemination of data
+        over a network, but also served as a technical term referencing
+        time-sharing practices as a method to optimize multiple users’ sharing
+        of a computer.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">14</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Rajsbaum and Raynal, 65. For
+              a technical definition of resource sharing, see also Michael A.
+              Padlipsky, “A Perspective on the ARPANET Reference Model (RFC
+              871),” <i>IETF</i>, September 1982. “By ‘resource sharing’ we
+              mean the potential ability for programs on each of the Hosts to
+              interoperate with programs on the other Hosts and for data
+              housed on each of the Hosts to be made available to the other
+              Hosts in a more general and flexible fashion.”
+            </span>
+          </span></sup>
+        The term aptly appears in the title of the 1972 documentary focusing
+        on the development of ARPANET,
+        <i>Computer Networks: The Heralds of Resource Sharing</i>. Originally
+        produced to demonstrate the ARPANET’s workings and capabilities for
+        the First International Conference of Computer Communications held in
+        Washington, D.C. in October 1972, the documentary was not completed in
+        time,
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">15</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Andrew L. Russell,
+              <i>Open Standards and the Digital Age: History, Ideology, and
+                Networks</i>
+              (Cambridge University Press, 2014).
+            </span>
+          </span></sup>
+        but has since resurfaced online on the Internet Archive.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">16</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Peter Chvany, director.
+              <i>Computer Networks: The Heralds of Resource Sharing</i>, 1972,
+              1:39 to 2:20. Retrieved from
+              https://archive.org/details/ComputerNetworks_TheHeraldsOfResourceSharing.
+            </span>
+          </span></sup>
+        The short film features internet pioneers such as Larry Roberts, Bob
+        Kahn, and J.C.R. Licklider provides technical explanations of how the
+        ARPANET functions.
+      </p>
+      <p>
+        Within the documentary, American engineer Lawrence G. Roberts speaks
+        of computer networks as a universalizing infrastructure: Working at
+        ARPA, Roberts asserts the necessity of a network like ARPANET in the
+        dissemination of information, a form of resource sharing that leads to
+        the formation of an advanced ‘civilization.’ Roberts identifies the
+        issue of “small civilizations or small cities trying to develop
+        separately and not having any way of sharing what they’ve learnt with
+        other groups.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">17</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Chvany, 1:39 to 2:20.
+            </span>
+          </span></sup>
+        He claims that “if that continues to happen, they don’t have a
+        civilization.” Roberts argues that “the necessity was to provide a
+        mechanism so that what was learned one place could be transferred
+        effectively and directly to other places without re-doing it all and
+        learning it all over again at each place.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">18</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Chvany, 1:39 to 2:20.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        Within this framework of information infrastructure, the dissemination
+        of knowledge is entwined with the very foundation of ‘civilization.’
+        This follows a developmental logic: For one to develop as a
+        ‘civilization,’ one must follow a predetermined trajectory towards a
+        singular model of civilization often based on existing knowledge and
+        structures of power. Even more striking is the image used in the
+        documentary during this explanation: During Roberts’ interview, the
+        documentary cuts away to the image of an engraving of
+        <i>William Penn’s Treaty with the Indians</i>, based on the 1771–72
+        oil painting by Benjamin West. As Roberts’ voiceover is delivered, the
+        viewer sees close-ups of the engraving, their eyes guided across
+        details of this image that depicts the meeting between William Penn
+        and members of the Lenni Lenape tribe at Shackamaxon on the Delaware
+        River.
+      </p>
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row1" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/johann/1_penn.jpeg"
+          alt="John Hall, William Penn’s Treaty with the Indians, 1755" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/johann/1_penn.jpeg"
+          alt="John Hall, William Penn’s Treaty with the Indians, 1755" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>
+          John Hall, <i>William Penn’s Treaty with the Indians</i>, 1775,
+          Engraving, 48.4 × 62.1 cm, After a painting by Benjamin West. Image
+          retrieved from
+          http://ds.haverford.edu/penn-treaty-elm/objects/west/.
+        </figcaption>
       </div>
-      <div class="hero is-fullheight">
-        <div class="gallery" id="gallery">
-          <a class="flip-card" href="../../pages/articles/max.html">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img
-                  src="../../assets/landing/gallery/MaxSQ.png"
-                  alt="A man on top of a pole in a green poster."
-                />
-              </div>
-              <div class="flip-card-back">
-                <h1 id="dynamicTitle_6">Design Principles Can’t Control AI</h1>
-                <h2 id="dynamicAuthor_6">Max Emrich</h2>
-              </div>
-            </div>
-          </a>
-          <a class="flip-card" href="../../pages/articles/gracia.html">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img
-                  src="../../assets/landing/gallery/GraciaSQ.png"
-                  alt="Group of people sitting around a large table."
-                />
-              </div>
-              <div class="flip-card-back">
-                <h1 id="dynamicTitle_5">The 21st Century Cyber War</h1>
-                <h2 id="dynamicAuthor_5">Gracia Goh</h2>
-              </div>
-            </div>
-          </a>
-        </div>
+      <p>
+        West’s painting assumes canonical status in American popular culture,
+        finding its presence in the pages of high school history textbooks to
+        illustrate the nobility of Penn in his power to effect peaceful
+        relations between Europeans and Native Americans.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">19</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Beth Fowkes Tobin, "Native
+              Land and Foreign Desires: William Penn’s Treaty with the
+              Indians" in
+              <i>Picturing Imperial Power: Colonial Subjects in
+                Eighteenth-century British Painting</i>
+              (Durham, NC: Duke University Press, 1999), 56.
+            </span>
+          </span></sup>
+        Through the portrayal of Penn and his associates in the act of
+        bestowing gifts to the Lenape people, the image presents colonization
+        as a benign and benevolent gesture that disguises political and
+        economic power as advanced moral sensibility.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">20</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tobin, 56.
+            </span>
+          </span></sup>
+        Central to the image is a bolt of cloth, the gift being exchanged for
+        land, with the viewer’s eye then moving out towards the arc of Lenape
+        people crouching around Penn, with light falling upon them in their
+        feathered headdresses, beaded accessories, and elaborate clothing. Set
+        up as a visual counterpoint to the Lenape people are Penn and the
+        Quakers, portrayed somberly in darker tones. Here, they connote a
+        rational and moral counterpoint as individuals led by radical
+        Christian beliefs to peacefully negotiate exchange.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">21</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tobin, 62.
+            </span>
+          </span></sup>
+        Penn’s outstretched hand not only emphasizes the gift exchanged with
+        the Lenape people for land, but further signifies the creation of the
+        colony and economic opportunity created for colonists in generations
+        to come.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">22</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tobin, 64.
+            </span>
+          </span></sup>
+      </p>
+      <!-- THIS IS A SUBHEADING -->
+      <h2>Digital Colonialisms</h2>
+      <p>
+        While initially created to convey Penn’s highly developed moral
+        sensibility, and by extension, the right to ownership over the land,
+        the image is now critiqued for obscuring and excusing of later acts of
+        betrayal enacted upon Indigenous people, after the Lenape were forced
+        out of traditional homelands due to illegal colonial settlements.
+        Instead of a magnanimous exchange, Penn’s ability to ensure peaceful
+        relations must be seen in relation to the implicit threat of violence
+        that suffused the European colonization of America.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">23</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tobin, 62.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        Through data dissemination’s entwinement with an image of colonial
+        expansion and exploitation, the ARPANET’s development is imbued with
+        troubling notions of a universalizing infrastructure that follows a
+        developmental conception of ‘civilization.’ In this sense, it is
+        ‘universalizing’ as a system that moves towards negating differences
+        across contexts, with aims of achieving a singular vision of an
+        often-Western notion of modernity that is assumed to be more advanced,
+        and thus universally beneficial. When seen in relation to the idea of
+        “resource sharing” through the ARPANET, the dissemination of data
+        cannot be seen as a benevolent exchange. Rather, it foregrounds ideas
+        about information infrastructure as a ‘civilizing’ tactic that
+        operates over existing inequities. It is here that “resource sharing”
+        and computer networks are imbued with a colonial dimension. Such a
+        relationship between data, the internet, and coloniality that has been
+        noted by artists, activists, and academics.
+      </p>
+      <p>
+        The artist Keith Obadike points out the “odd Euro colonialist
+        narrative that exists on the web […] there are browsers called
+        Explorer and Navigator that take you to explore the Amazon or trade in
+        the ebay. It’s all just too blatant to ignore.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">24</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Simone Browne,
+              <i>Dark Matters: On the Surveillance of Blackness</i> (Durham:
+              Duke University Press, 2015), 106.
+            </span>
+          </span></sup>
+        While colonial dimensions of the internet may function on this
+        semiotic level, the relationship between information technologies and
+        colonial processes of extraction and cultural displacement have also
+        been analyzed in relation to broader political realities. This has
+        previously been articulated across time through terms such as data
+        colonialism, digital colonialism, cyber colonialism, and
+        technocolonialism.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">25</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->See Jim Thatcher, David
+              O’Sullivan, and Dillon Mahmoudi, “Data Colonialism through
+              Accumulation by Dispossession: New Metaphors for Daily Data,”
+              <i>Environment and Planning D: Society and Space</i> 34, no. 6
+              (2016): 990–1006; Michael Kwet, “Digital Colonialism: US Empire
+              and the New Imperialism in the Global South,”
+              <i>Race and Class</i> 60, no. 4 (2019): 3–26; Thomas L. McPhail;
+              Pinar Tuzcu, “Decoding the Cybaltern: Cybercolonialism and
+              Postcolonial Intellectuals in the Digital Age,”
+              <i>Postcolonial Studies</i> 24, no. 4 (2021): 514–527.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        In 2016, Jim Thatcher, David O’Sullivan, and Dillon Mahmoudi critiqued
+        the excitement around ‘big data,’ arguing that the extraction and
+        collection of personal data was “a form of capitalist expropriation
+        and dispossession.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">26</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Thatcher, O’Sullivan, and
+              Mahmoudi, “Data Colonialism through Accumulation by
+              Dispossession,” 990–991.
+            </span>
+          </span></sup>
+        They proposed the term “data colonialism” as a means of articulating
+        the asymmetry of data capture by big tech companies such as Facebook.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">27</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Thatcher, O’Sullivan, and
+              Mahmoudi, 990–991.
+            </span>
+          </span></sup>
+        Similarly, using South Africa as a case study, Michael Kwet proposed
+        in 2019 that the United States re-asserts coloniality in the Global
+        South by dominating the use of digital technology, enacting “digital
+        colonialism” in exercising the imperial control of software, hardware,
+        and network connectivity.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">28</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Kwet, “Digital Colonialism,”
+              3.
+            </span>
+          </span></sup>
+        The term “digital colonialism” was previously invoked during
+        discussions in 2017 about Facebook’s Free Basics, the platform’s free
+        and limited internet service for markets predominantly in the Global
+        South. Ellery Biddle, advocacy director of Global Voices, argues that:
+      </p>
+      <!-- THIS IS A QUOTE -->
+      <div class="quote">
+        <h1>
+          “Facebook is not introducing people to open internet where you can
+          learn, create and build things [...]. It’s building this little web
+          that turns the user into a mostly passive consumer of mostly western
+          corporate content. That’s digital colonialism.”
+          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        </h1>
+        <p class="inline">
+          <sup><span class="footnote"><a rel="noopener" href="#Bibliography">29</a>
+              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+              <span class="footnote-content">
+                <!-- USE CHICAGO CITATION STYLE -->Olivia Solon, “‘It’s
+                Digital Colonialism’: How Facebook’s Free Internet Service Has
+                Failed Its Users,” <i>The Guardian</i>, July 27, 2017.
+              </span>
+            </span></sup>
+        </p>
       </div>
+      <p>
+        Meanwhile, in Pinar Tuzcu’s analysis of the 2018 Cambridge Analytica
+        data scandal, “cybercolonialism” is used to describe how knowledge
+        production in the digital age creates new colonial relations.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">30</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tuzcu, “Decoding the
+              Cybaltern,” 514–527.
+            </span>
+          </span></sup>
+      </p>
+      <!-- THIS IS A SUBHEADING -->
+      <h2>A Decolonial Web? Migrant Death Map as Case Study</h2>
+      <p>
+        Terms such as “digital colonialism” foreground the internet’s ability
+        to facilitate resource extraction or exploitative labor practices
+        enacted under global capitalism, emphasizing that information
+        infrastructures are ultimately able to reproduce the coloniality of
+        power by exacerbating existing inequities. In this sense, “resource
+        sharing” as an ideal is conceived on uneven topographies, and while
+        conceived as being beneficial to communities, ends up privileging
+        existing structures of power. Given the continued manifestation of
+        colonial logics through the internet, this essay re-centers decolonial
+        studies in the desire to engage with possible practices in addressing
+        the colonial dimensions of the internet. Here, the decolonial approach
+        serves as an “instrument for transforming the world by transforming
+        the way people see it, feel it and act in it.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">31</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Madina V. Tlostanova and
+              Walter D. Mignolo, “Global Coloniality and the Decolonial
+              Option,” Special Issue, <i>Kult</i> 6 (2009): 131.
+            </span>
+          </span></sup>
+        Rather than identifying “the object or objects to be studied,” the
+        decolonial option places emphasis on the “<i>problems to be addressed</i>.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">32</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tlostanova and Mignolo, 131.
+            </span>
+          </span></sup>
+        These <i>problems</i> emerge from what Mignolo and Tlostanova identify
+        as the “modern/colonial matrix of power,” with coloniality both an
+        historical and extant force that persists and underlies the very
+        conceptions of modernity.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">33</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Tlostanova and Mignolo,
+              131–132.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        The essay turns to the context of Singapore, a highly-networked city
+        enmeshed in the global politics of contemporary data flows. As a
+        wealthy postcolonial nation that is simultaneously complicit in
+        extractive uses of resources and labor from neighboring contexts in
+        Southeast Asia, East Asia, and South Asia, examples of online
+        data-based projects like the Migrant Death Map offer examples in using
+        data for contending with extractivist or neocolonial logics.
+      </p>
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row1" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/johann/2_migrant.png" alt="Screenshot of the Migrant Death Map website" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/johann/2_migrant.png"
+          alt="Screenshot of the Migrant Death Map website" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>
+          Screenshot of the Migrant Death Map website, retrieved from
+          https://migrantdeathmap.sg.
+        </figcaption>
+      </div>
+      <p>
+        The Migrant Death Map is an activist website that aims to analyze
+        “precarity, violence, and disregard for migrant life in Singapore.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">34</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->“Migrant Worker Death Map,”
+              Migrant Death Map, 2022, https://www.migrantdeathmap.sg.
+            </span>
+          </span></sup>
+        Harnessing publicly available reports about the hundreds of deaths of
+        migrant workers in Singapore from January 2000 to August 2022, the
+        site collates usually occluded or dispersed data about migrant deaths
+        in newspapers and reports, highlighting the lack of easily available
+        government data on migrant worker deaths.
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">35</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->See “List of Demands,”
+              Migrant Death Map, 2022,
+              https://www.migrantdeathmap.sg/list-of-demands. “Current and
+              readily available datasets are very limited, often aggregated at
+              levels that are too general to enable detailed meaningful
+              analysis, or lacking in scale and comprehensiveness.”
+            </span>
+          </span></sup>
+        The Migrant Death Map team collaborated with digital storytelling firm
+        Kontinentalist to visualize the large amounts of collected data on a
+        geographical map of the country, pinpointing sites of reported
+        incidents as color-coded nodes. By transmuting these reports into
+        easily accessible data in the visual form, the project is careful to
+        assert that “migrant workers are more than data points,”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">36</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->“Migrant Workers are More
+              Than Data Points,” Migrant Death Map, 2022,
+              https://www.migrantdeathmap.sg/morethandata.
+            </span>
+          </span></sup>
+        illuminating the interior world of migrant workers through video
+        interviews that are also published on the website.
+      </p>
+      <p>
+        The website lists the key issues that migrant workers face, spanning
+        abuse and unsafe workplaces, presenting a list of demands proposing
+        possible solutions. For instance, on the issue of data transparency
+        surrounding migrant deaths and accidents, the Migrant Death Map team
+        makes demands for publicly available data points on incidents,
+        requesting for specific information such as names, nationalities,
+        ages, industries, worksites, penalties issued, compensation received,
+        and follow-up actions.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">37</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->“List of Demands,” Migrant
+              Death Map, 2022, https://www.migrantdeathmap.sg/list-of-demands.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        The Migrant Death Map is reflexive of its use of familiar colonial
+        tools such as the archive and the map, but resists their limitations
+        and expands such tactics in deploying them as a long-form multimedia
+        piece to build what the team describes as an “alternative archive of
+        stories and experiences that have not been verified or validated by
+        news media.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">38</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->“Note from our Team,” Migrant
+              Death Map, 2022,
+              https://www.migrantdeathmap.sg/note-from-our-team.
+            </span>
+          </span></sup>
+        The Migrant Death Map’s tactics may be seen as an instance of
+        “counter-cartography,” a practice emerging from multiple traditions
+        from the arts, academia, and political activism.
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">39</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Severin Halder and Boris
+              Michel,
+              <i>This Is Not an Atlas: A Global Collection of
+                Counter-Cartographies</i>
+              (Verlag, Bielefeld: transcript, 2018), 13.
+            </span>
+          </span></sup>
+        Described as “a political practice of mapping back,”
+        counter-cartography melds mapping practices with theoretical critique.
+        In the context of the Migrant Death Map, it is through the painstaking
+        collection of obscured data and the re-acknowledgement of the meanings
+        that have been hidden that the lives of migrant workers are mapped and
+        made tangible again, in spite of the lack of government support or
+        biased reporting from state-controlled media. To invoke Catherine
+        D’Ignazio and Lauren F. Klein in Data Feminism, this is a
+        counter-cartographical practice that maps and creates space for an
+        attunement to the “bodies uncounted, undercounted, silenced.”
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">40</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->Catherine D’Ignazio and
+              Lauren F. Klein, <i>Data Feminism</i> (Cambridge, MA: MIT Press,
+              2020), 21.
+            </span>
+          </span></sup>
+      </p>
+      <p>
+        The case study of the Migrant Death Map demonstrates several tactics
+        for possible routes towards decoloniality through the internet. In the
+        disruption of extractivist logics towards labor, the first tactic
+        involves the seeking out and reclaiming of occluded data, of the
+        information missing from datasets, and making such silences legible
+        once more. The second observable tactic is the use of a longform and
+        multimedia approach, one that complicates the colonial possibilities
+        of the map and the archive. By fleshing out the internal lives of
+        migrant workers through audiovisual material, the Migrant Death Map
+        resists the reduction of human life to data points. Lastly, the tactic
+        of clear, actionable demands based on the careful parsing of data
+        ensures identifiable pathways towards justice for migrant workers.
+      </p>
+      <p>
+        In this manner, the Migrant Death Map enacts a vision of a decolonial
+        web through its repurposing of data, its emphasis on the
+        <i>problems to be addressed</i>, and its strategic disruption of
+        logics of extraction through web-based platforms. If the modern
+        foundation of knowledge is territorial and imperial,
+        counter-cartography posits the tactics for refashioning these
+        territories into spaces wherein the silenced are made tangible one
+        more. While these practices do not contend with the full injustices
+        enacted, facilitated, and exacerbated by the uneven topographies of
+        the internet, they provide us tactics for envisioning a decolonial
+        internet and reclaiming data.
+      </p>
     </article>
-    <footer>
-      <div class="Bibliography">
-        <a id="Bibliography"></a>
-        <h2>Bibliography</h2>
-        <div class="margin">
-          <ul class="columns" data-columns="2">
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>01</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Browne, Simone. Dark Matters: On the Surveillance of
-                  Blackness.
-                </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Durham: Duke University Press, 2015.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>02</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Comaroff, Joshua. “Built on Sand: Singapore and the New State
-                  of Risk.”
-                  <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                  Harvard Design Magazine</b
-                >, Fall/Winter 2014.
-                https://www.harvarddesignmagazine.org/articles/built-on-sand-singapore-and-the-new-state-of-risk/.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>03</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Chvany, Peter, director. Computer Networks: The Heralds of
-                  Resource Sharing.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                1972. Retrieved from
-                https://archive.org/details/ComputerNetworks_TheHeraldsOfResourceSharing.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>04</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b>D’Ignazio, Catherine and Lauren F. Klein. Data Feminism.</b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Cambridge, MA: MIT Press, 2020.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>05</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Halder, Severin and Boris Michel.This Is Not an Atlas: A
-                  Global Collection of Counter-Cartographies.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Verlag, Bielefeld: transcript, 2018.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>06</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Kundnani, Arun and Deepa Kumar. “Race, Surveillance, and
-                  Empire.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                International Socialist Review 96, no. 5 (2015): 18–44.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>07</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Kwet, Michael. “Digital Colonialism: US Empire and the New
-                  Imperialism in the Global South.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Race and Class 60, no. 4 (2019): 3–26.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>08</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Larkin, Brian. Signal and Noise: Media, Infrastructure, and
-                  Urban Culture in Nigeria.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Durham, NC; London: Duke University Press, 2008.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>09</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Madianou, Mirca. “Technocolonialism: Digital Innovation and
-                  Data Practices in the Humanitarian Response to Refugee
-                  Crises.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Social Media + Society 5, no. 3 (2019): 1–13.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>10</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Mezzadra, Sandro, and Brett Neilson. “On the Multiple
-                  Frontiers of Extraction: Excavating Contemporary
-                  Capitalism.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Cultural Studies 31, no. 2–3 (2017): 185–204.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>11</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Mezzadra, Sandro, and Brett Neilson. “On the Multiple
-                  Frontiers of Extraction: Excavating Contemporary
-                  Capitalism.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Cultural Studies 31, no. 2–3 (2017): 185–204.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>12</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Mignolo, Walter D., and Catherine E. Walsh. On Decoloniality:
-                  Concepts, Analytics, Praxis.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Durham, NC: Duke University Press, 2018.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>13</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Mignolo, Walter D., and Madina V. Tlostanova. “Theorizing
-                  from the Borders: Shifting to Geo- and Body-Politics of
-                  Knowledge.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                European Journal of Social Theory 9, no. 2 (2006): 205–221.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>14</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b>“Migrant Worker Death Map.”</b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Migrant Death Map. 2022. https://www.migrantdeathmap.sg.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>15</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Noble, Safiya Umoja. Algorithms of Oppression: How Search
-                  Engines Reinforce Racism.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                New York: NYU Press, 2018.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>16</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >O’Neil, Cathy. Weapons of Math Destruction: How Big Data
-                  Increases Inequality and Threatens Democracy.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                New York: Crown, 2016.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>17</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Padlipsky, Michael A.. “A Perspective on the ARPANET
-                  Reference Model (RFC 871).”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                IETF, September 1982. https://doi.org/10.17487/RFC0871.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>18</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Quijano, Aníbal. “Coloniality of power and Eurocentrism in
-                  Latin America.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                International Sociology 15 (2000): 215–232.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>19</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Rajsbaum, Sergio, and Michel Raynal. “60 Years of Mastering
-                  Concurrent Computing through Sequential Thinking.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                ACM SIGACT News 51, no. 2 (2020): 59–88.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>20</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Russell, Andrew L.. Open Standards and the Digital Age:
-                  History, Ideology, and Networks.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Cambridge University Press, 2014.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>21</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Solon, Olivia. “‘It’s Digital Colonialism’: How Facebook’s
-                  Free Internet Service Has Failed Its Users.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                The Guardian, July 27, 2017. Retrieved
-                https://www.theguardian.com/technology/2017/jul/27/facebook-free-basics-developing-markets.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>22</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Thatcher, Jim, David O’Sullivan, and Dillon Mahmoudi. “Data
-                  Colonialism through Accumulation by Dispossession: New
-                  Metaphors for Daily Data.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Environment and Planning D: Society and Space 34, no. 6 (2016):
-                990–1006.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>23</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Tlostanova, Madina V., and Walter D. Mignolo. “Global
-                  Coloniality and the Decolonial Option.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Special Issue, Kult 6 (2009): 130–147.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>24</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Tobin, Beth Fowkes. “Native Land and Foreign Desires: William
-                  Penn's Treaty with the Indians.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                In Picturing Imperial Power: Colonial Subjects in
-                Eighteenth-century British Painting, 56–80. Durham, NC: Duke
-                University Press, 1999.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>25</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Tuzcu, Pinar. “Decoding the Cybaltern: Cybercolonialism and
-                  Postcolonial Intellectuals in the Digital Age.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Postcolonial Studies 24, no. 4 (2021): 514–527.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>26</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Westcott, Ben and Katie Hunt. “Most Singapore Foreign
-                  Domestic Workers Exploited, Survey Says.”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                CNN, December 4, 2017.
-                https://www.cnn.com/2017/11/28/asia/singapore-domestic-helpers-maids/index.html.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>27</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Zuboff, Shoshana. The Age of Surveillance Capitalism: The
-                  Fight for a Human Future at the New Frontier of Power.</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                New York: PublicAffairs, 2019.
-              </p>
-            </li>
-          </ul>
-        </div>
+  </main>
+  <div class="line"></div>
+  <article>
+    <div class="recommended-articles">
+      <h2>Read More on Digital Power Imbalances or Ethics in Tech</h2>
+    </div>
+    <div class="hero is-fullheight">
+      <div class="gallery" id="gallery">
+        <a class="flip-card" href="../../pages/articles/max.html">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../../assets/landing/gallery/MaxSQ.png" alt="A man on top of a pole in a green poster." />
+            </div>
+            <div class="flip-card-back">
+              <h1 id="dynamicTitle_6">Design Principles Can’t Control AI</h1>
+              <h2 id="dynamicAuthor_6">Max Emrich</h2>
+            </div>
+          </div>
+        </a>
+        <a class="flip-card" href="../../pages/articles/gracia.html">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../../assets/landing/gallery/GraciaSQ.png"
+                alt="Group of people sitting around a large table." />
+            </div>
+            <div class="flip-card-back">
+              <h1 id="dynamicTitle_5">The 21st Century Cyber War</h1>
+              <h2 id="dynamicAuthor_5">Gracia Goh</h2>
+            </div>
+          </div>
+        </a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </article>
+  <footer>
+    <div class="Bibliography">
+      <a id="Bibliography"></a>
+      <h2>Bibliography</h2>
+      <div class="margin">
+        <ul class="columns" data-columns="2">
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>01</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Browne, Simone. Dark Matters: On the Surveillance of
+                Blackness.
+              </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Durham: Duke University Press, 2015.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>02</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Comaroff, Joshua. “Built on Sand: Singapore and the New State
+                of Risk.”
+                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+                Harvard Design Magazine</b>, Fall/Winter 2014.
+              https://www.harvarddesignmagazine.org/articles/built-on-sand-singapore-and-the-new-state-of-risk/.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>03</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Chvany, Peter, director. Computer Networks: The Heralds of
+                Resource Sharing.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              1972. Retrieved from
+              https://archive.org/details/ComputerNetworks_TheHeraldsOfResourceSharing.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>04</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>D’Ignazio, Catherine and Lauren F. Klein. Data Feminism.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Cambridge, MA: MIT Press, 2020.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>05</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Halder, Severin and Boris Michel.This Is Not an Atlas: A
+                Global Collection of Counter-Cartographies.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Verlag, Bielefeld: transcript, 2018.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>06</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Kundnani, Arun and Deepa Kumar. “Race, Surveillance, and
+                Empire.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              International Socialist Review 96, no. 5 (2015): 18–44.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>07</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Kwet, Michael. “Digital Colonialism: US Empire and the New
+                Imperialism in the Global South.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Race and Class 60, no. 4 (2019): 3–26.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>08</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Larkin, Brian. Signal and Noise: Media, Infrastructure, and
+                Urban Culture in Nigeria.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Durham, NC; London: Duke University Press, 2008.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>09</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Madianou, Mirca. “Technocolonialism: Digital Innovation and
+                Data Practices in the Humanitarian Response to Refugee
+                Crises.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Social Media + Society 5, no. 3 (2019): 1–13.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>10</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Mezzadra, Sandro, and Brett Neilson. “On the Multiple
+                Frontiers of Extraction: Excavating Contemporary
+                Capitalism.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Cultural Studies 31, no. 2–3 (2017): 185–204.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>11</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Mezzadra, Sandro, and Brett Neilson. “On the Multiple
+                Frontiers of Extraction: Excavating Contemporary
+                Capitalism.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Cultural Studies 31, no. 2–3 (2017): 185–204.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>12</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Mignolo, Walter D., and Catherine E. Walsh. On Decoloniality:
+                Concepts, Analytics, Praxis.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Durham, NC: Duke University Press, 2018.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>13</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Mignolo, Walter D., and Madina V. Tlostanova. “Theorizing
+                from the Borders: Shifting to Geo- and Body-Politics of
+                Knowledge.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              European Journal of Social Theory 9, no. 2 (2006): 205–221.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>14</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>“Migrant Worker Death Map.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Migrant Death Map. 2022. https://www.migrantdeathmap.sg.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>15</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Noble, Safiya Umoja. Algorithms of Oppression: How Search
+                Engines Reinforce Racism.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              New York: NYU Press, 2018.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>16</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>O’Neil, Cathy. Weapons of Math Destruction: How Big Data
+                Increases Inequality and Threatens Democracy.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              New York: Crown, 2016.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>17</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Padlipsky, Michael A.. “A Perspective on the ARPANET
+                Reference Model (RFC 871).”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              IETF, September 1982. https://doi.org/10.17487/RFC0871.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>18</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Quijano, Aníbal. “Coloniality of power and Eurocentrism in
+                Latin America.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              International Sociology 15 (2000): 215–232.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>19</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Rajsbaum, Sergio, and Michel Raynal. “60 Years of Mastering
+                Concurrent Computing through Sequential Thinking.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              ACM SIGACT News 51, no. 2 (2020): 59–88.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>20</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Russell, Andrew L.. Open Standards and the Digital Age:
+                History, Ideology, and Networks.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Cambridge University Press, 2014.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>21</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Solon, Olivia. “‘It’s Digital Colonialism’: How Facebook’s
+                Free Internet Service Has Failed Its Users.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              The Guardian, July 27, 2017. Retrieved
+              https://www.theguardian.com/technology/2017/jul/27/facebook-free-basics-developing-markets.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>22</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Thatcher, Jim, David O’Sullivan, and Dillon Mahmoudi. “Data
+                Colonialism through Accumulation by Dispossession: New
+                Metaphors for Daily Data.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Environment and Planning D: Society and Space 34, no. 6 (2016):
+              990–1006.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>23</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Tlostanova, Madina V., and Walter D. Mignolo. “Global
+                Coloniality and the Decolonial Option.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Special Issue, Kult 6 (2009): 130–147.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>24</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Tobin, Beth Fowkes. “Native Land and Foreign Desires: William
+                Penn's Treaty with the Indians.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              In Picturing Imperial Power: Colonial Subjects in
+              Eighteenth-century British Painting, 56–80. Durham, NC: Duke
+              University Press, 1999.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>25</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Tuzcu, Pinar. “Decoding the Cybaltern: Cybercolonialism and
+                Postcolonial Intellectuals in the Digital Age.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Postcolonial Studies 24, no. 4 (2021): 514–527.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>26</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Westcott, Ben and Katie Hunt. “Most Singapore Foreign
+                Domestic Workers Exploited, Survey Says.”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              CNN, December 4, 2017.
+              https://www.cnn.com/2017/11/28/asia/singapore-domestic-helpers-maids/index.html.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>27</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Zuboff, Shoshana. The Age of Surveillance Capitalism: The
+                Fight for a Human Future at the New Frontier of Power.</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              New York: PublicAffairs, 2019.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

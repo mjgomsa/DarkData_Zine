@@ -1,1187 +1,996 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Cicada 3301: A Mystery Unsolved</title>
-    <link rel="stylesheet" type="text/css" href="../../styling/style.css" />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../styling/articleMenu2.css"
-    />
-    <link rel="stylesheet" type="text/css" href="../../styling/navStyle.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <title>Cicada 3301: A Mystery Unsolved</title>
+  <link rel="stylesheet" type="text/css" href="../../styling/style.css" />
 
-    <!-- ADD THE TITLE OF YOUR ARTICLE -->
-    <meta property="og:title" content="Cicada 3301: A Mystery Unsolved" />
+  <link rel="stylesheet" type="text/css" href="../../styling/articleMenu2.css" />
+  <link rel="stylesheet" type="text/css" href="../../styling/navStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!-- ONE OR TWO SENTENCES ABSTRACT -->
-    <meta
-      property="og:description"
-      content="A detailed documentary of the most mysterious group on the internet"
-    />
+  <!-- ADD THE TITLE OF YOUR ARTICLE -->
+  <meta property="og:title" content="Cicada 3301: A Mystery Unsolved" />
 
-    <!-- ONE OR TWO SENTENCES ABSTRACT -->
-    <meta
-      name="description"
-      content="A detailed documentary of the most mysterious group on the internet"
-    />
+  <!-- ONE OR TWO SENTENCES ABSTRACT -->
+  <meta property="og:description" content="A detailed documentary of the most mysterious group on the internet" />
 
-    <!-- COMMA SEPERATED KEYWORDS -->
-    <meta
-      name="keywords"
-      content="Cicada, cryptography, steganography, data privacy, digital liberty"
-    />
+  <!-- ONE OR TWO SENTENCES ABSTRACT -->
+  <meta name="description" content="A detailed documentary of the most mysterious group on the internet" />
 
-    <!-- EDITORS - DO NOT CHANGE -->
-    <meta
-      property="og:url"
-      content="https://mfadt.parsons.edu/darkdata/2023/pages/articles/joseph.html"
-    />
-    <meta
-      property="og:image"
-      content="https://mfadt.parsons.edu/darkdata/2023/assets/articles/Article/JosephLG.png"
-    />
-    <meta property="og:type" content="Article" />
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
-  </head>
+  <!-- COMMA SEPERATED KEYWORDS -->
+  <meta name="keywords" content="Cicada, cryptography, steganography, data privacy, digital liberty" />
 
-  <body>
-    <script src="../../scripts/articleScripts.js" defer></script>
+  <!-- EDITORS - DO NOT CHANGE -->
+  <meta property="og:url" content="https://mfadt.parsons.edu/darkdata/2023/pages/articles/joseph.html" />
+  <meta name="twitter:image" content="https://mfadt.parsons.edu/darkdata/2023/assets/landing/gallery/JosephSQ.png">
+  <meta property="og:image" content="https://mfadt.parsons.edu/darkdata/2023/assets/articles/Article/JosephLG.png" />
+  <meta property="og:type" content="Article" />
+  <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+</head>
 
-    <script src="../../scripts/landingScripts.js" defer></script>
-    <script src="../../scripts/textupdateScript.js" defer></script>
-    <!-- <a href="pages/articleMenu.html">
+<body>
+  <script src="../../scripts/articleScripts.js" defer></script>
+
+  <script src="../../scripts/landingScripts.js" defer></script>
+  <script src="../../scripts/textupdateScript.js" defer></script>
+  <!-- <a href="pages/articleMenu.html">
         <img id="readnow" src="/assets/landing/Star-grn.png" />
     </a> -->
-    <div class="topnav" id="myTopnav">
-      <a href="../../index.html" class="home"> Dark Data 2023</a>
-      <a href="../about.html"
-        ><span class="star"
-          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
-        >About</a
-      >
-      <a href="../editors.html"
-        ><span class="star"
-          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
-        >Editor's Note</a
-      >
-      <a href="../../index.html" class="active"
-        ><span class="star"
-          ><img src="../../assets/landing/Star-blk.png" alt="Star" /></span
-        >Articles</a
-      >
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+  <div class="topnav" id="myTopnav">
+    <a href="../../index.html" class="home"> Dark Data 2023</a>
+    <a href="../about.html"><span class="star"><img src="../../assets/landing/Star-blk.png"
+          alt="Star" /></span>About</a>
+    <a href="../editors.html"><span class="star"><img src="../../assets/landing/Star-blk.png"
+          alt="Star" /></span>Editor's Note</a>
+    <a href="../../index.html" class="active"><span class="star"><img src="../../assets/landing/Star-blk.png"
+          alt="Star" /></span>Articles</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <header>
+    <div class="header-content">
+      <div class="header-text">
+        <h1>Cicada 3301: A Mystery Unsolved</h1>
+        <a href="../about.html" class="box">
+          <p>Joseph Wang</p>
+        </a>
+        <p class="abstract">
+          A detailed documentary of the most mysterious group on the internet
+        </p>
+      </div>
+      <div class="header-image joseph">
+        <img class="mobile" src="../../assets/articles/Article/JosephLG.png" alt="Header Image" />
+      </div>
     </div>
+  </header>
 
-    <header>
-      <div class="header-content">
-        <div class="header-text">
-          <h1>Cicada 3301: A Mystery Unsolved</h1>
-          <a href="../about.html" class="box">
-            <p>Joseph Wang</p>
-          </a>
-          <p class="abstract">
-            A detailed documentary of the most mysterious group on the internet
-          </p>
-        </div>
-        <div class="header-image joseph">
-          <img
-            class="mobile"
-            src="../../assets/articles/Article/JosephLG.png"
-            alt="Header Image"
-          />
-        </div>
-      </div>
-    </header>
-
-    <div class="line show"></div>
-    <main>
-      <article>
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          Cicada 3301 is an anonymous group of people who released internet
-          puzzles that have captured the imagination of people around the world.
-          It has been described as "the most baffling and enigmatic mystery on
-          the Internet" and was listed as one of the "Top 5 eeriest, unsolved
-          mysteries of the Internet" by the Washington Post.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">1</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Caitlin Dewey, “Five of the Internet’s Eeriest, Unsolved
-                Mysteries,” Washington Post, December 3, 2021,
-                https://www.washingtonpost.com/news/arts-and-entertainment/wp/2014/05/02/five-of-the-internets-eeriest-unsolved-mysteries/.
-              </span>
-            </span></sup
-          >
-
-          It first appeared on 4chan in 2012 and has since reappeared on several
-          other websites every few years. Cicada 3301 puzzles are typically
-          released in batches, with each batch consisting of a series of
-          increasingly difficult challenges. The puzzles often involve solving
-          riddles, deciphering codes, and finding hidden messages in images and
-          videos. To solve the puzzles, participants must work together and
-          share their knowledge and expertise. This has led to the formation of
-          online communities of Cicada 3301 puzzlers, who collaborate to solve
-          the challenges. The puzzles are highly complex and require a deep
-          understanding of cryptography, steganography, and other cryptography
-          techniques. The stated purpose of the puzzles is to recruit "highly
-          intelligent individuals." However, the ultimate purpose of Cicada 3301
-          remains unknown. There has been much speculation and many theories,
-          including that they are recruitment tools for the NSA, MI6,
-          Illuminati, a cult, or a hacker group. Only a handful of people have
-          ever solved all of the Cicada 3301 puzzles. Those who have been
-          successful have been rewarded with cryptic messages and invitations to
-          join Cicada 3301. However, no one knows what happens to those who join
-          Cicada 3301, or what their ultimate goals are.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">2</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE 2,”
-                August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
-              </span>
-            </span></sup
-          >
-
-          Many first thought Cicada 3301 was an Alternate Reality Game, but
-          still, very few know where this rabbit hole leads to. Those who do
-          have disappeared from the internet.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">3</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
-                August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS A SUBHEADING -->
-        <h2>Chapter I - The Invitation (2012)</h2>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          The story of Cicada 3301 begins on January 5th, 2012, when a
-          mysterious image was posted on 4chan’s /x/ - paranormal board:
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row1" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/1.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/1.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 original 4chan invitation</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          There is a message hidden in this image. After extracting it, you
-          receive a string of letters and numbers that reads:
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          <i
-            >9=82<.342 122222222222222222222222222222222222222222222222222 %&'
-            (*456789 : CDEFGHIJSTUVWXYZcdefghijstuvwxyz &' () *56789 :
-            CDEFGHIJSTUVWXYZcdefghijstuvwxyz TIBERIVS CLAVDIVS CAESAR says
-            "1xxt>33m2mqkyv2gsq3q=w]02ntk"
-          </i>
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          If you look closely at the very last line, you can see that there is a
-          “web address” hidden in the plain site. The “1xxt>33” at the beginning
-          of the sequence is the clue to see “http://”, which is the beginning
-          of every single web address.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">4</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Contributors to Uncovering Cicada Wiki, “What Happened (2012),”
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
-              </span>
-            </span></sup
-          >
-
-          Once you deciphered the entire string, you will get a link to an Imgur
-          image: https://i.imgur.com/m9sYK.jpg, which is shown below:
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row1" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/2.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/2.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 decoy image</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          The image contains two keywords that hint at how to get the real
-          message out: guess and out. This indicates that you should use the
-          steganography tool OutGuess.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">5</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
-                August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
-              </span>
-            </span></sup
-          >
-
-          If you use OutGuess, you get a much more interesting message:
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Here is a book code. To find the book, and more information, go to
-          https://www.reddit.com/r/a2e7j6ic78h0j/
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Once you reach the Reddit forum, you would be greeted with two images:
-        </p>
-
-        <!-- THIS IS TWO PICTURES -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/3.jpg"
-            alt="Image 5 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/3.jpg"
-            alt="Image 5 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 Subreddit Welcome Image</figcaption>
-        </div>
-        <div class="image-container row22" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/4.jpg"
-            alt="Image 6 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/4.jpg"
-            alt="Image 6 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 Subreddit Problems Image</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>Using the OutGuess Tool on the welcome image gives this text:</p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          From here on out, we will cryptographically sign all messages with
-          this key. It is available on the mit keyservers. Key ID 7A35090F, as
-          posted in a2e7j6ic78h0j. Patience is a virtue. Good luck. 3301
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          This is a very important piece of information since many imposters are
-          pretending to be Cicada 3301. This PGP (GnuPG) key is how to verify
-          their authenticity. Only real messages from Cicada 3301 are signed
-          with this key ID: 7A35090F.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">6</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Contributors to Uncovering Cicada Wiki, “What Happened (2012),”
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Using similar methods stated above, when you deciphered the second
-          image, which looks similar to the Holy Grail, you will receive this
-          message:
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Call us at us tele numBer two one four three nine oh nine six oh eight
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          Various people tried to pull records on this phone number, but they
-          soon found out that even the technical support and customer service
-          teams could not access the records of that particular number.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">7</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE 2,”
-                August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>If you called the number, you would hear this message:</p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Very good. You have done well. There are three prime numbers
-          associated with the original final.jpg image. 3301 is one of them. You
-          will have to find the other two. Multiply all three of these numbers
-          together and add a .com to find the next step. Good luck. Goodbye.
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          Looking at the image posted on 4chan, it has no obvious prime numbers,
-          but the size of the image is 509 x 503 pixels. It happens that both
-          509 and 503 are prime numbers. With the original number of 3301 being
-          the third number, you can calculate the total number as 509 x 503 x
-          3301 = 845145127.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">8</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE 2,”
-                August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          The website 845145127.com shows an image of a cicada and a countdown:
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row1" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/5.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/5.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 Countdown Website</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>People used OutGuess on the image to reveal another message:</p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          You have done well to come this far. Patience is a virtue. Check back
-          at 17:00 on Monday, 9 January 2012 UTC. 3301
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          People waited with the greatest anticipation. They could not have been
-          prepared for what came next. When the countdown reached 0, the message
-          hidden in the image changed. It now contained what looked like
-          coordinates, spread across the globe. The locations were spread out
-          over the world in California, Australia, Hawaii, South Korea, Poland,
-          and other places.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">9</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                LEMMiNO, “Cicada 3301: An Internet Mystery,” May 19, 2018,
-                https://www.youtube.com/watch?v=I2O7blSSzpI.
-              </span>
-            </span></sup
-          >
-          Visiting these exact locations there were real posters with an image
-          of a cicada and a QR code:
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/6.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/6.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 QR poster in Warsaw</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          The QR code lead people to another book called Agrippa (A Book of the
-          Dead) by William Gibson. The book contained a poem, which came on a
-          3.5-inch disk with the book, and was programmed to encrypt itself
-          after a single use. The content of the book redirects people to a
-          series of technical puzzles including the RSA puzzle and the MIDI
-          puzzle.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">10</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Contributors to Uncovering Cicada Wiki, “What Happened (2012),”
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          People who solved those puzzles received an encrypted email from
-          Cicada 3301, which included a statement saying that they were not a
-          hacker group and they did not engage in illegal activity. They claimed
-          that they operated similarly to a think tank, with a primary focus on
-          researching and developing techniques to increase liberty, privacy,
-          and security.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">11</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
-                August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          A month after the release of the original image, the image on the
-          subreddit changed:
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/7.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover height"
-            src="../../assets/articles/joseph/7.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>The end of the 2012 puzzle</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Then nothing was heard from Cicada until January 2013, when they
-          launched their next puzzle.
-        </p>
-
-        <!-- THIS IS A SUBHEADING -->
-        <h2>Chapter II - Liber Primus (2014)</h2>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          On January 5th, 2014, Cicada released their third major puzzle, a
-          series of steps that led to a 58-page book of symbols and runes. They
-          called it the “Liber Primus”, meaning "First Book" in Latin.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">12</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
-                August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/8.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover height"
-            src="../../assets/articles/joseph/8.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Liber Primus Title Page</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          The book quotes directly from "The Marriage of Heaven and Hell" by
-          William Blake. It is remarkable for its complexity and the various
-          encryption and encoding techniques it employs. The puzzle's origins
-          and purpose remain mysterious. Additionally, its content includes
-          references to Jungian psychology and philosophical ideas. The exact
-          meaning and message of the Liber Primus remain a subject of debate and
-          interpretation among those following the Cicada 3301 puzzles.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">13</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Contributors to Uncovering Cicada Wiki, “Liber Primus,”
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/Liber_Primus.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          The puzzle has attracted the interest of codebreakers and puzzle
-          enthusiasts around the world, yet the complexity and technicality of
-          this puzzle surpassed most followers’ abilities. Among the 58 pages,
-          only 17 pages have been deciphered and shared publicly online.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">14</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
-                August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          The solved pages of the puzzle utilized Gematria Primus to encode
-          messages. First found during the 2013 puzzle, it is an alphabet with
-          29 runes, each with an English equivalent and a numerical value, The
-          numerical values are consecutive prime numbers in ascending order. The
-          Gematria Primus alphabet is similar to many old futhorc rune
-          alphabets, but is most similar to an old rune poem. Since Gematria
-          Primus is nearly identical to the poem, it seems to be based on it. A
-          common theory is that 3301 found a prime number-length alphabet and
-          decided to turn that into their alphabet.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">15</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Contributors to Uncovering Cicada Wiki, “Gematria Primus,”
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/Gematria_Primus.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>Here are examples of the deciphered pages:</p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/9.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/9.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Liber Primus A Warning</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Translation: Believe Nothing From This Book Except What You Know To Be
-          True Test The Knowledge Find Your Truth Experience Your Death Do Not
-          Edit Or Change This Book Or The Message Contained Within Either The
-          Words Or Their Numbers For All Is Sacred
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/10.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/10.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Liber Primus An End</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Translation: An End Within The Deep Web, There Exists A Page That
-          Hashes To 36367763ab73783c7af284446c 59466b4cd653239a311cb7116
-          D4618dee09a8425893dc7500b 464fdaf1672d7bef5e891c6e227
-          4568926a49fb4f45132c2a8b4 It Is The Duty Of Every Pilgrim To Seek Out
-          This Page
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/11.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/11.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Liber Primus Parable</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Translation: Parable : Like the instar tunneling to the surface. We
-          must shed our own circumferences. Find the divinity within and emerge.
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          Looking at the language used in Liber Primus, It is easy to see why
-          some people speculated that Cicada 3301 was a cult. “For All Is
-          Sacred”, “Experience Your Death”, “The Duty Of Every Pilgrim”, and
-          “Find the divinity within and emerge”. In fact, many zealots tried to
-          mimic Cicada's messages on various websites and forums after the
-          release of Liber Primus.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">16</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Contributors to Uncovering Cicada Wiki, “PGP Signed Message
-                April 2017,” Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/PGP_Signed_Message_April_2017.
-              </span>
-            </span></sup
-          >
-
-          For several years, Cicada did not release any new puzzles but made
-          several statements, such as:
-        </p>
-
-        <!-- THIS IS A SINGLE PICTURE -->
-        <div class="image-container row21" onclick="toggleImgHover(this)">
-          <!-- CHANGE FILE NAME -->
-          <img
-            src="../../assets/articles/joseph/12.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE FILE NAME -->
-          <img
-            class="img-hover wide"
-            src="../../assets/articles/joseph/12.jpg"
-            alt="Image 1 Description"
-          />
-          <!-- CHANGE IMAGE DESCRIPTION -->
-          <figcaption>Cicada 3301 Statement 2016</figcaption>
-        </div>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          After they released this statement in 2017, no further public
-          communication was made by Cicada til now:
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>Beware false paths. Always verify PGP signature from 7A35090F.</p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Where did they go? Is Cicada still “alive”? Will they release new
-          puzzles? Is Liber Primus the “End Game”? We may never know.
-        </p>
-
-        <!-- THIS IS A SUBHEADING -->
-        <h2>
-          Chapter III - Coincidence, or not? The Possible Origins of Cicada
-        </h2>
-
-        <p>
-          In the last 10 years, fans and followers have tried every single
-          method imaginable to find the real identity of Cicada 3301. Some of
-          their discoveries have led to surprising yet reasonable connections.
-          One of these connections is a group of people called “Cypherpunks”.
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          Solving Cicada puzzles requires public access to strong encryption and
-          a free flow of information. These ideas flourished in the early days
-          of the internet at the University of California, Berkeley, which was
-          one of the early intellectual hubs of the resistance fighting for
-          digital security. In the early 90s, the internet was new and
-          little-understood. However, scientists could already see the potential
-          threats to privacy the government posed, as they could track and
-          record anyone’s activity online without anyone’s knowledge. A group of
-          hackers came together to fight for internet privacy and digital
-          rights. They were graduate students, professors, and staff of UC
-          Berkeley, such as Eric Hughes, Timothy C. May, and John Gilmore,
-          unified under the name “Cypherpunks”.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">17</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story. “Cracking the Code of Cicada 3301 | EPISODE 4,”
-                August 16, 2019. https://www.youtube.com/watch?v=GanHp3XCYgg.
-              </span>
-            </span></sup
-          >
-
-          Their ultimate goal was to create publicly available systems and
-          platforms for encryption and anonymous communication. Their beliefs
-          are further exemplified in A Cypherpunk's Manifesto:
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          "Privacy is necessary for an open society in the electronic age. ...
-          We cannot expect governments, corporations, or other large, faceless
-          organizations to grant us privacy ... We must defend our own privacy
-          if we expect to have any. ... Cypherpunks write code. We know that
-          someone has to write software to defend privacy, and ... we're going
-          to write it."
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">18</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Eric Hughes, A Cypherpunk’s Manifesto, John Wiley & Sons, Inc.
-                eBooks, 1997, http://dl.acm.org/citation.cfm?id=285692.285725.
-              </span>
-            </span></sup
-          >
-        </p>
-
-        <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
-        <p>
-          Cypherpunks valued the privacy of communications and data retention,
-          as afforded through anonymity and pseudonymity. They strongly opposed
-          censorship and wanted to help people hide the “act of hiding”.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">19</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Eric Hughes, A Cypherpunk’s Manifesto, John Wiley & Sons, Inc.
-                eBooks, 1997, http://dl.acm.org/citation.cfm?id=285692.285725.
-              </span>
-            </span></sup
-          >
-
-          Because of these beliefs, a mailing list was started in 1992 to
-          facilitate technical discussions ranging from mathematics,
-          cryptography, computer science, to political, and philosophical
-          discussion. The mailing list was an email address
-          @cicada.berkeley.edu. On top of that, there is a server located in the
-          Soda Hall of UC Berkeley called cicada.berkeley.edu.
-
-          <!-- THIS IS A FOOTNOTE IN THE TEXT -->
-          <sup
-            ><span class="footnote"
-              ><a rel="noopener" href="#Bibliography">20</a>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-              <span class="footnote-content">
-                <!-- USE CHICAGO CITATION STYLE -->
-                Great Big Story. “Cracking the Code of Cicada 3301 | EPISODE 4,”
-                August 16, 2019. https://www.youtube.com/watch?v=GanHp3XCYgg.
-              </span>
-            </span></sup
-          >
-
-          Although no member of Cypherpunk has openly admitted the creation of
-          Cicada 3301, this seems too much to be a coincidence.
-        </p>
-
-        <!-- THIS IS A SUBHEADING -->
-        <h2>What’s next for Cicada 3301?</h2>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Cicada 3301's enigmatic puzzles and clandestine nature have left an
-          indelible mark on the internet community, challenging individuals to
-          think critically about cryptography, steganography, data privacy, and
-          the power dynamics within the digital world. Their intricate
-          challenges have ignited a global fascination with cryptography,
-          inspiring a generation of codebreakers and cryptographers to delve
-          into the intricacies of digital security.
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Perhaps the true legacy of Cicada 3301 lies not in the answers they
-          provided, but in the questions they raised. They have forced us to
-          confront the complexities of online anonymity, the vulnerabilities of
-          our digital identities, and the delicate balance between privacy and
-          security in the ever-evolving landscape of the internet.
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          Their puzzles have served as a stark reminder that the digital world
-          is not merely a virtual extension of our physical reality, but a realm
-          with its enigmas waiting to be unraveled. As we continue to navigate
-          the uncharted territories of the internet, Cicada 3301's legacy will
-          endure, challenging us to think beyond the surface and delve into the
-          depths of the digital frontier.
-        </p>
-
-        <!-- THIS IS NORMAL TEXT -->
-        <p>
-          In the age of true-crime podcasts and internet sleuths, the key to
-          unraveling Cicada 3301's secrets lies not in the hands of elite
-          cypherpunks or government agencies, but in the collective minds of the
-          internet-savvy generation. With their insatiable curiosity and
-          penchant for decoding mysteries, perhaps this generation will finally
-          crack the code and reveal the true identity and purpose of Cicada
-          3301.
-        </p>
-      </article>
-    </main>
-    <div class="line"></div>
+  <div class="line show"></div>
+  <main>
     <article>
-      <div class="recommended-articles">
-        <h2>Read More on Cyber Culture and Communities</h2>
-      </div>
-      <div class="hero is-fullheight">
-        <div class="gallery" id="gallery">
-          <a class="flip-card" href="../../pages/articles/marshall.html">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img
-                  src="../../assets/landing/gallery/MarshalSQ.png"
-                  alt="A group of plastic bags on a beige background."
-                />
-              </div>
-              <div class="flip-card-back">
-                <h1 id="dynamicTitle_6">
-                  Are We Data Hoarders or Digital Librarians?
-                </h1>
-                <h2 id="dynamicAuthor_6">Marshall Wang Meixuan</h2>
-              </div>
-            </div>
-          </a>
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        Cicada 3301 is an anonymous group of people who released internet
+        puzzles that have captured the imagination of people around the world.
+        It has been described as "the most baffling and enigmatic mystery on
+        the Internet" and was listed as one of the "Top 5 eeriest, unsolved
+        mysteries of the Internet" by the Washington Post.
 
-          <!-- ADD INFO ALVIN -->
-          <a class="flip-card" href="../../pages/articles/alvin.html">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../../assets/landing/gallery/AlvinSQ.png" alt="" />
-              </div>
-              <div class="flip-card-back">
-                <h1 id="dynamicTitle_14">
-                  Little Sweet Potato, Who Gets To Eat It?
-                </h1>
-                <h2 id="dynamicAuthor_14">Alvin Liu</h2>
-              </div>
-            </div>
-          </a>
-        </div>
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">1</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Caitlin Dewey, “Five of the Internet’s Eeriest, Unsolved
+              Mysteries,” Washington Post, December 3, 2021,
+              https://www.washingtonpost.com/news/arts-and-entertainment/wp/2014/05/02/five-of-the-internets-eeriest-unsolved-mysteries/.
+            </span>
+          </span></sup>
+
+        It first appeared on 4chan in 2012 and has since reappeared on several
+        other websites every few years. Cicada 3301 puzzles are typically
+        released in batches, with each batch consisting of a series of
+        increasingly difficult challenges. The puzzles often involve solving
+        riddles, deciphering codes, and finding hidden messages in images and
+        videos. To solve the puzzles, participants must work together and
+        share their knowledge and expertise. This has led to the formation of
+        online communities of Cicada 3301 puzzlers, who collaborate to solve
+        the challenges. The puzzles are highly complex and require a deep
+        understanding of cryptography, steganography, and other cryptography
+        techniques. The stated purpose of the puzzles is to recruit "highly
+        intelligent individuals." However, the ultimate purpose of Cicada 3301
+        remains unknown. There has been much speculation and many theories,
+        including that they are recruitment tools for the NSA, MI6,
+        Illuminati, a cult, or a hacker group. Only a handful of people have
+        ever solved all of the Cicada 3301 puzzles. Those who have been
+        successful have been rewarded with cryptic messages and invitations to
+        join Cicada 3301. However, no one knows what happens to those who join
+        Cicada 3301, or what their ultimate goals are.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">2</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE 2,”
+              August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
+            </span>
+          </span></sup>
+
+        Many first thought Cicada 3301 was an Alternate Reality Game, but
+        still, very few know where this rabbit hole leads to. Those who do
+        have disappeared from the internet.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">3</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
+              August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS A SUBHEADING -->
+      <h2>Chapter I - The Invitation (2012)</h2>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        The story of Cicada 3301 begins on January 5th, 2012, when a
+        mysterious image was posted on 4chan’s /x/ - paranormal board:
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row1" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/1.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/1.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 original 4chan invitation</figcaption>
       </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        There is a message hidden in this image. After extracting it, you
+        receive a string of letters and numbers that reads:
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        <i>9=82<.342 122222222222222222222222222222222222222222222222222 %&' (*456789 : CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+            &' () *56789 : CDEFGHIJSTUVWXYZcdefghijstuvwxyz TIBERIVS CLAVDIVS CAESAR says "1xxt>33m2mqkyv2gsq3q=w]02ntk"
+            </i>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        If you look closely at the very last line, you can see that there is a
+        “web address” hidden in the plain site. The “1xxt>33” at the beginning
+        of the sequence is the clue to see “http://”, which is the beginning
+        of every single web address.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">4</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Contributors to Uncovering Cicada Wiki, “What Happened (2012),”
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
+            </span>
+          </span></sup>
+
+        Once you deciphered the entire string, you will get a link to an Imgur
+        image: https://i.imgur.com/m9sYK.jpg, which is shown below:
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row1" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/2.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/2.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 decoy image</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        The image contains two keywords that hint at how to get the real
+        message out: guess and out. This indicates that you should use the
+        steganography tool OutGuess.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">5</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
+              August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
+            </span>
+          </span></sup>
+
+        If you use OutGuess, you get a much more interesting message:
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Here is a book code. To find the book, and more information, go to
+        https://www.reddit.com/r/a2e7j6ic78h0j/
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Once you reach the Reddit forum, you would be greeted with two images:
+      </p>
+
+      <!-- THIS IS TWO PICTURES -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/3.jpg" alt="Image 5 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/3.jpg" alt="Image 5 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 Subreddit Welcome Image</figcaption>
+      </div>
+      <div class="image-container row22" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/4.jpg" alt="Image 6 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/4.jpg" alt="Image 6 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 Subreddit Problems Image</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>Using the OutGuess Tool on the welcome image gives this text:</p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        From here on out, we will cryptographically sign all messages with
+        this key. It is available on the mit keyservers. Key ID 7A35090F, as
+        posted in a2e7j6ic78h0j. Patience is a virtue. Good luck. 3301
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        This is a very important piece of information since many imposters are
+        pretending to be Cicada 3301. This PGP (GnuPG) key is how to verify
+        their authenticity. Only real messages from Cicada 3301 are signed
+        with this key ID: 7A35090F.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">6</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Contributors to Uncovering Cicada Wiki, “What Happened (2012),”
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Using similar methods stated above, when you deciphered the second
+        image, which looks similar to the Holy Grail, you will receive this
+        message:
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Call us at us tele numBer two one four three nine oh nine six oh eight
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        Various people tried to pull records on this phone number, but they
+        soon found out that even the technical support and customer service
+        teams could not access the records of that particular number.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">7</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE 2,”
+              August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>If you called the number, you would hear this message:</p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Very good. You have done well. There are three prime numbers
+        associated with the original final.jpg image. 3301 is one of them. You
+        will have to find the other two. Multiply all three of these numbers
+        together and add a .com to find the next step. Good luck. Goodbye.
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        Looking at the image posted on 4chan, it has no obvious prime numbers,
+        but the size of the image is 509 x 503 pixels. It happens that both
+        509 and 503 are prime numbers. With the original number of 3301 being
+        the third number, you can calculate the total number as 509 x 503 x
+        3301 = 845145127.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">8</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE 2,”
+              August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        The website 845145127.com shows an image of a cicada and a countdown:
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row1" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/5.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/5.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 Countdown Website</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>People used OutGuess on the image to reveal another message:</p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        You have done well to come this far. Patience is a virtue. Check back
+        at 17:00 on Monday, 9 January 2012 UTC. 3301
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        People waited with the greatest anticipation. They could not have been
+        prepared for what came next. When the countdown reached 0, the message
+        hidden in the image changed. It now contained what looked like
+        coordinates, spread across the globe. The locations were spread out
+        over the world in California, Australia, Hawaii, South Korea, Poland,
+        and other places.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">9</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              LEMMiNO, “Cicada 3301: An Internet Mystery,” May 19, 2018,
+              https://www.youtube.com/watch?v=I2O7blSSzpI.
+            </span>
+          </span></sup>
+        Visiting these exact locations there were real posters with an image
+        of a cicada and a QR code:
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/6.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/6.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 QR poster in Warsaw</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        The QR code lead people to another book called Agrippa (A Book of the
+        Dead) by William Gibson. The book contained a poem, which came on a
+        3.5-inch disk with the book, and was programmed to encrypt itself
+        after a single use. The content of the book redirects people to a
+        series of technical puzzles including the RSA puzzle and the MIDI
+        puzzle.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">10</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Contributors to Uncovering Cicada Wiki, “What Happened (2012),”
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        People who solved those puzzles received an encrypted email from
+        Cicada 3301, which included a statement saying that they were not a
+        hacker group and they did not engage in illegal activity. They claimed
+        that they operated similarly to a think tank, with a primary focus on
+        researching and developing techniques to increase liberty, privacy,
+        and security.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">11</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
+              August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        A month after the release of the original image, the image on the
+        subreddit changed:
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/7.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover height" src="../../assets/articles/joseph/7.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>The end of the 2012 puzzle</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Then nothing was heard from Cicada until January 2013, when they
+        launched their next puzzle.
+      </p>
+
+      <!-- THIS IS A SUBHEADING -->
+      <h2>Chapter II - Liber Primus (2014)</h2>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        On January 5th, 2014, Cicada released their third major puzzle, a
+        series of steps that led to a 58-page book of symbols and runes. They
+        called it the “Liber Primus”, meaning "First Book" in Latin.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">12</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
+              August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/8.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover height" src="../../assets/articles/joseph/8.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Liber Primus Title Page</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        The book quotes directly from "The Marriage of Heaven and Hell" by
+        William Blake. It is remarkable for its complexity and the various
+        encryption and encoding techniques it employs. The puzzle's origins
+        and purpose remain mysterious. Additionally, its content includes
+        references to Jungian psychology and philosophical ideas. The exact
+        meaning and message of the Liber Primus remain a subject of debate and
+        interpretation among those following the Cicada 3301 puzzles.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">13</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Contributors to Uncovering Cicada Wiki, “Liber Primus,”
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/Liber_Primus.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        The puzzle has attracted the interest of codebreakers and puzzle
+        enthusiasts around the world, yet the complexity and technicality of
+        this puzzle surpassed most followers’ abilities. Among the 58 pages,
+        only 17 pages have been deciphered and shared publicly online.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">14</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story, “Cracking the Code of Cicada 3301| EPISODE 1,”
+              August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        The solved pages of the puzzle utilized Gematria Primus to encode
+        messages. First found during the 2013 puzzle, it is an alphabet with
+        29 runes, each with an English equivalent and a numerical value, The
+        numerical values are consecutive prime numbers in ascending order. The
+        Gematria Primus alphabet is similar to many old futhorc rune
+        alphabets, but is most similar to an old rune poem. Since Gematria
+        Primus is nearly identical to the poem, it seems to be based on it. A
+        common theory is that 3301 found a prime number-length alphabet and
+        decided to turn that into their alphabet.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">15</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Contributors to Uncovering Cicada Wiki, “Gematria Primus,”
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/Gematria_Primus.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>Here are examples of the deciphered pages:</p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/9.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/9.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Liber Primus A Warning</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Translation: Believe Nothing From This Book Except What You Know To Be
+        True Test The Knowledge Find Your Truth Experience Your Death Do Not
+        Edit Or Change This Book Or The Message Contained Within Either The
+        Words Or Their Numbers For All Is Sacred
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/10.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/10.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Liber Primus An End</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Translation: An End Within The Deep Web, There Exists A Page That
+        Hashes To 36367763ab73783c7af284446c 59466b4cd653239a311cb7116
+        D4618dee09a8425893dc7500b 464fdaf1672d7bef5e891c6e227
+        4568926a49fb4f45132c2a8b4 It Is The Duty Of Every Pilgrim To Seek Out
+        This Page
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/11.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/11.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Liber Primus Parable</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Translation: Parable : Like the instar tunneling to the surface. We
+        must shed our own circumferences. Find the divinity within and emerge.
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        Looking at the language used in Liber Primus, It is easy to see why
+        some people speculated that Cicada 3301 was a cult. “For All Is
+        Sacred”, “Experience Your Death”, “The Duty Of Every Pilgrim”, and
+        “Find the divinity within and emerge”. In fact, many zealots tried to
+        mimic Cicada's messages on various websites and forums after the
+        release of Liber Primus.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">16</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Contributors to Uncovering Cicada Wiki, “PGP Signed Message
+              April 2017,” Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/PGP_Signed_Message_April_2017.
+            </span>
+          </span></sup>
+
+        For several years, Cicada did not release any new puzzles but made
+        several statements, such as:
+      </p>
+
+      <!-- THIS IS A SINGLE PICTURE -->
+      <div class="image-container row21" onclick="toggleImgHover(this)">
+        <!-- CHANGE FILE NAME -->
+        <img src="../../assets/articles/joseph/12.jpg" alt="Image 1 Description" />
+        <!-- CHANGE FILE NAME -->
+        <img class="img-hover wide" src="../../assets/articles/joseph/12.jpg" alt="Image 1 Description" />
+        <!-- CHANGE IMAGE DESCRIPTION -->
+        <figcaption>Cicada 3301 Statement 2016</figcaption>
+      </div>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        After they released this statement in 2017, no further public
+        communication was made by Cicada til now:
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>Beware false paths. Always verify PGP signature from 7A35090F.</p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Where did they go? Is Cicada still “alive”? Will they release new
+        puzzles? Is Liber Primus the “End Game”? We may never know.
+      </p>
+
+      <!-- THIS IS A SUBHEADING -->
+      <h2>
+        Chapter III - Coincidence, or not? The Possible Origins of Cicada
+      </h2>
+
+      <p>
+        In the last 10 years, fans and followers have tried every single
+        method imaginable to find the real identity of Cicada 3301. Some of
+        their discoveries have led to surprising yet reasonable connections.
+        One of these connections is a group of people called “Cypherpunks”.
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        Solving Cicada puzzles requires public access to strong encryption and
+        a free flow of information. These ideas flourished in the early days
+        of the internet at the University of California, Berkeley, which was
+        one of the early intellectual hubs of the resistance fighting for
+        digital security. In the early 90s, the internet was new and
+        little-understood. However, scientists could already see the potential
+        threats to privacy the government posed, as they could track and
+        record anyone’s activity online without anyone’s knowledge. A group of
+        hackers came together to fight for internet privacy and digital
+        rights. They were graduate students, professors, and staff of UC
+        Berkeley, such as Eric Hughes, Timothy C. May, and John Gilmore,
+        unified under the name “Cypherpunks”.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">17</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story. “Cracking the Code of Cicada 3301 | EPISODE 4,”
+              August 16, 2019. https://www.youtube.com/watch?v=GanHp3XCYgg.
+            </span>
+          </span></sup>
+
+        Their ultimate goal was to create publicly available systems and
+        platforms for encryption and anonymous communication. Their beliefs
+        are further exemplified in A Cypherpunk's Manifesto:
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        "Privacy is necessary for an open society in the electronic age. ...
+        We cannot expect governments, corporations, or other large, faceless
+        organizations to grant us privacy ... We must defend our own privacy
+        if we expect to have any. ... Cypherpunks write code. We know that
+        someone has to write software to defend privacy, and ... we're going
+        to write it."
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">18</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Eric Hughes, A Cypherpunk’s Manifesto, John Wiley & Sons, Inc.
+              eBooks, 1997, http://dl.acm.org/citation.cfm?id=285692.285725.
+            </span>
+          </span></sup>
+      </p>
+
+      <!-- THIS IS NORMAL TEXT WITH A FOOTNOTE -->
+      <p>
+        Cypherpunks valued the privacy of communications and data retention,
+        as afforded through anonymity and pseudonymity. They strongly opposed
+        censorship and wanted to help people hide the “act of hiding”.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">19</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Eric Hughes, A Cypherpunk’s Manifesto, John Wiley & Sons, Inc.
+              eBooks, 1997, http://dl.acm.org/citation.cfm?id=285692.285725.
+            </span>
+          </span></sup>
+
+        Because of these beliefs, a mailing list was started in 1992 to
+        facilitate technical discussions ranging from mathematics,
+        cryptography, computer science, to political, and philosophical
+        discussion. The mailing list was an email address
+        @cicada.berkeley.edu. On top of that, there is a server located in the
+        Soda Hall of UC Berkeley called cicada.berkeley.edu.
+
+        <!-- THIS IS A FOOTNOTE IN THE TEXT -->
+        <sup><span class="footnote"><a rel="noopener" href="#Bibliography">20</a>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+            <span class="footnote-content">
+              <!-- USE CHICAGO CITATION STYLE -->
+              Great Big Story. “Cracking the Code of Cicada 3301 | EPISODE 4,”
+              August 16, 2019. https://www.youtube.com/watch?v=GanHp3XCYgg.
+            </span>
+          </span></sup>
+
+        Although no member of Cypherpunk has openly admitted the creation of
+        Cicada 3301, this seems too much to be a coincidence.
+      </p>
+
+      <!-- THIS IS A SUBHEADING -->
+      <h2>What’s next for Cicada 3301?</h2>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Cicada 3301's enigmatic puzzles and clandestine nature have left an
+        indelible mark on the internet community, challenging individuals to
+        think critically about cryptography, steganography, data privacy, and
+        the power dynamics within the digital world. Their intricate
+        challenges have ignited a global fascination with cryptography,
+        inspiring a generation of codebreakers and cryptographers to delve
+        into the intricacies of digital security.
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Perhaps the true legacy of Cicada 3301 lies not in the answers they
+        provided, but in the questions they raised. They have forced us to
+        confront the complexities of online anonymity, the vulnerabilities of
+        our digital identities, and the delicate balance between privacy and
+        security in the ever-evolving landscape of the internet.
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        Their puzzles have served as a stark reminder that the digital world
+        is not merely a virtual extension of our physical reality, but a realm
+        with its enigmas waiting to be unraveled. As we continue to navigate
+        the uncharted territories of the internet, Cicada 3301's legacy will
+        endure, challenging us to think beyond the surface and delve into the
+        depths of the digital frontier.
+      </p>
+
+      <!-- THIS IS NORMAL TEXT -->
+      <p>
+        In the age of true-crime podcasts and internet sleuths, the key to
+        unraveling Cicada 3301's secrets lies not in the hands of elite
+        cypherpunks or government agencies, but in the collective minds of the
+        internet-savvy generation. With their insatiable curiosity and
+        penchant for decoding mysteries, perhaps this generation will finally
+        crack the code and reveal the true identity and purpose of Cicada
+        3301.
+      </p>
     </article>
-    <footer>
-      <div class="Bibliography">
-        <a id="Bibliography"></a>
-        <h2>Bibliography</h2>
-        <div class="margin">
-          <ul class="columns" data-columns="2">
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>1</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+  </main>
+  <div class="line"></div>
+  <article>
+    <div class="recommended-articles">
+      <h2>Read More on Cyber Culture and Communities</h2>
+    </div>
+    <div class="hero is-fullheight">
+      <div class="gallery" id="gallery">
+        <a class="flip-card" href="../../pages/articles/marshall.html">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../../assets/landing/gallery/MarshalSQ.png"
+                alt="A group of plastic bags on a beige background." />
+            </div>
+            <div class="flip-card-back">
+              <h1 id="dynamicTitle_6">
+                Are We Data Hoarders or Digital Librarians?
+              </h1>
+              <h2 id="dynamicAuthor_6">Marshall Wang Meixuan</h2>
+            </div>
+          </div>
+        </a>
 
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Caitlin Dewey, “Five of the Internet’s Eeriest, Unsolved
-                  Mysteries,”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Washington Post, December 3, 2021,
-                https://www.washingtonpost.com/news/arts-and-entertainment/wp/2014/05/02/five-of-the-internets-eeriest-unsolved-mysteries/.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>2</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE
-                  2,”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>3</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Great Big Story. “Cracking the Code of Cicada 3301 | EPISODE
-                  4,”</b
-                >
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                August 16, 2019. https://www.youtube.com/watch?v=GanHp3XCYgg.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>4</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b>Eric Hughes, A Cypherpunk’s Manifesto</b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                , John Wiley & Sons, Inc. eBooks, 1997,
-                http://dl.acm.org/citation.cfm?id=285692.285725.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>5</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Great Big Story, “Cracking the Code of Cicada 3301| EPISODE
-                  1,”
-                </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>6</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b>Contributors to Uncovering Cicada Wiki, “Liber Primus,” </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/Liber_Primus.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>7</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Contributors to Uncovering Cicada Wiki, “Gematria Primus,”
-                </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/Gematria_Primus.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>8</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Contributors to Uncovering Cicada Wiki, “PGP Signed Message
-                  April 2017,”
-                </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/PGP_Signed_Message_April_2017.
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>9</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b
-                  >Contributors to Uncovering Cicada Wiki, “What Happened
-                  (2012),”
-                </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                Uncovering Cicada Wiki, n.d.,
-                https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
-              </p>
-            </li>
-
-            <!-- THIS IS A FOOTNOTE -->
-            <li class="Num">
-              <h1>10</h1>
-              <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
-
-              <!-- USE CHICAGO CITATION STYLE -->
-              <p>
-                <b>LEMMiNO, “Cicada 3301: An Internet Mystery,” </b>
-                <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
-                May 19, 2018, https://www.youtube.com/watch?v=I2O7blSSzpI.
-              </p>
-            </li>
-          </ul>
-        </div>
+        <!-- ADD INFO ALVIN -->
+        <a class="flip-card" href="../../pages/articles/alvin.html">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../../assets/landing/gallery/AlvinSQ.png" alt="" />
+            </div>
+            <div class="flip-card-back">
+              <h1 id="dynamicTitle_14">
+                Little Sweet Potato, Who Gets To Eat It?
+              </h1>
+              <h2 id="dynamicAuthor_14">Alvin Liu</h2>
+            </div>
+          </div>
+        </a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </article>
+  <footer>
+    <div class="Bibliography">
+      <a id="Bibliography"></a>
+      <h2>Bibliography</h2>
+      <div class="margin">
+        <ul class="columns" data-columns="2">
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>1</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Caitlin Dewey, “Five of the Internet’s Eeriest, Unsolved
+                Mysteries,”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Washington Post, December 3, 2021,
+              https://www.washingtonpost.com/news/arts-and-entertainment/wp/2014/05/02/five-of-the-internets-eeriest-unsolved-mysteries/.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>2</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Great Big Story, “Cracking the Code of Cicada 3301 | EPISODE
+                2,”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              August 14, 2019, https://www.youtube.com/watch?v=Rx8pfheh6aI.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>3</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Great Big Story. “Cracking the Code of Cicada 3301 | EPISODE
+                4,”</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              August 16, 2019. https://www.youtube.com/watch?v=GanHp3XCYgg.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>4</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Eric Hughes, A Cypherpunk’s Manifesto</b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              , John Wiley & Sons, Inc. eBooks, 1997,
+              http://dl.acm.org/citation.cfm?id=285692.285725.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>5</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Great Big Story, “Cracking the Code of Cicada 3301| EPISODE
+                1,”
+              </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              August 14, 2019, https://www.youtube.com/watch?v=RatbYqc0-jE.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>6</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Contributors to Uncovering Cicada Wiki, “Liber Primus,” </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/Liber_Primus.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>7</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Contributors to Uncovering Cicada Wiki, “Gematria Primus,”
+              </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/Gematria_Primus.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>8</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Contributors to Uncovering Cicada Wiki, “PGP Signed Message
+                April 2017,”
+              </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/PGP_Signed_Message_April_2017.
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>9</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>Contributors to Uncovering Cicada Wiki, “What Happened
+                (2012),”
+              </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              Uncovering Cicada Wiki, n.d.,
+              https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012).
+            </p>
+          </li>
+
+          <!-- THIS IS A FOOTNOTE -->
+          <li class="Num">
+            <h1>10</h1>
+            <!-- CHANGE FOOTNOTE NUMBER ACCORDINGLY -->
+
+            <!-- USE CHICAGO CITATION STYLE -->
+            <p>
+              <b>LEMMiNO, “Cicada 3301: An Internet Mystery,” </b>
+              <!-- PUT AUTHOR AND TITLE IN THE BOLD SECTION -->
+              May 19, 2018, https://www.youtube.com/watch?v=I2O7blSSzpI.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
